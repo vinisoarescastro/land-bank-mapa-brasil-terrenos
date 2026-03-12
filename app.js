@@ -41,7 +41,8 @@ function getCentroid(item) {
 
 // ===== STATS =====
 document.getElementById('statsGrid').innerHTML = `
-  <div class="stat-card"><div class="val">${stats.total}</div><div class="label">Empreendimentos</div></div>
+  <div class="stat-card"><div class="val">230</div><div class="label">Empreendimentos</div></div>
+  <!--<div class="stat-card stat-card-emp"><div class="val">${stats.total}</div><div class="label">Empreendimentos</div></div> -->
   <div class="stat-card"><div class="val green">${stats.on_map}</div><div class="label">No Mapa (KML)</div></div>
   <div class="stat-card"><div class="val">${fmtNum(Math.round(stats.total_units))}</div><div class="label">Total Unidades</div></div>
   <div class="stat-card"><div class="val">${fmtArea(stats.total_area)}</div><div class="label">Área Total</div></div>
