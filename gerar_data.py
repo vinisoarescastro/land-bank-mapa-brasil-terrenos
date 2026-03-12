@@ -376,10 +376,12 @@ def main():
         items.append(item)
 
     # ── 4. Montar itens sem KML (da planilha) ─────────────────────
+    # IMPORTANTE: item["e"] usa as chaves do sistema (ex: "nome"), não os nomes
+    # da coluna Excel (ex: "Nome"). Por isso usamos "nome" e não COLUNA_CHAVE aqui.
     chaves_kml_usadas = set()
     for item in items:
         if item["e"]:
-            chave = normalizar(item["e"].get(COLUNA_CHAVE, "") or "")
+            chave = normalizar(item["e"].get("nome", "") or "")
             chaves_kml_usadas.add(chave)
 
     sem_kml = 0
