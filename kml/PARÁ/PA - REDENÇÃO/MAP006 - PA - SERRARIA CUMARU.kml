@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>DEFINIR - ÁREA SERRARIA CUMARU - REDENÇÃO</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="AREAS">
+		<LineStyle id="lAREASLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pAREASPolyStyle">
+			<color>7f00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="AREAS0">
+		<LineStyle id="lAREASLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pAREASPolyStyle">
+			<color>7f00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="AREAS1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#AREAS</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#AREAS0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>AREAS</name>
+		<Placemark>
+			<name>2C6D</name>
+			<styleUrl>#AREAS1</styleUrl>
+			<LineString>
+				<coordinates>
+					-50.05223436591886,-8.04190860086408,0 -50.05204199691587,-8.04185541838079,0 -50.05165511533165,-8.04173746746412,0 -50.05145751313784,-8.04255722954302,0 -50.0514099502201,-8.04267366592242,0 -50.05136832447246,-8.042886812640329,0 -50.05145030093587,-8.04289411266852,0 -50.05138255244521,-8.04315737214915,0 -50.05204200657318,-8.04332610857092,0 -50.05349905808855,-8.043698301566399,0 -50.05380117127069,-8.043619312291399,0 -50.05412917869525,-8.0424308398241,0 -50.05223452018515,-8.041909026137359,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>PA - SERRARIA CUMARU</name>
+		<Camera>
+			<longitude>-50.0523680292688</longitude>
+			<latitude>-8.043193244083907</latitude>
+			<altitude>625.7340212877042</altitude>
+			<heading>-4.700342774363057</heading>
+			<tilt>6.409465088245191</tilt>
+			<roll>4.700333662612015</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-50.05265813404043,-8.042752824367573,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

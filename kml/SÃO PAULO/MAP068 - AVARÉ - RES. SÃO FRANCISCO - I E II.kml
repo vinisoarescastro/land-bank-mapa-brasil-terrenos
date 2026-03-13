@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RESIDENCIAL SÃO FRANCISCO DE AVARÉ - AVARÉ</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="U-GLEBA">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#U-GLEBA0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#U-GLEBA1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="U-GLEBA0">
+		<LineStyle id="lU-GLEBALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pU-GLEBAPolyStyle">
+			<color>7fffff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="U-GLEBA1">
+		<LineStyle id="lU-GLEBALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pU-GLEBAPolyStyle">
+			<color>7fffff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>U-GLEBA</name>
+		<open>1</open>
+		<Placemark>
+			<name>CA40</name>
+			<styleUrl>#U-GLEBA</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-48.93680692800575,-23.13405588156966,0 -48.93680691349373,-23.1340558769657,0 -48.93627045430506,-23.13388568326235,0 -48.93616747054466,-23.1338522629494,0 -48.9357025361642,-23.13478478837883,0 -48.93563608963082,-23.13478430319971,0 -48.93520906395815,-23.13478083696466,0 -48.93453883154395,-23.1347754570593,0 -48.93438868221395,-23.13476345790804,0 -48.93419196660019,-23.13476139440673,0 -48.93411855365785,-23.1347610010296,0 -48.93358804926475,-23.13475168108574,0 -48.93207894630541,-23.1347371979173,0 -48.93153529100866,-23.13625306380592,0 -48.93057476999069,-23.13835939811545,0 -48.93027333849794,-23.13875270587324,0 -48.92884901998416,-23.14009327347947,0 -48.92820261716556,-23.14090933006323,0 -48.92930626900679,-23.14088863157808,0 -48.92932754006608,-23.14185792283242,0 -48.93124061645906,-23.14182201302358,0 -48.93124568059113,-23.1420524592505,0 -48.93144089314398,-23.14204880088156,0 -48.93185897439225,-23.14200932325027,0 -48.93203605296303,-23.14208537962475,0 -48.93532182867572,-23.13554287845972,0 -48.93549891095964,-23.13561893968212,0 -48.93897481155388,-23.13587481227569,0 -48.93865878319616,-23.13464263257208,0 -48.93815578552065,-23.13448309084879,0 -48.9380010496716,-23.13443400214243,0 -48.93712139344666,-23.13415564589265,0 -48.93683944033154,-23.13406619615688,0 -48.93680692800575,-23.13405588156966,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>AVARÉ - RES. SÃO FRANCISCO - I E II</name>
+		<LookAt>
+			<longitude>-48.9336154165771</longitude>
+			<latitude>-23.13837779127947</latitude>
+			<altitude>0</altitude>
+			<heading>-1.66996931732238</heading>
+			<tilt>5.162351841274371</tilt>
+			<range>1269.149496124043</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-48.93258279827046,-23.13803031603771,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

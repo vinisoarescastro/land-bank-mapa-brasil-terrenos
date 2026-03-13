@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JARDIM TROPICAL - CRATO</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="PERÍMETRO">
+		<LineStyle id="lPERÍMETROLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPERÍMETROPolyStyle">
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PERÍMETRO0">
+		<LineStyle id="lPERÍMETROLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPERÍMETROPolyStyle">
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PERÍMETRO1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PERÍMETRO0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PERÍMETRO</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>PERÍMETRO</name>
+		<Placemark>
+			<name>1264B</name>
+			<styleUrl>#PERÍMETRO1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-39.35944260304751,-7.22835136636211,0 -39.3586699199179,-7.228298930964011,0 -39.35841558198152,-7.2282816317808,0 -39.35718004174831,-7.22817805370065,0 -39.35453962481437,-7.243430895967329,0 -39.35579885035544,-7.24340117140635,0 -39.35580542204844,-7.2433631960346,0 -39.35604703479177,-7.24337173920451,0 -39.35682459868321,-7.243412656299551,0 -39.35902595128509,-7.23074525592555,0 -39.35920338367778,-7.22972801356679,0 -39.35944260304751,-7.22835136636211,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>CRATO - JARDIM TROPICAL</name>
+		<LookAt>
+			<longitude>-39.35699111393093</longitude>
+			<latitude>-7.235804474834024</latitude>
+			<altitude>0</altitude>
+			<heading>4.01545028534769e-14</heading>
+			<tilt>44.99999999999994</tilt>
+			<range>2500.31592595215</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-39.35699873872768,-7.235806017281547,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

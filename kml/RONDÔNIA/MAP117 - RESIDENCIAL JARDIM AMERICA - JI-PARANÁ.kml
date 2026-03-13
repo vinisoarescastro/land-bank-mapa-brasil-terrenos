@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JI - PARANÁ - JARDIM AMÉRICA</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="0_2">
+		<LineStyle id="l0_2LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0_2PolyStyle">
+			<color>7f00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="0_20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#0_2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#0_21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="0_21">
+		<LineStyle id="l0_2LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0_2PolyStyle">
+			<color>7f00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>0</name>
+		<open>1</open>
+		<Placemark>
+			<name>14FF</name>
+			<styleUrl>#0_20</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-61.9977758095056,-10.85458800524743,0 -61.9994401404381,-10.85363524792854,0 -62.00027054894499,-10.85366873169104,0 -62.00092005442694,-10.85407941697112,0 -62.00075254520243,-10.854492155028,0 -62.00273588980286,-10.85401747450861,0 -62.00367218977571,-10.85485838747055,0 -62.00417319828535,-10.8545582414209,0 -62.00478894976796,-10.85481286543487,0 -62.00670566143124,-10.8549109147961,0 -62.00729660260628,-10.85491466815889,0 -62.0046386024387,-10.85243360261879,0 -61.99956718762725,-10.8510693565378,0 -61.9959424418458,-10.84784116478564,0 -61.9930487809749,-10.84979093044378,0 -61.99076046991641,-10.8513338230562,0 -61.99271275802387,-10.85332103947158,0 -61.99128307579418,-10.85469375387399,0 -61.99165080671261,-10.85494553442683,0 -61.99282484400306,-10.85517165057489,0 -61.99419655341655,-10.85447387381843,0 -61.99638874948204,-10.85522742254783,0 -61.9977758095056,-10.85458800524743,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>JI - PARANÁ - JARDIM AMÉRICA</name>
+		<LookAt>
+			<longitude>-61.99933742370905</longitude>
+			<latitude>-10.85412882916849</latitude>
+			<altitude>0</altitude>
+			<heading>9.351918829655732</heading>
+			<tilt>0.01319865996604097</tilt>
+			<range>2733.000637123644</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-61.99605066577537,-10.85168257465998,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

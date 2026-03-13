@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CIDADE JARDIM IV - SANTARÉM</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="00">
+		<LineStyle id="l0LineStyle">
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle id="p0PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="01">
+		<LineStyle id="l0LineStyle">
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle id="p0PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>0</name>
+		<open>1</open>
+		<Placemark>
+			<name>8E1</name>
+			<styleUrl>#0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-54.77958019293318,-2.45002443798604,0 -54.7827303542232,-2.44830124353857,0 -54.78433723733927,-2.44742320351487,0 -54.78676589408842,-2.44610525899764,0 -54.78692959828533,-2.44601690954814,0 -54.7870782197573,-2.44629281925207,0 -54.7870855741141,-2.44634321835567,0 -54.78674685577444,-2.44798130050188,0 -54.78663404748886,-2.45307213364213,0 -54.78644155972436,-2.45368516867507,0 -54.78324290825494,-2.45718325709772,0 -54.78277859791604,-2.45733417911084,0 -54.78214882118366,-2.45616501219698,0 -54.78016756560366,-2.45724462450975,0 -54.7772860925809,-2.45189512636383,0 -54.77683562961593,-2.45214059062063,0 -54.77657935191129,-2.45166480549465,0 -54.77958019293318,-2.45002443798604,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>SANTARÉM.CJD04</name>
+		<Camera>
+			<longitude>-54.77743584404967</longitude>
+			<latitude>-2.455408139285974</latitude>
+			<altitude>3208.824936774418</altitude>
+			<heading>-1.415533743013311</heading>
+			<tilt>7.635962314596992</tilt>
+			<roll>1.154660893665179</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-54.78254036564421,-2.45245604211863,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

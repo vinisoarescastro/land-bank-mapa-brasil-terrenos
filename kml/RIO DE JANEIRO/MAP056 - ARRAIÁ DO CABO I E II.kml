@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>A DEFINIR I  - ARRAIAL DO CABO</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="0_3">
+		<LineStyle id="l0_3LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0_3PolyStyle">
+			<color>7f00ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="0_30">
+		<LineStyle id="l0_3LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0_3PolyStyle">
+			<color>7f00ff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="0_31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#0_30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#0_3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>0</name>
+		<Placemark>
+			<name>71F5</name>
+			<styleUrl>#0_31</styleUrl>
+			<LineString>
+				<coordinates>
+					-42.19278955118449,-22.9381991229061,0 -42.19694015531604,-22.94316279412837,0 -42.20315846102219,-22.94277550402851,0 -42.20202964511916,-22.94068384504467,0 -42.20642406923222,-22.94072954008932,0 -42.2068336287647,-22.94048534673613,0 -42.20165895795876,-22.93352556093052,0 -42.19960289196546,-22.93083623950873,0 -42.19983854631199,-22.93063391302603,0 -42.1998043022977,-22.9305998204983,0 -42.19676663280644,-22.93330811663812,0 -42.2014692008236,-22.93872548535252,0 -42.19981843991181,-22.93891296041736,0 -42.19922222436775,-22.93852332533675,0 -42.19627969862268,-22.93944611174386,0 -42.19520609938064,-22.93999577808874,0 -42.19429132813618,-22.93993446948654,0 -42.19280717806934,-22.93818425994112,0 -42.19278967784033,-22.9381991639608,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>725D</name>
+			<styleUrl>#0_31</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-42.19348893516895,-22.9327093552387,0 -42.19245838530697,-22.93362878599053,0 -42.19150124129324,-22.93449337637899,0 -42.1911921560885,-22.93477073044116,0 -42.1909339938014,-22.93504398528204,0 -42.19054341173021,-22.93551281433217,0 -42.19072768101751,-22.93573319641328,0 -42.19116265571442,-22.93520752259628,0 -42.19139018372981,-22.93496381733819,0 -42.19157676547032,-22.93478843496486,0 -42.19322166897481,-22.93332378696,0 -42.19397798152979,-22.9326487599375,0 -42.19464657268756,-22.93205083837136,0 -42.19526625980543,-22.9314973139135,0 -42.19602727806662,-22.93081755671065,0 -42.1965397829159,-22.93035954885452,0 -42.19839171359622,-22.92870532237651,0 -42.19818780611999,-22.92851134594221,0 -42.19718482185307,-22.92940701104007,0 -42.19675142438946,-22.9297943200747,0 -42.19603894068973,-22.93043120874426,0 -42.19529810360159,-22.93109359606837,0 -42.19456637321947,-22.93174640135991,0 -42.19348893516895,-22.9327093552387,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>71CD</name>
+			<styleUrl>#0_31</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-42.19043262220061,-22.9316688735514,0 -42.1894285813146,-22.93248810523329,0 -42.18858793616782,-22.93317401566827,0 -42.19054341173021,-22.93551281433217,0 -42.19072768101751,-22.93573319641328,0 -42.19278956536836,-22.93819914630981,0 -42.19694015531604,-22.94316279412837,0 -42.20315840611778,-22.94277551287284,0 -42.2020295896714,-22.94068385134368,0 -42.20642405986884,-22.94072955152547,0 -42.20683363820922,-22.94048534686337,0 -42.20165895814004,-22.93352551320359,0 -42.19960286553922,-22.93083615455786,0 -42.19983851416478,-22.93063383624533,0 -42.20011746260791,-22.93039433657038,0 -42.19980728985699,-22.93007031763415,0 -42.19839171359622,-22.92870532237651,0 -42.19818780611999,-22.92851134594221,0 -42.19770989090448,-22.92805712224328,0 -42.19798943980667,-22.92779401581447,0 -42.19627603466181,-22.92630711142263,0 -42.19153423061444,-22.93077001115773,0 -42.19043262220061,-22.9316688735514,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>ARRAIÁ DO CABO I E II</name>
+		<LookAt>
+			<longitude>-42.19802685569817</longitude>
+			<latitude>-22.93684253152865</latitude>
+			<altitude>0</altitude>
+			<heading>-4.513786445538615</heading>
+			<tilt>0.01606503335897697</tilt>
+			<range>2439.983035291231</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-42.19605574049749,-22.93612045035627,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

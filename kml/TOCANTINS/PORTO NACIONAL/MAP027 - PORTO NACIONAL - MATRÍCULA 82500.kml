@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Lugares temporários</name>
+	<open>1</open>
+	<Document>
+		<name>Poligonal Matricula 82500 - Porto Nacional/TO</name>
+		<open>1</open>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="polyStyle">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>400000ff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="polyStyle0">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>400000ff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="polyStyle1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#polyStyle</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#polyStyle0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>Lote 19-B (Remanescente) - Loteamento Porteira</name>
+			<styleUrl>#polyStyle1</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-48.4527678405998,-10.2399130708464,0 -48.4511347314717,-10.2403218922668,0 -48.4490482984122,-10.2412559356731,0 -48.4488112431518,-10.2405444372401,0 -48.44855591114671,-10.2406001267986,0 -48.44820812662089,-10.2406781599539,0 -48.4477980477766,-10.2408131415045,0 -48.4484097357457,-10.2434456331683,0 -48.4528121824373,-10.242370633118,0 -48.4527673651904,-10.2399132246232,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>PORTO NACIONAL - MATRÍCULA 82500</name>
+			<LookAt>
+				<longitude>-48.45022529710705</longitude>
+				<latitude>-10.24153146113188</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3357898520250768</heading>
+				<tilt>2.859115069610448</tilt>
+				<range>864.9476045613682</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-48.45056171778351,-10.24165294068056,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+</Folder>
+</kml>

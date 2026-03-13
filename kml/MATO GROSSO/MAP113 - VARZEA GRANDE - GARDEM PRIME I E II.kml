@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BURITI GARDEN PRIME - VARZEA GRANDE</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="PERÍMETRO">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PERÍMETRO1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PERÍMETRO0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PERÍMETRO0">
+		<LineStyle id="lPERÍMETROLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPERÍMETROPolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PERÍMETRO1">
+		<LineStyle id="lPERÍMETROLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPERÍMETROPolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>PERÍMETRO</name>
+		<open>1</open>
+		<Placemark>
+			<name>B85A8</name>
+			<styleUrl>#PERÍMETRO</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-56.15098736013909,-15.60516457042668,0 -56.14839046054273,-15.60463364289345,0 -56.14599236137816,-15.60403451519521,0 -56.14602434977485,-15.60399719904434,0 -56.14605870810553,-15.60396171508917,0 -56.14610072145373,-15.60392233325784,0 -56.14613178977285,-15.60389355303839,0 -56.1461616471453,-15.60386615307331,0 -56.14618388399663,-15.60384324592362,0 -56.14621225800593,-15.60381427921165,0 -56.14624461895561,-15.60377729108433,0 -56.14630509887162,-15.60370695747781,0 -56.1463553348009,-15.60363556662394,0 -56.14639960909629,-15.60356677362724,0 -56.14642842291856,-15.60351489378369,0 -56.14777389467072,-15.60370809880452,0 -56.14785927381086,-15.60328353301257,0 -56.14996023018941,-15.60352751436828,0 -56.14973045390622,-15.60258511255319,0 -56.1469499847285,-15.60222692410582,0 -56.14694972214953,-15.60222437143145,0 -56.14695612596972,-15.60217993918841,0 -56.14696295274022,-15.60211514297704,0 -56.14696613676769,-15.60205447900019,0 -56.14696681511067,-15.60200577682004,0 -56.14696541652445,-15.60196512056173,0 -56.14696351259905,-15.60193044541003,0 -56.14695852724914,-15.60184991022979,0 -56.14695196935317,-15.60176685538806,0 -56.14694426957033,-15.60167438056249,0 -56.14693713092073,-15.60158643514864,0 -56.14692884429524,-15.6014876407348,0 -56.14692248231587,-15.60141099186477,0 -56.14691623892724,-15.6013347091219,0 -56.14691022614694,-15.60126214849842,0 -56.14690569760291,-15.60120376254761,0 -56.14689987556137,-15.60113504699218,0 -56.14688646464911,-15.6009752008187,0 -56.1468791045523,-15.60088262217304,0 -56.14687126775118,-15.60079194670068,0 -56.14686901322571,-15.60075497963997,0 -56.15282795202107,-15.60234893392405,0 -56.15959533703876,-15.6041563205861,0 -56.16142815228534,-15.60464615736901,0 -56.16141215087885,-15.60557700796842,0 -56.16369644136724,-15.60593196862483,0 -56.165857289158,-15.60633412898664,0 -56.16578984702158,-15.60637905065161,0 -56.16568343883822,-15.60644387232335,0 -56.16559526403105,-15.60649225878749,0 -56.16540028456509,-15.60659876817085,0 -56.16527267488003,-15.60666715779878,0 -56.1651316134668,-15.60673823825663,0 -56.16501806412522,-15.60678951364295,0 -56.16491552717094,-15.60683588622184,0 -56.164822904739,-15.60687983532246,0 -56.16466409662381,-15.60694902592278,0 -56.16455466291397,-15.60699309561151,0 -56.16444058270655,-15.60703379629127,0 -56.16434424943672,-15.60706805938155,0 -56.16424887725838,-15.60710544832342,0 -56.16412449074354,-15.60715331903248,0 -56.16409196248645,-15.60716150176985,0 -56.16227159007096,-15.60673034079879,0 -56.15798406043618,-15.60611162808228,0 -56.15641502387991,-15.60595830747546,0 -56.15498976519292,-15.60579347628958,0 -56.15390660127665,-15.60566069814394,0 -56.15362522595013,-15.60561315806709,0 -56.15098736013909,-15.60516457042668,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>VARZEA GRANDE - GARDEM PRIME I E II</name>
+		<LookAt>
+			<longitude>-56.15518926084226</longitude>
+			<latitude>-15.60358422281254</latitude>
+			<altitude>0</altitude>
+			<heading>-4.854162034721057</heading>
+			<tilt>16.45704084901627</tilt>
+			<range>2153.411911947433</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-56.15473357420117,-15.60441885118141,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ALVORADA.kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="inline">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>a80000aa</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>a80000aa</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Alvorada</name>
+		<styleUrl>#inline</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-51.00079613383213,-29.99808848935428,0 -51.0016683491102,-29.99813397112842,0 -51.00334044375651,-29.9981162717567,0 -51.00450397516418,-29.9983550032642,0 -51.00673917565089,-29.99524836184265,0 -51.00985274001962,-29.9915991066661,0 -51.01187328331363,-29.98962853020684,0 -51.01316103746814,-29.9901112952296,0 -51.01795472246216,-29.98373234193791,0 -51.02041673106964,-29.98666674166602,0 -51.02103688877001,-29.98744290161783,0 -51.02193512572647,-29.98814501233031,0 -51.0223243030351,-29.98942410308968,0 -51.02287085875295,-29.99044708652515,0 -51.02399664064414,-29.99199389101852,0 -51.02448234199612,-29.99293043179811,0 -51.02501440131428,-29.99351848827772,0 -51.02744043900834,-29.99262488215725,0 -51.03051845847415,-29.9936349482497,0 -51.03152563027275,-29.9876646968469,0 -51.03251993794743,-29.97896320625743,0 -51.03268371755146,-29.97706634567346,0 -51.03387352110551,-29.97727782731501,0 -51.03540166900277,-29.97731126638377,0 -51.03726098902743,-29.96832265618347,0 -51.03656948040045,-29.96810203080413,0 -51.03642332583699,-29.96752109075521,0 -51.03606380878233,-29.96723978123239,0 -51.03583634096801,-29.96675304256736,0 -51.03538344142578,-29.96589836257166,0 -51.03493550470402,-29.9657032375658,0 -51.03407362743741,-29.96583366247529,0 -51.03311244649112,-29.96502813815741,0 -51.03233759477984,-29.9647093047024,0 -51.03116339883033,-29.96460858317806,0 -51.0304768398064,-29.96328552106873,0 -51.02941998665413,-29.96203948361745,0 -51.02813352925585,-29.96144974784045,0 -51.02702537191812,-29.96146664338503,0 -51.02623585918785,-29.96124764911616,0 -51.02536130642394,-29.9602883016362,0 -51.02455351322769,-29.96022984453045,0 -51.02227761965914,-29.9602639960244,0 -51.01450232885333,-29.97391767174192,0 -51.01572703734389,-29.97608617526444,0 -51.01307272859309,-29.97890757952701,0 -51.01385965542399,-29.9793146225831,0 -51.01419899276468,-29.97958018364774,0 -51.01426174811575,-29.9801892035868,0 -51.01385068945186,-29.98140268750628,0 -51.0144806830845,-29.98175491852879,0 -51.01451067737024,-29.98203083764376,0 -51.01384532116579,-29.98265236838468,0 -51.01309043731782,-29.98302524575108,0 -51.01289954148972,-29.98387664387461,0 -51.01163234696205,-29.98373257250247,0 -51.00834201362598,-29.98804385666503,0 -51.00763358272535,-29.98837199158179,0 -51.00649930193305,-29.98927074637748,0 -51.00557684939774,-29.98958468418589,0 -51.00508911643281,-29.98993540236827,0 -51.00079613383213,-29.99808848935428,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>ALVORADA</name>
+		<LookAt>
+			<longitude>-51.01866704248802</longitude>
+			<latitude>-29.98146951981278</latitude>
+			<altitude>0</altitude>
+			<heading>1.506561363078584</heading>
+			<tilt>3.239568485309597</tilt>
+			<range>7059.878384126374</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.02481594021809,-29.97665679562818,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

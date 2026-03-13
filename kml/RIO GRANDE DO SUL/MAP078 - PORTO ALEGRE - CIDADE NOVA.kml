@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Lugares temporários</name>
+	<open>1</open>
+	<Document>
+		<name>Cidade Nova - Porto Alegre.kml</name>
+		<open>1</open>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_grn-blank">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_grn-blank</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_grn-blank</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>1affffff</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>1affffff</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_grn-blank">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle id="lArea de PreservacaoLineStyle">
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle id="pArea de PreservacaoPolyStyle">
+				<color>7f009926</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sn_grn-blank">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LineStyle id="lArea de PreservacaoLineStyle">
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle id="pArea de PreservacaoPolyStyle">
+				<color>7f009926</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Placemark>
+			<name>Polígono sem título</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-51.13078635964299,-30.11261311341675,0 -51.13158915842761,-30.1136332807442,0 -51.13874675680282,-30.11798632118276,0 -51.13619035781016,-30.11992479313719,0 -51.13641420484923,-30.12073729261505,0 -51.13939722360687,-30.12207227142481,0 -51.14249764298603,-30.12118197718092,0 -51.1424668067062,-30.12165292663702,0 -51.14246615065721,-30.12215609957061,0 -51.14155585204874,-30.12360018757805,0 -51.14042597345544,-30.12497587926666,0 -51.13955907484182,-30.12696819930247,0 -51.13952730003776,-30.12782898677751,0 -51.14196324764334,-30.13143996247456,0 -51.14197589754656,-30.13192876098232,0 -51.14183438945447,-30.1322435886167,0 -51.14127076245654,-30.13280396657273,0 -51.14028185874929,-30.13370122364285,0 -51.13964779790398,-30.13391750401056,0 -51.13872122483408,-30.13420209259703,0 -51.13761537197205,-30.13443606075783,0 -51.13668502735661,-30.13487783584221,0 -51.13505470554024,-30.13551443596776,0 -51.13370672374749,-30.13613890228941,0 -51.13250906925644,-30.13669484526671,0 -51.13072351351974,-30.13730510717969,0 -51.12895874783714,-30.1368026158089,0 -51.12838976353054,-30.13573859291616,0 -51.12732846601796,-30.1336512942455,0 -51.12710424035308,-30.1299662790976,0 -51.12701983873832,-30.1294053668539,0 -51.12713473476494,-30.12869719257538,0 -51.12647264303953,-30.12795409660512,0 -51.12534500313749,-30.12807899228994,0 -51.12330167596502,-30.12812497277809,0 -51.12136144524341,-30.1270596829724,0 -51.12042632602659,-30.12666719949888,0 -51.1193192090664,-30.1271376638415,0 -51.11727385524672,-30.12730896205294,0 -51.113621038061,-30.12848436653672,0 -51.11394951005606,-30.1252159836769,0 -51.11477079502446,-30.12396402168255,0 -51.11479218941339,-30.12308573897275,0 -51.11439547385433,-30.12192756627236,0 -51.11455194768407,-30.12130154680578,0 -51.11571140974017,-30.12120042742415,0 -51.11650279484817,-30.12109371190673,0 -51.11912713674657,-30.11959951879463,0 -51.12466214642656,-30.1156936695482,0 -51.13078635964299,-30.11261311341675,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>PORTO ALEGRE - CIDADE NOVA</name>
+			<Camera>
+				<longitude>-51.12723457338574</longitude>
+				<latitude>-30.12625619563016</latitude>
+				<altitude>4977.204027961762</altitude>
+				<heading>-79.83463817468714</heading>
+				<tilt>0.09049133020471824</tilt>
+				<roll>-89.95900521597723</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_grn-blank</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-51.12929792753303,-30.12366844453371,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+</Folder>
+</kml>

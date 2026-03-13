@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>A DEFINIR - BARREIRAS</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="matriculas">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7d00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="matriculas0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7d00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="matriculas1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#matriculas</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#matriculas0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>Matricula André Castro de Sá</name>
+		<open>1</open>
+		<description>SNCR: 
+Proprietario: 
+Area: 71.8711 ha.
+Perimetro: 6120.27</description>
+		<styleUrl>#matriculas1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-44.93880248022594,-12.12021047061208,0 -44.93693669481397,-12.1387203268687,0 -44.93793471112188,-12.13910393366396,0 -44.93855943600233,-12.13934660502225,0 -44.93932161967366,-12.13963883523612,0 -44.94002256592864,-12.13984793320299,0 -44.94077003650663,-12.14006333348405,0 -44.9390093978875,-12.13707745301889,0 -44.93848664275023,-12.13618654587092,0 -44.93885277524711,-12.13567256994038,0 -44.93862940054525,-12.13379095455328,0 -44.9380502189526,-12.13255539389299,0 -44.93960819754785,-12.12994652057316,0 -44.94016069701305,-12.12901284752755,0 -44.94134387266524,-12.12565269160793,0 -44.94161601501421,-12.1255939404727,0 -44.94165050167506,-12.12557528236051,0 -44.94188695116502,-12.12537523994743,0 -44.94592199142038,-12.12551375882983,0 -44.94672983462736,-12.12212296601044,0 -44.94499810622789,-12.12177167536557,0 -44.94237388432706,-12.12124364649602,0 -44.94003467837264,-12.12077391155963,0 -44.93958682793146,-12.12068424947148,0 -44.93977948729435,-12.1202188325096,0 -44.93880248022594,-12.12021047061208,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name> BARREIRAS -  A DEFINIR</name>
+		<LookAt>
+			<longitude>-44.94181661180475</longitude>
+			<latitude>-12.12816199761072</latitude>
+			<altitude>0</altitude>
+			<heading>8.554460537041323e-06</heading>
+			<tilt>45.00187690423624</tilt>
+			<range>3565.381461655276</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-44.93923191976265,-12.12887334133819,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

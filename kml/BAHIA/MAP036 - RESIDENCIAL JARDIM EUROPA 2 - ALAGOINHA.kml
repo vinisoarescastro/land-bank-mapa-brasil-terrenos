@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RESIDENCIAL JARDIM EUROPA 2 - ALAGOINHA</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="0_1">
+		<LineStyle id="l0_1LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0_1PolyStyle">
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="0_10">
+		<LineStyle id="l0_1LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0_1PolyStyle">
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="0_11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#0_1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#0_10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>0</name>
+		<open>1</open>
+		<Placemark>
+			<name>40B0</name>
+			<styleUrl>#0_11</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-38.40118004290489,-12.16831919812538,0 -38.40372617380864,-12.16798876390039,0 -38.40450307699786,-12.16788789380604,0 -38.40648911826444,-12.16763016766695,0 -38.40683679449031,-12.16792304891993,0 -38.40707666965494,-12.16812229319333,0 -38.40738506569979,-12.16837497793501,0 -38.407651331784,-12.16839317949605,0 -38.40786972113465,-12.16842847602034,0 -38.40812160454453,-12.16831099909731,0 -38.40842084837959,-12.16812409472921,0 -38.40872274712973,-12.16793681123244,0 -38.40902917084316,-12.16774488676634,0 -38.40929727229223,-12.16751255564811,0 -38.40943134253386,-12.16724984718744,0 -38.40967732256408,-12.16722024220685,0 -38.40959394047642,-12.16723022398719,0 -38.4093961098706,-12.16762380703058,0 -38.40932481201869,-12.16769241659455,0 -38.40924776947178,-12.16775675868495,0 -38.40916754970577,-12.16781656439161,0 -38.40908273479884,-12.16787354031803,0 -38.40893625772748,-12.16795939382841,0 -38.40877593089275,-12.16862782179571,0 -38.40901996115812,-12.16929498177572,0 -38.41137961155218,-12.1700446068765,0 -38.41128714325274,-12.17050441902133,0 -38.41107841054518,-12.17108515727423,0 -38.41069097252534,-12.17171651568282,0 -38.41034406491217,-12.17209910113055,0 -38.40982184256004,-12.17253665367274,0 -38.40940760438538,-12.17235735307616,0 -38.40487746647261,-12.17039754313214,0 -38.40196827553494,-12.16935911223286,0 -38.39945783618483,-12.17327119681094,0 -38.39559137453015,-12.17185072537646,0 -38.39600965539217,-12.16899002589437,0 -38.39771283574748,-12.16876904719912,0 -38.40118004290489,-12.16831919812538,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>ALAGOINHAS - EUROPA II</name>
+		<LookAt>
+			<longitude>-38.40327425044303</longitude>
+			<latitude>-12.17211975608297</latitude>
+			<altitude>0</altitude>
+			<heading>7.140427296461135</heading>
+			<tilt>0.01185239974300911</tilt>
+			<range>2262.589490039688</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-38.40337848512403,-12.1690481341855,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

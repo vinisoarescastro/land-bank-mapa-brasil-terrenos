@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RESIDENCIAL MADRI - PRESIDENTE PRUDENTE</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="U-GLEBA">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#U-GLEBA1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#U-GLEBA0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="U-GLEBA0">
+		<LineStyle id="lU-GLEBALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pU-GLEBAPolyStyle">
+			<color>7fffff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="U-GLEBA1">
+		<LineStyle id="lU-GLEBALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pU-GLEBAPolyStyle">
+			<color>7fffff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>U-GLEBA</name>
+		<open>1</open>
+		<Placemark>
+			<name>E11ED</name>
+			<styleUrl>#U-GLEBA</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-51.34792330705704,-22.14023347962778,0 -51.34793886114343,-22.14014009963194,0 -51.34854113007527,-22.13795363552331,0 -51.34860826932421,-22.1377098913866,0 -51.34862947964086,-22.13763288743367,0 -51.34863278690193,-22.13762088011411,0 -51.34874064383121,-22.13766482918282,0 -51.34895382645501,-22.13779072443649,0 -51.34911949460931,-22.13788856025671,0 -51.34937836223842,-22.1380414347949,0 -51.35036050650497,-22.13871228200875,0 -51.35058307059546,-22.13868859584089,0 -51.35076141533765,-22.13864626458545,0 -51.35090252583029,-22.13856578639874,0 -51.35104383298283,-22.13846416561604,0 -51.35111196274341,-22.13837129106953,0 -51.35118739516882,-22.13820673805822,0 -51.35131252040505,-22.13800286017955,0 -51.35140534735981,-22.13793566020297,0 -51.35154023005213,-22.13789771929681,0 -51.35193124367397,-22.13785895150417,0 -51.35223023923268,-22.13829054946871,0 -51.35228812896826,-22.1383673515108,0 -51.35278988087158,-22.13908205451514,0 -51.3529354870483,-22.13928869720779,0 -51.35322635895297,-22.13971271564702,0 -51.35373811769979,-22.14042362294098,0 -51.35388930879217,-22.14063232507738,0 -51.35412283575319,-22.14096680625521,0 -51.35414401226936,-22.14099713718759,0 -51.35437711979971,-22.14131892028945,0 -51.35445369775093,-22.14142622584676,0 -51.35471883282226,-22.14179258629849,0 -51.35488611878529,-22.1420302669691,0 -51.35506158993585,-22.14229343704692,0 -51.35448133189215,-22.14262383936393,0 -51.35424357397087,-22.14274054475467,0 -51.35409865730914,-22.14282427647953,0 -51.35400591677926,-22.14287093562271,0 -51.3532763332215,-22.14329310353511,0 -51.35324563271208,-22.14331299845302,0 -51.35308830734083,-22.14340356980958,0 -51.35300103785342,-22.14346165666304,0 -51.35292332471804,-22.14351094960539,0 -51.35284134774621,-22.14356774296134,0 -51.35227692340233,-22.14392314991482,0 -51.35175624191092,-22.14426937214155,0 -51.35134135189233,-22.14459210527509,0 -51.3510120609011,-22.14487420582898,0 -51.35039861060519,-22.14547341888343,0 -51.35035833664179,-22.14551686271556,0 -51.35023460335165,-22.14565033800965,0 -51.35020037137054,-22.14568726595416,0 -51.34999127296814,-22.14511057193485,0 -51.3497022016327,-22.14431330072549,0 -51.34966697736192,-22.14421615102404,0 -51.34939386896635,-22.14348406436375,0 -51.34916572816119,-22.14286878463445,0 -51.34880062239091,-22.14268308874077,0 -51.34843736765291,-22.14250045972149,0 -51.34742278868356,-22.14200184330619,0 -51.3475150799793,-22.14168568146845,0 -51.34772061469979,-22.14095739588666,0 -51.34774108329708,-22.14088124739037,0 -51.34792330705704,-22.14023347962778,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>PRES. PRUDENTE - JARDIM MADRI</name>
+		<LookAt>
+			<longitude>-51.34904026624472</longitude>
+			<latitude>-22.1423662307835</latitude>
+			<altitude>0</altitude>
+			<heading>-1.503901120862762</heading>
+			<tilt>13.59774365189209</tilt>
+			<range>1832.647916038148</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.35139102311783,-22.14130090598739,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

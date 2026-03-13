@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RESIDENCIAL CIDADE JARDIM II - CÁCERES</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="Perimetro ETAPA 2_192">
+		<LineStyle id="lPerimetro ETAPA 2_192LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPerimetro ETAPA 2_192PolyStyle">
+			<color>7fcc0066</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Perimetro ETAPA 2_1920">
+		<LineStyle id="lPerimetro ETAPA 2_192LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPerimetro ETAPA 2_192PolyStyle">
+			<color>7fcc0066</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Perimetro ETAPA 2_1921">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Perimetro ETAPA 2_192</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Perimetro ETAPA 2_1920</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Perimetro ETAPA 2</name>
+		<open>1</open>
+		<Placemark>
+			<name>1AE4A4</name>
+			<styleUrl>#Perimetro ETAPA 2_1921</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-57.66314844290445,-16.11857805751372,0 -57.66580809022601,-16.11491481634787,0 -57.66495083467517,-16.11433316109133,0 -57.66607315516428,-16.11278730391821,0 -57.66218486145668,-16.11014920136186,0 -57.66075852951165,-16.11211373766002,0 -57.66123308221446,-16.11243571784828,0 -57.65887736161649,-16.1156802413576,0 -57.66314844290445,-16.11857805751372,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>CÁCERES - CIDADE JARDIM II</name>
+		<LookAt>
+			<longitude>-57.66060632701114</longitude>
+			<latitude>-16.11453468910247</latitude>
+			<altitude>0</altitude>
+			<heading>0.1234844479590246</heading>
+			<tilt>28.7054240525826</tilt>
+			<range>2279.156282970245</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-57.66254026529813,-16.11466730646575,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

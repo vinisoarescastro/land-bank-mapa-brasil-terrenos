@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BURITI GARDEN I - ITABORAÍ.kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="PROJ_DIVISA EMPREENDIMENTOS">
+		<LineStyle id="lPROJ_DIVISA EMPREENDIMENTOSLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPROJ_DIVISA EMPREENDIMENTOSPolyStyle">
+			<color>7fff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PROJ_DIVISA EMPREENDIMENTOS0">
+		<LineStyle id="lPROJ_DIVISA EMPREENDIMENTOSLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPROJ_DIVISA EMPREENDIMENTOSPolyStyle">
+			<color>7fff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PROJ_DIVISA EMPREENDIMENTOS1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PROJ_DIVISA EMPREENDIMENTOS0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PROJ_DIVISA EMPREENDIMENTOS</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>PROJ_DIVISA EMPREENDIMENTOS</name>
+		<open>1</open>
+		<Placemark>
+			<name>67C54</name>
+			<styleUrl>#PROJ_DIVISA EMPREENDIMENTOS1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-42.90270701285887,-22.76964048232851,0 -42.90092747759757,-22.76916571103132,0 -42.90084707405092,-22.76942519392783,0 -42.90006342429109,-22.77105618306277,0 -42.90060565436723,-22.77438929463152,0 -42.90198005468309,-22.77372498161092,0 -42.90197072016695,-22.77332645232069,0 -42.90207729460307,-22.77263794160385,0 -42.90204572653568,-22.77249181879881,0 -42.90193579396589,-22.77226499938556,0 -42.90165999808314,-22.77183451232162,0 -42.9016597127011,-22.77183347739598,0 -42.90153715660404,-22.77139024172859,0 -42.90151851647116,-22.7713214336822,0 -42.90151847341819,-22.77132127475675,0 -42.90160929851616,-22.77103191404268,0 -42.90196886195217,-22.77044620865527,0 -42.90205013240377,-22.77037977858789,0 -42.90242678980973,-22.77007235758528,0 -42.90254868577187,-22.76988434233842,0 -42.90270701285887,-22.76964048232851,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>ITABORAÍ - GARDEM I</name>
+		<LookAt>
+			<longitude>-42.90201684888133</longitude>
+			<latitude>-22.77149679881627</latitude>
+			<altitude>0</altitude>
+			<heading>0.0002444759027793268</heading>
+			<tilt>44.99999999999996</tilt>
+			<range>999.9999999938304</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-42.90096690859429,-22.77181029287976,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

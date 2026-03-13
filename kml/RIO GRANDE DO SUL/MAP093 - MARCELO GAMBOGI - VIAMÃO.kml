@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MARCELO GAMBOGI - VIAMÃO.kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Marcelo Gambogi - Viamão</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-51.01918675420013,-30.09883721838532,0 -51.0190220270415,-30.09934674049688,0 -51.01886695578973,-30.09978719575526,0 -51.01872514151999,-30.10018635540892,0 -51.01859991183737,-30.1005100410434,0 -51.0182065425915,-30.10152858149023,0 -51.01798759313179,-30.10192049880158,0 -51.01776915671393,-30.10232386974781,0 -51.01739782573155,-30.10358687506775,0 -51.01709337733721,-30.10354636292507,0 -51.01673727905523,-30.10358348977553,0 -51.01571836556288,-30.10333973476035,0 -51.01385936806922,-30.1025137104994,0 -51.0138882808404,-30.10411858673371,0 -51.01352739111806,-30.10404191953322,0 -51.01339108935202,-30.1040137705202,0 -51.01317476902756,-30.1039937414531,0 -51.01306659429959,-30.10399383112316,0 -51.01289759742934,-30.1040303830035,0 -51.01274768862783,-30.10408713440965,0 -51.0125769046836,-30.10211871571656,0 -51.01137131147393,-30.10081916341668,0 -51.01170484868921,-30.09940357358505,0 -51.01207415939381,-30.09937510658449,0 -51.01283351536391,-30.09924062874483,0 -51.01322052690584,-30.0990036650475,0 -51.01326740941843,-30.09877092786056,0 -51.01357851463052,-30.09869685156,0 -51.01410044516054,-30.09872180189923,0 -51.01430080519767,-30.09872179690716,0 -51.01491079323908,-30.09858680094524,0 -51.01524852763173,-30.09847685068934,0 -51.01571338188862,-30.09847568240528,0 -51.01615089151985,-30.0985350147278,0 -51.01655987602828,-30.09879406671632,0 -51.01684162484987,-30.09892374441226,0 -51.01714070534107,-30.09908810352453,0 -51.01746854568426,-30.0991926516767,0 -51.01785157914693,-30.09924850050961,0 -51.01829445625855,-30.09916304374603,0 -51.0189727344759,-30.09871347344241,0 -51.01918675420013,-30.09883721838532,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>MARCELO GAMBOGI - VIAMÃO</name>
+		<LookAt>
+			<longitude>-51.01468634191328</longitude>
+			<latitude>-30.10108323005597</latitude>
+			<altitude>0</altitude>
+			<heading>-5.008392129943111</heading>
+			<tilt>0</tilt>
+			<range>1093.538166399088</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.01493514259378,-30.10093546753874,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

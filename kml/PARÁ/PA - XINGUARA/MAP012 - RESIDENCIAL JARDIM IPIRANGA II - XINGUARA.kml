@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RESIDENCIAL JARDIM IPIRANGA II - XINGUARA</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="LIMITE">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#LIMITE1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#LIMITE0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="LIMITE0">
+		<LineStyle id="lLIMITELineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pLIMITEPolyStyle">
+			<color>7fff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="LIMITE1">
+		<LineStyle id="lLIMITELineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pLIMITEPolyStyle">
+			<color>7fff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>LIMITE</name>
+		<Placemark>
+			<name>1BA</name>
+			<styleUrl>#LIMITE</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-49.92775518989691,-7.117631468784431,0 -49.92402750395897,-7.11830521576786,0 -49.92419371953566,-7.119248929164739,0 -49.92459756091062,-7.120605798745629,0 -49.92464688581258,-7.12073208225323,0 -49.92471261776715,-7.1208505352947,0 -49.92479358348814,-7.12095952715243,0 -49.92487636373381,-7.121066985675921,0 -49.9249474449156,-7.12118246648876,0 -49.92500619573646,-7.121304882804951,0 -49.92505153322304,-7.12143269456974,0 -49.92508364161485,-7.1215645455591,0 -49.92510189066256,-7.12169889676785,0 -49.92510574045077,-7.1218342998431,0 -49.92509564685379,-7.121969399187991,0 -49.92507161280857,-7.122102928595701,0 -49.92503373264111,-7.12223326029608,0 -49.92498255340703,-7.122358767570089,0 -49.92491898518975,-7.12247746276728,0 -49.92488414756214,-7.12254548585201,0 -49.92485515451551,-7.12263106858158,0 -49.92484045924525,-7.12272030228678,0 -49.9248402491714,-7.1228104740969,0 -49.92485470918655,-7.12289995645763,0 -49.92488294100599,-7.12298567219749,0 -49.92492476775989,-7.12306581203128,0 -49.9249789277134,-7.12313784060192,0 -49.92504424630365,-7.123200669852139,0 -49.92513728031245,-7.123298836523589,0 -49.92520319460437,-7.12341692820434,0 -49.92523793124101,-7.123547790426589,0 -49.92523924550795,-7.1236832780499,0 -49.92521591004511,-7.12378895243202,0 -49.92518119249393,-7.123922004779839,0 -49.92516267969324,-7.12405636099474,0 -49.92516019098595,-7.12419183977351,0 -49.92517372996771,-7.12432690358508,0 -49.92520284940047,-7.12445919985618,0 -49.92524746170137,-7.12458746217139,0 -49.92543493609352,-7.125035503416909,0 -49.93018145301239,-7.12442461793922,0 -49.92775518989691,-7.117631468784431,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>PA-XINGUARA-JIP II</name>
+		<LookAt>
+			<longitude>-49.92740729784521</longitude>
+			<latitude>-7.121815127539333</latitude>
+			<altitude>0</altitude>
+			<heading>2.511684026513256</heading>
+			<tilt>0</tilt>
+			<range>1841.369254079201</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-49.92701754419816,-7.120931460201943,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

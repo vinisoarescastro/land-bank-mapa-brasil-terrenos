@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PARQUE DO LAGO - FORMOSA</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="! Divisa Estacionamento">
+		<LineStyle id="l! Divisa EstacionamentoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p! Divisa EstacionamentoPolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="! Divisa Estacionamento0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#! Divisa Estacionamento</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#! Divisa Estacionamento1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="! Divisa Estacionamento1">
+		<LineStyle id="l! Divisa EstacionamentoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p! Divisa EstacionamentoPolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>! Divisa Estacionamento</name>
+		<open>1</open>
+		<Placemark>
+			<name>E0F48F3</name>
+			<styleUrl>#! Divisa Estacionamento0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-47.32734341359405,-15.57445547512662,0 -47.32740929212915,-15.57445386273952,0 -47.32846330136505,-15.57542518740272,0 -47.32846680858328,-15.57549064076545,0 -47.3273579714262,-15.57675055049486,0 -47.32728162040488,-15.57675442298724,0 -47.32676124530108,-15.57627486986881,0 -47.32698600661251,-15.57604572260995,0 -47.32689144454368,-15.57595857832463,0 -47.32666668319405,-15.5761877254898,0 -47.32616347902854,-15.57572399202325,0 -47.3261618158428,-15.57566013369568,0 -47.32734341359405,-15.57445547512662,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name> FORMOSA - PARQUE DO LAGO</name>
+		<LookAt>
+			<longitude>-47.32581362347452</longitude>
+			<latitude>-15.57590757849793</latitude>
+			<altitude>0</altitude>
+			<heading>0.001084679284431122</heading>
+			<tilt>11.90131918857025</tilt>
+			<range>717.9306172902666</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-47.32722954322377,-15.57548233418648,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

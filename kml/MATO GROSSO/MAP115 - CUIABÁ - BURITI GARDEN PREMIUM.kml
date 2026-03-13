@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BURITI GARDEN PREMIUM - CUIABÁ</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="DIVISA_7">
+		<LineStyle id="lDIVISA_7LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pDIVISA_7PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="DIVISA_70">
+		<LineStyle id="lDIVISA_7LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pDIVISA_7PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="DIVISA_71">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#DIVISA_70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#DIVISA_7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>DIVISA</name>
+		<Placemark>
+			<name>6FBB</name>
+			<styleUrl>#DIVISA_71</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-56.15099634643689,-15.55967521285602,0 -56.15210295334368,-15.55766589492393,0 -56.15221816298337,-15.55713503397439,0 -56.15166227536853,-15.55576477424164,0 -56.14937779276366,-15.55089141394445,0 -56.14835644979407,-15.55195092409258,0 -56.15056596767619,-15.55667500240406,0 -56.14992085058236,-15.55932047289259,0 -56.15099634643689,-15.55967521285602,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>6FC4</name>
+			<styleUrl>#DIVISA_71</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-56.14835644979407,-15.55195092409258,0 -56.14702891250126,-15.55308595488626,0 -56.14840367238291,-15.55632269699235,0 -56.14860078117151,-15.55878026567752,0 -56.14950271679771,-15.55902553105965,0 -56.14992085058236,-15.55932047289259,0 -56.15056596767619,-15.55667500240406,0 -56.14835644979407,-15.55195092409258,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>6FCD</name>
+			<styleUrl>#DIVISA_71</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-56.14702890881482,-15.55308595565266,0 -56.14507840032055,-15.55433377987027,0 -56.14677841407291,-15.55876128033452,0 -56.14860072336772,-15.55878019550235,0 -56.14840367238291,-15.55632269699235,0 -56.14702890881482,-15.55308595565266,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>6FB2</name>
+			<styleUrl>#DIVISA_71</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-56.13903231048148,-15.55925145314523,0 -56.13928569485151,-15.55948285148785,0 -56.13979098074948,-15.55949805839971,0 -56.1404878069272,-15.56013045744402,0 -56.14098530867624,-15.56093547998446,0 -56.14250998147052,-15.55974122873123,0 -56.14384034732097,-15.5590797947687,0 -56.14411735522756,-15.55910903479833,0 -56.1421885735247,-15.55619885766192,0 -56.13826640535944,-15.55902243179649,0 -56.13903231048148,-15.55925145314523,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>6FD6</name>
+			<styleUrl>#DIVISA_71</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-56.1421885735247,-15.55619885766192,0 -56.14411735522756,-15.55910903479833,0 -56.14505704154608,-15.55888483310891,0 -56.14603386389345,-15.55871724635859,0 -56.14677841335614,-15.55876127065831,0 -56.14507840393812,-15.55433377515577,0 -56.1421885735247,-15.55619885766192,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>CUIABÁ - BURITI GARDEN PREMIUM</name>
+		<Camera>
+			<longitude>-56.14446024441147</longitude>
+			<latitude>-15.55764141451858</latitude>
+			<altitude>2721.685797992222</altitude>
+			<heading>0.1130969345283376</heading>
+			<tilt>0.01322745768151809</tilt>
+			<roll>1.118335084892321</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-56.1464255099871,-15.55631257041035,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

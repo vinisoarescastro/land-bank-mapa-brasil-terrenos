@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>FERNANDOPOLIS - A DEFINIR</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="proj_divisa geral da Gleba_6">
+		<LineStyle id="lproj_divisa geral da Gleba_6LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pproj_divisa geral da Gleba_6PolyStyle">
+			<color>7fff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="proj_divisa geral da Gleba_60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#proj_divisa geral da Gleba_61</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#proj_divisa geral da Gleba_6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="proj_divisa geral da Gleba_61">
+		<LineStyle id="lproj_divisa geral da Gleba_6LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pproj_divisa geral da Gleba_6PolyStyle">
+			<color>7fff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>proj_divisa geral da Gleba</name>
+		<open>1</open>
+		<Placemark>
+			<name>3158</name>
+			<styleUrl>#proj_divisa geral da Gleba_60</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-50.2734004176189,-20.27653259987233,0 -50.27354666313192,-20.27689144159281,0 -50.27356577288796,-20.27784374656984,0 -50.27361573951258,-20.27807458115696,0 -50.27364346819212,-20.27820156148409,0 -50.273740313519,-20.27864756698592,0 -50.27376346939909,-20.27875463542249,0 -50.27385905412888,-20.27920103374172,0 -50.2738819945392,-20.2793081693297,0 -50.27400341304955,-20.27987750961702,0 -50.27404768398712,-20.2800850983078,0 -50.27409638451299,-20.28031050250349,0 -50.27412337613942,-20.28043528639444,0 -50.27414475272593,-20.28053411148825,0 -50.27416922993773,-20.28064727079165,0 -50.27419381335548,-20.28076143494572,0 -50.27421954197415,-20.28088110072391,0 -50.27424446553218,-20.28099702193755,0 -50.27426731860612,-20.28110331304141,0 -50.27428731506941,-20.28119631775457,0 -50.27430838528671,-20.28129374524661,0 -50.27433119747202,-20.28139909784096,0 -50.27435628704886,-20.28151496786481,0 -50.27438716657535,-20.28165757711949,0 -50.27442665983348,-20.28184151963576,0 -50.27445456981011,-20.28197028293956,0 -50.27466691348868,-20.28294992867075,0 -50.27502231706383,-20.28459311783383,0 -50.27505137769495,-20.2847264645076,0 -50.27510074916446,-20.28495300834283,0 -50.27603306512915,-20.2854512793159,0 -50.27656655502377,-20.28573639633655,0 -50.27667641899377,-20.28579511143756,0 -50.27684750946862,-20.28588654787518,0 -50.27737345969729,-20.28616763146336,0 -50.27739248679607,-20.28609894411401,0 -50.27738811698638,-20.28593694589977,0 -50.2773578982164,-20.28567822072833,0 -50.27738461320017,-20.28561639384407,0 -50.27749843023408,-20.285447217199,0 -50.27755797297242,-20.28530428079171,0 -50.27757354702418,-20.28523902579956,0 -50.27767780533747,-20.28523003865156,0 -50.27796007208072,-20.28528087078983,0 -50.27803156199317,-20.28532881347699,0 -50.27765557433192,-20.28357644555934,0 -50.27617700459337,-20.27679177906184,0 -50.27581847088686,-20.27513802319482,0 -50.27546884665349,-20.27524164580672,0 -50.27550913459677,-20.27542717595868,0 -50.27545072889879,-20.27552102604692,0 -50.27551053220256,-20.27543611027095,0 -50.27551087131762,-20.27544513571977,0 -50.27551014775945,-20.27545414099447,0 -50.27550837045152,-20.27546301503312,0 -50.27550556131317,-20.2754716483923,0 -50.2755017549893,-20.27547993459691,0 -50.27549699842312,-20.27548777145326,0 -50.2754913502772,-20.27549506230945,0 -50.27548488020996,-20.2755017172474,0 -50.27547766801661,-20.27550765419177,0 -50.27546980264507,-20.27551279992227,0 -50.27546138109888,-20.2755170909766,0 -50.27545250724092,-20.27552047443318,0 -50.27348690024485,-20.27610793966333,0 -50.27343761762328,-20.27610883492763,0 -50.27347763565896,-20.27611020637879,0 -50.27346816184712,-20.27611148982608,0 -50.27345859563829,-20.276111774178,0 -50.2734490550009,-20.27611105592795,0 -50.27343965758808,-20.27610934393329,0 -50.27333124524108,-20.27615445779358,0 -50.27342827297155,-20.27610688045462,0 -50.27341876241377,-20.27610586325172,0 -50.27340919123255,-20.27610579457944,0 -50.2733996653816,-20.27610667519802,0 -50.2733902903128,-20.2761084953589,0 -50.2733811698089,-20.27611123491276,0 -50.27337240483461,-20.27611486353253,0 -50.27336409241891,-20.27611934104911,0 -50.27335632458083,-20.27612461789603,0 -50.27334918731114,-20.27613063565815,0 -50.27334275961999,-20.27613732771839,0 -50.27333711266257,-20.27614461999506,0 -50.27333230895128,-20.27615243176208,0 -50.27330987899244,-20.27616084318107,0 -50.2734004176189,-20.27653259987233,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>FERNANDOPOLIS - A DEFINIR</name>
+		<LookAt>
+			<longitude>-50.27567072049276</longitude>
+			<latitude>-20.28065282732912</latitude>
+			<altitude>0</altitude>
+			<heading>1.113194138512231e-14</heading>
+			<tilt>44.99999999999995</tilt>
+			<range>1817.67444288874</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-50.27568009256839,-20.28065680098514,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

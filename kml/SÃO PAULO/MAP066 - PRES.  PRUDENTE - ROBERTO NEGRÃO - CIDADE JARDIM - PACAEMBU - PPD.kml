@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PRESI.  PRUDENTE - ROBERTO NEGRÃO - CIDADE JARDIM - PACAEMBU - PPD.kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="INFLUENCIA--AREA-DIRETAMENTE-AFETADA_6">
+		<LineStyle id="lINFLUENCIA--AREA-DIRETAMENTE-AFETADA_6LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pINFLUENCIA--AREA-DIRETAMENTE-AFETADA_6PolyStyle">
+			<color>7fff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="INFLUENCIA--AREA-DIRETAMENTE-AFETADA_60">
+		<LineStyle id="lINFLUENCIA--AREA-DIRETAMENTE-AFETADA_6LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pINFLUENCIA--AREA-DIRETAMENTE-AFETADA_6PolyStyle">
+			<color>7fff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="INFLUENCIA--AREA-DIRETAMENTE-AFETADA_61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#INFLUENCIA--AREA-DIRETAMENTE-AFETADA_60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#INFLUENCIA--AREA-DIRETAMENTE-AFETADA_6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>INFLUENCIA--AREA-DIRETAMENTE-AFETADA</name>
+		<open>1</open>
+		<Placemark>
+			<name>1403DA</name>
+			<styleUrl>#INFLUENCIA--AREA-DIRETAMENTE-AFETADA_61</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-51.3232292593424,-22.14822769147484,0 -51.32278515558568,-22.1474982017246,0 -51.32276907005579,-22.14709552954139,0 -51.32325473270672,-22.14616622113803,0 -51.32366561203292,-22.1456028224261,0 -51.32369322392604,-22.14535778444377,0 -51.32359403576319,-22.14506525168981,0 -51.32395140880469,-22.14485812674034,0 -51.32606187421549,-22.14352985528316,0 -51.32751187817907,-22.14261286040956,0 -51.32813707819843,-22.14263676487069,0 -51.32826522444427,-22.14269220360008,0 -51.32843573861628,-22.14297303509158,0 -51.3288665735521,-22.14326516781908,0 -51.32890560650301,-22.14339878778333,0 -51.32904226489517,-22.14353624922541,0 -51.32918476575766,-22.14367969753743,0 -51.32961967313454,-22.14414497141127,0 -51.33007299755972,-22.1445013163929,0 -51.33129360941804,-22.14475439576331,0 -51.33158651039767,-22.1447257040972,0 -51.33183761887834,-22.14498872407367,0 -51.33221320383734,-22.14531581444024,0 -51.33246769639828,-22.14561487336157,0 -51.33254760949632,-22.14578148362772,0 -51.33289428374308,-22.1458959639356,0 -51.33297930247472,-22.14604774731364,0 -51.33310218857968,-22.14609528789559,0 -51.33361440828132,-22.14629313133347,0 -51.33396173017784,-22.14635238137041,0 -51.33421115166844,-22.14649745829418,0 -51.33477270915656,-22.14650741012462,0 -51.33591292536021,-22.14669649413738,0 -51.33589482897536,-22.1472523482475,0 -51.33603217038918,-22.14734220056437,0 -51.33613345992118,-22.14752391546321,0 -51.3362748022465,-22.14760768828037,0 -51.33661960590157,-22.14782148743426,0 -51.33667318127596,-22.14792921019167,0 -51.33619570041944,-22.14850377304276,0 -51.33178609460192,-22.1512538505573,0 -51.33296205062825,-22.15225780211788,0 -51.32835277379584,-22.15504364546238,0 -51.32820794866895,-22.15521157791931,0 -51.32804196460055,-22.15539887163603,0 -51.3279480710725,-22.15538814284216,0 -51.32779976288486,-22.15534232025885,0 -51.3273092852668,-22.15477709086061,0 -51.3272605543941,-22.15438021286539,0 -51.32703006483391,-22.1542048949623,0 -51.32681561357635,-22.15414572490412,0 -51.32609485602161,-22.15333161548109,0 -51.32576782839652,-22.15321762309963,0 -51.32526232974012,-22.15260411990303,0 -51.32498992327372,-22.1526498704874,0 -51.32477447656842,-22.15247247690256,0 -51.32468837898476,-22.15225839164218,0 -51.32495970732453,-22.15172640822572,0 -51.32509331028075,-22.15161683606913,0 -51.32511894028294,-22.15064886856275,0 -51.32510371554031,-22.1503749609561,0 -51.32503009599648,-22.14990982395603,0 -51.32377056152662,-22.14898699964626,0 -51.32339077961834,-22.14862282076485,0 -51.3232292593424,-22.14822769147484,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>PRES.  PRUDENTE - ROBERTO NEGRÃO - CIDADE JARDIM - PACAEMBU - PPD</name>
+		<Camera>
+			<longitude>-51.33095387123894</longitude>
+			<latitude>-22.15038834997361</latitude>
+			<altitude>2926.232553871722</altitude>
+			<heading>-10.20202855691941</heading>
+			<tilt>0.01401208895104242</tilt>
+			<roll>-7.869055629837798</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.32844303113043,-22.14804312586822,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

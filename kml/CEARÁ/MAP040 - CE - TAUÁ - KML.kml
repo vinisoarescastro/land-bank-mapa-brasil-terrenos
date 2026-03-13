@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JARDIM AMERICA II - TAUÁ</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="PERÍMETRO4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PERÍMETRO6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PERÍMETRO5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PERÍMETRO5">
+		<LineStyle id="lPERÍMETROLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPERÍMETROPolyStyle">
+			<color>7f007fff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PERÍMETRO6">
+		<LineStyle id="lPERÍMETROLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPERÍMETROPolyStyle">
+			<color>7f007fff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>PERÍMETRO</name>
+		<open>1</open>
+		<Placemark>
+			<name>2965</name>
+			<styleUrl>#PERÍMETRO4</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-40.29747798749422,-5.97146160084346,0 -40.29746937638307,-5.97154937862165,0 -40.2973352097158,-5.97292493418368,0 -40.29719743193761,-5.97398965641075,0 -40.29707659860397,-5.97476298974753,0 -40.29685798749231,-5.97617465642049,0 -40.29679270971424,-5.976872434201561,0 -40.29660882082431,-5.979190211990411,0 -40.29648270971244,-5.980847434220559,0 -40.29784687637778,-5.98103354533833,0 -40.2987727097102,-5.981162989787309,0 -40.29940520970957,-5.98124798979039,0 -40.29943132082063,-5.98132465645755,0 -40.30146854304133,-5.9806904897962,0 -40.30156882081903,-5.9806588231298,0 -40.3021854874852,-5.98053687868734,0 -40.30328354303988,-5.980321600913101,0 -40.30406520970583,-5.98034493424985,0 -40.30450798748319,-5.98036382314072,0 -40.3047268763719,-5.980322712030319,0 -40.30545854303801,-5.98012521203241,0 -40.30705715414767,-5.98009021203905,0 -40.30659187637068,-5.97941382314472,0 -40.30634409859397,-5.97780826757989,0 -40.3062590985949,-5.97618465646012,0 -40.30562687637368,-5.975379378675541,0 -40.30096159859996,-5.975689934212981,0 -40.30059909860156,-5.97328104531025,0 -40.29954132082469,-5.97339243419527,0 -40.29933854304808,-5.97146660085125,0 -40.29747798749422,-5.97146160084346,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>TAUÁ - JARDIM AMÉRICA </name>
+		<LookAt>
+			<longitude>-40.29964747073996</longitude>
+			<latitude>-5.9770328861033</latitude>
+			<altitude>0</altitude>
+			<heading>1.455898905439924e-12</heading>
+			<tilt>1.187138571407538</tilt>
+			<range>1933.305216046626</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-40.30130730332364,-5.977629108107384,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

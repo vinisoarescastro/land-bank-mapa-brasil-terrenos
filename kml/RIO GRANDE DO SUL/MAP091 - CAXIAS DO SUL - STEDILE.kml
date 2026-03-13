@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Caxias do Sul - Stedile.kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="inline">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>1068 - 43 hectares - Caxias do Sul</name>
+		<styleUrl>#inline1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-51.11641112095695,-29.11133282924872,0 -51.11639282002493,-29.11144732922761,0 -51.11586214788144,-29.11149552287002,0 -51.11413615546488,-29.11210704096027,0 -51.11377148442197,-29.11198145047011,0 -51.11346323536281,-29.11193521150907,0 -51.11322538972276,-29.11195051038772,0 -51.11282108336475,-29.11197799156744,0 -51.11293444282523,-29.10927630063626,0 -51.11128684345919,-29.10922204347501,0 -51.11115752601921,-29.1091606371231,0 -51.1110904585659,-29.10894398536971,0 -51.11100230042857,-29.10877206011997,0 -51.11093444851809,-29.10852143324039,0 -51.11081899296025,-29.10832228342333,0 -51.11063813014904,-29.10807734379339,0 -51.11082668336936,-29.10783340999071,0 -51.11096887205742,-29.10755393846448,0 -51.11107931188233,-29.10732159453532,0 -51.11104917815235,-29.10709554562702,0 -51.1110224741013,-29.10680883362954,0 -51.11097897204813,-29.10658607608984,0 -51.11087861399037,-29.10636696580481,0 -51.11068590022208,-29.10615097311125,0 -51.11045610096276,-29.10590510010271,0 -51.11016108756886,-29.10567314533779,0 -51.11001735204704,-29.10553805836193,0 -51.1097782793344,-29.10530069359881,0 -51.10966234555004,-29.10513735266563,0 -51.10961192769211,-29.10495509537589,0 -51.10954840924855,-29.10473115472391,0 -51.10953730873641,-29.10456102600157,0 -51.10956954902343,-29.10441953058919,0 -51.10969690413838,-29.10415946048547,0 -51.11637049332335,-29.10373403172498,0 -51.11649800152641,-29.10506436470885,0 -51.1164588549912,-29.10528044051116,0 -51.11635624465005,-29.1055837421323,0 -51.11629585221781,-29.10585964920771,0 -51.11614886086289,-29.1062456662899,0 -51.11609418599168,-29.10633950806641,0 -51.11616288824725,-29.10653422297547,0 -51.11627515005117,-29.10689087767372,0 -51.11634681988759,-29.10705161532377,0 -51.11639299160012,-29.10722905009861,0 -51.11644719258955,-29.10747160985907,0 -51.11636619328072,-29.10791201538674,0 -51.11633923361344,-29.10813537322345,0 -51.11629916208462,-29.10833190910471,0 -51.11628347398912,-29.10846511929432,0 -51.1162722407084,-29.10859933554899,0 -51.11624823114018,-29.10900698165258,0 -51.1162184524025,-29.10938381639471,0 -51.11620028575696,-29.10983261023257,0 -51.11627549225625,-29.11019904370115,0 -51.11629932251677,-29.11057014848901,0 -51.11642861779504,-29.11112714142179,0 -51.11641112095695,-29.11133282924872,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>CAXIAS DO SUL - STEDILE</name>
+		<LookAt>
+			<longitude>-51.11301765513138</longitude>
+			<latitude>-29.10792053634261</latitude>
+			<altitude>0</altitude>
+			<heading>-3.975693351829395e-14</heading>
+			<tilt>45.00000000000001</tilt>
+			<range>1379.87466414709</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.11302318696595,-29.10792361273727,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

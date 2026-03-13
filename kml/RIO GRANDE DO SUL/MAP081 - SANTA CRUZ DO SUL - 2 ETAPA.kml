@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>4a - Santa Cruz do Sul - SANTA CRUZ DO SUL</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="yellowLineGreenPoly">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="yellowLineGreenPoly0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="yellowLineGreenPoly1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#yellowLineGreenPoly</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Poligono 0</name>
+		<description>Desenho exportado em 24/5/2024 as 17:52 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly1</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-52.43952702000001,-29.6717169547222,-50.562 -52.44003198555561,-29.6717169363889,-50.562 -52.4435451502777,-29.6745441858334,-50.562 -52.4435631005555,-29.6745596766667,-50.562 -52.44357977,-29.6745762236111,-50.562 -52.4435950769445,-29.6745937455556,-50.562 -52.4436089469445,-29.6746121569445,-50.562 -52.4436213125,-29.6746313688889,-50.562 -52.44363211333329,-29.6746512869444,-50.562 -52.4436412969445,-29.6746718147222,-50.562 -52.4436488183333,-29.6746928516667,-50.562 -52.4436546408333,-29.6747142955555,-50.562 -52.4436587363889,-29.6747360419445,-50.562 -52.4436610847222,-29.674757985,-50.562 -52.4436616747222,-29.6747800175,-50.562 -52.4436616458333,-29.6747817752778,-50.562 -52.4436543305556,-29.6751553997222,-50.562 -52.4455032091667,-29.6751829927778,-50.562 -52.4454184019444,-29.6795184675,-50.562 -52.4419304380556,-29.6794663952778,-50.562 -52.44190392527779,-29.6808193902778,-50.562 -52.4403600377778,-29.6807963133333,-50.562 -52.4402771325,-29.6805875055555,-50.562 -52.44048461416659,-29.6794989191667,-50.562 -52.4393746552778,-29.6794823172222,-50.562 -52.43952702000001,-29.6717169547222,-50.562 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>SANTA CRUZ DO SUL - 2 ETAPA</name>
+		<Camera>
+			<longitude>-52.44235545391584</longitude>
+			<latitude>-29.67820895326163</latitude>
+			<altitude>2052.87649741438</altitude>
+			<heading>-1.612043450158162</heading>
+			<tilt>3.852772138710404</tilt>
+			<roll>1.611241140428832</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-52.44260493774263,-29.67688807343422,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

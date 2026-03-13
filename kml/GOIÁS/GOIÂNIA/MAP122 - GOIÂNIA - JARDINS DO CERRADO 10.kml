@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JARDIM DO CERRADO 10 - GOIÂNIA</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="yellowLineGreenPoly">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#yellowLineGreenPoly1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="yellowLineGreenPoly0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="yellowLineGreenPoly1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Poligono 0</name>
+		<description>Desenho exportado em 5/3/2026 as 10:48 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-49.4337083894444,-16.6781800605556,0 -49.4337034811111,-16.6774013519444,0 -49.4343154555555,-16.6776247752778,0 -49.43490977111109,-16.6778887997222,0 -49.4351227211111,-16.6779955508333,0 -49.4353649480556,-16.6781208005556,0 -49.4364681327778,-16.6786912255556,0 -49.4367029788889,-16.6788026644445,0 -49.4369453186111,-16.6788980413889,0 -49.4371939694445,-16.6789768925,0 -49.43744772277779,-16.6790388333333,0 -49.4377053411111,-16.6790835611111,0 -49.4379655686111,-16.6791108586111,0 -49.4382271380556,-16.6791205936111,0 -49.4384887747222,-16.6791127183333,0 -49.4387492038888,-16.67908727,0 -49.4387558866667,-16.6790863822222,0 -49.43993272083329,-16.6789291447222,0 -49.4425096983333,-16.6785848066667,0 -49.4425260536111,-16.6789255044445,0 -49.4425314444444,-16.6792450733333,0 -49.44252789777771,-16.6793192586111,0 -49.4425109608334,-16.6794567261111,0 -49.4424490275,-16.6799023591667,0 -49.4422678113889,-16.6809865733333,0 -49.4423844272222,-16.6826852475,0 -49.4405233905556,-16.6828039283333,0 -49.4400001055555,-16.6828196469444,0 -49.4394769569444,-16.6828001433334,0 -49.4389564961111,-16.6827455127778,0 -49.4384412561111,-16.6826560222222,0 -49.4384115705555,-16.6826497669444,0 -49.4383623691666,-16.6828646005556,0 -49.4378682894445,-16.6826805341667,0 -49.4377548447222,-16.6826337311111,0 -49.43707353666671,-16.6823928097222,0 -49.4351304419444,-16.6814935219445,0 -49.4345106955555,-16.6813008963889,0 -49.4341019105556,-16.6811922302778,0 -49.4339655002778,-16.6811752383333,0 -49.4337272425,-16.6811712127778,0 -49.4337083894444,-16.6781800605556,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>GOIÂNIA - JARDINS DO CERRADO 10</name>
+		<Camera>
+			<longitude>-49.43795680847133</longitude>
+			<latitude>-16.6856705565191</latitude>
+			<altitude>1297.52063588316</altitude>
+			<heading>1.735171021666017</heading>
+			<tilt>18.60685161252725</tilt>
+			<roll>-0.9648769744134796</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-49.43837325561098,-16.6805236014123,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BARRA DOS COQUEIROS</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/<br/>http://tbn2net.appspot.com]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="(A)(MATRICULA)(3067)">
+		<LineStyle id="l(A)(MATRICULA)(3067)LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p(A)(MATRICULA)(3067)PolyStyle">
+			<color>7fff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="(A)(MATRICULA)(3067)0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#(A)(MATRICULA)(3067)1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#(A)(MATRICULA)(3067)</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="(A)(MATRICULA)(3067)1">
+		<LineStyle id="l(A)(MATRICULA)(3067)LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p(A)(MATRICULA)(3067)PolyStyle">
+			<color>7fff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>(A)(MATRICULA)(3067)</name>
+		<Placemark>
+			<name>9A88</name>
+			<styleUrl>#(A)(MATRICULA)(3067)0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-36.97468757186106,-10.86382441683621,0 -36.97363430653459,-10.86392277790535,0 -36.9721577250641,-10.86407917416077,0 -36.97086175519665,-10.86420674653242,0 -36.96935611833911,-10.86435959266667,0 -36.96805949286856,-10.86448940814263,0 -36.96692913714712,-10.86460178821903,0 -36.96595180850525,-10.86469429709575,0 -36.96564651873874,-10.86472915492059,0 -36.96656722401471,-10.8659050703318,0 -36.96827972848199,-10.86803117767701,0 -36.97159555804497,-10.86791618093985,0 -36.97847722768024,-10.86786562535364,0 -36.98393028489793,-10.86831395415578,0 -36.98452723171498,-10.86829172959492,0 -36.99057612019071,-10.86804172821818,0 -36.99056250117533,-10.86663062421786,0 -36.99057082410917,-10.86593482915853,0 -36.99047145053154,-10.86593083508147,0 -36.98901681864723,-10.86572942588696,0 -36.98753184262522,-10.86555348184354,0 -36.98606020078094,-10.8654350150462,0 -36.98497294332979,-10.86533750075256,0 -36.98398445751728,-10.86525201951189,0 -36.98241172941025,-10.86511325840886,0 -36.98119215411568,-10.86493459772519,0 -36.97981925587725,-10.86456176505435,0 -36.97835467282842,-10.86423903166396,0 -36.97720052515947,-10.86406846939834,0 -36.97618103609757,-10.86391731911611,0 -36.97468757186106,-10.86382441683621,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>AX-BRT-LOT-EP-V01-R00.1$0$-AX-TERRENO</name>
+		<Placemark>
+			<name>CB39</name>
+			<styleUrl>#(A)(MATRICULA)(3067)0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-36.99083612030339,-10.86664781551101,0 -36.9909576774833,-10.86665609333973,0 -36.99113541605632,-10.86667063591025,0 -36.99132312727283,-10.86668437444119,0 -36.99152889774611,-10.86669982130406,0 -36.99213547612183,-10.86674743995724,0 -36.99237954098434,-10.86676661236067,0 -36.99278684826849,-10.86679713305535,0 -36.99298609319406,-10.86681383755859,0 -36.99311668210246,-10.86682213039527,0 -36.99332961011272,-10.86683565192431,0 -36.99340465452213,-10.86690855716827,0 -36.99366375938976,-10.86724980397125,0 -36.99380558578243,-10.86754608131843,0 -36.99396842189414,-10.86789435768398,0 -36.99363354367994,-10.86790910840449,0 -36.99308059655227,-10.86793346381869,0 -36.99271761977759,-10.86795012155388,0 -36.99245343402081,-10.86796160292884,0 -36.99190347966533,-10.86798106756646,0 -36.99175748329178,-10.86799037015037,0 -36.99100872321423,-10.86802584867873,0 -36.99089266346414,-10.86802799337285,0 -36.99080042116276,-10.86803256779402,0 -36.99083612030339,-10.86664781551101,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>BARRA DOS COQUEIROS</name>
+		<LookAt>
+			<longitude>-36.97986711468607</longitude>
+			<latitude>-10.86814524823957</latitude>
+			<altitude>0</altitude>
+			<heading>-0.6653530566551903</heading>
+			<tilt>0.01727302650692909</tilt>
+			<range>2584.848250492915</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-36.98063878097307,-10.86676288642548,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CIDADE JARDIM III - PARAGOMINAS</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="Cartório">
+		<LineStyle id="lCartórioLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pCartórioPolyStyle">
+			<color>7fcc0099</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Cartório0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Cartório</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Cartório1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Cartório1">
+		<LineStyle id="lCartórioLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pCartórioPolyStyle">
+			<color>7fcc0099</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Cartório</name>
+		<open>1</open>
+		<Placemark>
+			<name>135</name>
+			<styleUrl>#Cartório0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-47.38173291580533,-2.98010239192183,0 -47.38159789551933,-2.98043295684204,0 -47.38140480958669,-2.98065219492842,0 -47.38140673760294,-2.98068409457305,0 -47.38315605766791,-2.98224129694511,0 -47.38315126631699,-2.98225001126703,0 -47.38333652144384,-2.98235302023453,0 -47.38341108152719,-2.98204282768218,0 -47.38403305841028,-2.9819300379201,0 -47.38173291580533,-2.98010239192183,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>PA-PARAGOMINAS-CJD.03-CAR-KML</name>
+		<LookAt>
+			<longitude>-47.38222294508263</longitude>
+			<latitude>-2.981473760884009</latitude>
+			<altitude>0</altitude>
+			<heading>2.678576362969782</heading>
+			<tilt>0</tilt>
+			<range>437.4790806165199</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-47.38263826865236,-2.981266125036362,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

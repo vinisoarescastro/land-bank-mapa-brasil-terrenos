@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>A DEFINIR I  - MONTES CLAROS</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="_Perímetro">
+		<LineStyle id="l_PerímetroLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p_PerímetroPolyStyle">
+			<color>7fcc0066</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="_Perímetro0">
+		<LineStyle id="l_PerímetroLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p_PerímetroPolyStyle">
+			<color>7fcc0066</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="_Perímetro1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#_Perímetro0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#_Perímetro</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>_Perímetro</name>
+		<Placemark>
+			<name>764C8</name>
+			<styleUrl>#_Perímetro1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-43.85752988072619,-16.77268086354835,0 -43.85733360214105,-16.7728436060277,0 -43.85708165837058,-16.77305520939736,0 -43.85698015206049,-16.77313712754241,0 -43.85672877624709,-16.77335058280521,0 -43.85660841746005,-16.77344727851179,0 -43.85650001901691,-16.77353904327149,0 -43.85640299132226,-16.77362077265134,0 -43.85630246181133,-16.77370100027291,0 -43.85620109445508,-16.77378576942238,0 -43.85616484846058,-16.77390244618005,0 -43.85492395227205,-16.77493981706582,0 -43.85478294297837,-16.77504822786445,0 -43.85470256453782,-16.77510637143071,0 -43.85462305381691,-16.77516562245037,0 -43.85457518192678,-16.77520310450004,0 -43.85452457188564,-16.77524003805909,0 -43.85442751427007,-16.77532585151371,0 -43.85423322413629,-16.77550517334947,0 -43.85412328207548,-16.77560380260508,0 -43.85403733849533,-16.77568374587333,0 -43.8534465661035,-16.77618618959396,0 -43.85334060040681,-16.77627948084043,0 -43.8530624258558,-16.77651626236239,0 -43.8527477094599,-16.77676850774681,0 -43.85247019613546,-16.77700633507006,0 -43.85230413411729,-16.77714720260371,0 -43.85202476614608,-16.77739887813533,0 -43.85123062464749,-16.77796944244063,0 -43.85116954142297,-16.77931466763737,0 -43.85111756100439,-16.77981817605,0 -43.8510360667441,-16.78021126135916,0 -43.85187560814029,-16.78020363405203,0 -43.85181085826832,-16.78046633807859,0 -43.85321042532521,-16.78045361585117,0 -43.85395110421232,-16.77990398474606,0 -43.85404765559444,-16.78003997510882,0 -43.85425682145266,-16.78026352827278,0 -43.85444232671314,-16.78041248243171,0 -43.85464554896755,-16.78053816502096,0 -43.85478558579968,-16.78061338606124,0 -43.85507405034296,-16.78080594417012,0 -43.85532019190156,-16.78106229672121,0 -43.85707495741854,-16.78325669693706,0 -43.85763045942256,-16.7835488475841,0 -43.85775227284559,-16.78345845216776,0 -43.85842789516205,-16.78381377319609,0 -43.86013405422211,-16.77993693967763,0 -43.85782480106967,-16.77986001606312,0 -43.85764218101249,-16.77982280433638,0 -43.8575198873946,-16.7797564988764,0 -43.85741600949933,-16.7796577818138,0 -43.855097242508,-16.77675802520904,0 -43.85576952086159,-16.77625915326096,0 -43.85591817063313,-16.77614884529989,0 -43.85627454584944,-16.77588835927529,0 -43.85651239924044,-16.77574357871128,0 -43.85676316565529,-16.77562067340735,0 -43.85722487553325,-16.77546181769131,0 -43.85745059717358,-16.77541218429466,0 -43.85762579399934,-16.77345839480978,0 -43.85769314113423,-16.77254596361462,0 -43.85752988072619,-16.77268086354835,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>MONTES CLAROS - CIDADE JARDIM II</name>
+		<Camera>
+			<longitude>-43.85582003353325</longitude>
+			<latitude>-16.78077216048021</latitude>
+			<altitude>3214.777203319586</altitude>
+			<heading>0.5224163218001908</heading>
+			<tilt>6.62024013291523</tilt>
+			<roll>1.511200173690492</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-43.85471184500085,-16.7789604759178,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

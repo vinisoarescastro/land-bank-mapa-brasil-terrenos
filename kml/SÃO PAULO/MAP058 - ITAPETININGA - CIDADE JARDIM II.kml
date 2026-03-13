@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ITAPETININGA - CIDADE JARDIM II</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="U-GLEBA">
+		<LineStyle id="lU-GLEBALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pU-GLEBAPolyStyle">
+			<color>7fffff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="U-GLEBA0">
+		<LineStyle id="lU-GLEBALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pU-GLEBAPolyStyle">
+			<color>7fffff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="U-GLEBA1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#U-GLEBA</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#U-GLEBA0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>U-GLEBA</name>
+		<Placemark>
+			<name>84AE1</name>
+			<styleUrl>#U-GLEBA1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-48.09497813680972,-23.6253192676838,0 -48.09381707001355,-23.62547570858843,0 -48.08979506595773,-23.62468508364296,0 -48.08910958493255,-23.62427807742779,0 -48.08623710273633,-23.62645747101844,0 -48.0862114679355,-23.62658141142748,0 -48.08718909991417,-23.62675321311007,0 -48.08715696901056,-23.62683671501054,0 -48.08742178360788,-23.62694862731376,0 -48.08821340852207,-23.62783466092428,0 -48.08796840776032,-23.62811788971539,0 -48.08790510833627,-23.62819094199736,0 -48.08787935394411,-23.6282749983945,0 -48.08772134194591,-23.62879774028205,0 -48.0871041348412,-23.62955504748664,0 -48.08708452311708,-23.62958204030719,0 -48.08668810635585,-23.63014076827433,0 -48.08712066593439,-23.63035007274923,0 -48.08769876833849,-23.63058032067843,0 -48.08797310659323,-23.63070386279094,0 -48.08831528761366,-23.63085711932745,0 -48.08857637758604,-23.63097419729854,0 -48.08896538231483,-23.63114684902963,0 -48.0892285321636,-23.63125648741672,0 -48.0896725848837,-23.63143989483763,0 -48.08996730903827,-23.6315614059094,0 -48.09011070569835,-23.63159921530577,0 -48.09063063516948,-23.63169073321784,0 -48.09110455538918,-23.63191595229614,0 -48.09145719214171,-23.63207905125903,0 -48.09150821366979,-23.63210590609076,0 -48.09167410988974,-23.63218493646443,0 -48.09197066129825,-23.6323252443938,0 -48.09211008553391,-23.63251449876579,0 -48.09246448073196,-23.6330029980004,0 -48.09249744093565,-23.63304955035239,0 -48.09294612703422,-23.63369373545668,0 -48.09295710285028,-23.63370068716446,0 -48.09297666481619,-23.63370340420238,0 -48.0939165839046,-23.63353223581414,0 -48.09485989212399,-23.63335462675561,0 -48.09488417443889,-23.63333783710392,0 -48.09508302361089,-23.63274348143973,0 -48.095399254514,-23.63181887538916,0 -48.0954723501015,-23.63159632062602,0 -48.09568352678897,-23.63096741592507,0 -48.09598775114382,-23.63006789984425,0 -48.09621900145459,-23.62938049220549,0 -48.09653944471005,-23.62841967433633,0 -48.09653880413575,-23.62837772183196,0 -48.09653157882888,-23.62834142341107,0 -48.09649564954281,-23.62829938698343,0 -48.09620807628173,-23.62809317731656,0 -48.09582901146923,-23.62782606567505,0 -48.09547047462716,-23.62757596916353,0 -48.09544197932869,-23.62754926980529,0 -48.09525424336772,-23.62711322199847,0 -48.09518879979775,-23.62690937246751,0 -48.09518730258719,-23.62690146143053,0 -48.09523353795266,-23.62678599627297,0 -48.09523894162007,-23.62674988523483,0 -48.09531123617277,-23.62596400868554,0 -48.09531822649802,-23.62588260555455,0 -48.09530507484565,-23.62579920709352,0 -48.09526457684973,-23.62568553033043,0 -48.09524807394752,-23.62564720136675,0 -48.09519981730915,-23.62557370549845,0 -48.09514957835674,-23.62550632700308,0 -48.09502806587362,-23.62537259051789,0 -48.09497813680972,-23.6253192676838,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>ITAPETININGA - CIDADE JARDIM II</name>
+		<Camera>
+			<longitude>-48.08574782399003</longitude>
+			<latitude>-23.63583505271293</latitude>
+			<altitude>2827.498094074288</altitude>
+			<heading>-2.024012119518025</heading>
+			<tilt>17.94385481112103</tilt>
+			<roll>1.460829708605954</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-48.09152216212311,-23.62916843662276,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

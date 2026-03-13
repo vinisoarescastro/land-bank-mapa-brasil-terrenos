@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BURITI GARDEN PRIME III - VARZEA GRANDE</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="LINHAS_1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#LINHAS_11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#LINHAS_10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="LINHAS_10">
+		<LineStyle id="lLINHAS_1LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pLINHAS_1PolyStyle">
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="LINHAS_11">
+		<LineStyle id="lLINHAS_1LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pLINHAS_1PolyStyle">
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>LINHAS</name>
+		<open>1</open>
+		<Placemark>
+			<name>100015CB1</name>
+			<styleUrl>#LINHAS_1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-56.14948178611943,-15.61845205798834,0 -56.15053282857116,-15.61451188344404,0 -56.14786423792386,-15.61364358395695,0 -56.14751575478436,-15.61458557587942,0 -56.14658763286243,-15.61532857194275,0 -56.14275715642283,-15.61407860751777,0 -56.14271281044422,-15.61423574530072,0 -56.14265379906566,-15.61446464483964,0 -56.14259983252106,-15.61467416106315,0 -56.14254563578147,-15.61488398016392,0 -56.14249675487316,-15.6150742181407,0 -56.14242583570648,-15.61534884952779,0 -56.14237640036755,-15.61553970764762,0 -56.1423574662673,-15.61561617238537,0 -56.14229166483732,-15.61608171557148,0 -56.14948178611943,-15.61845205798834,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>VARZEA GRANDE -  GARDEM PRIME III - HONORATO</name>
+		<LookAt>
+			<longitude>-56.14507278153345</longitude>
+			<latitude>-15.61660819456966</latitude>
+			<altitude>0</altitude>
+			<heading>2.023939384034664</heading>
+			<tilt>8.275228270459388</tilt>
+			<range>1462.908767059081</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-56.14745586096642,-15.61625105354611,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

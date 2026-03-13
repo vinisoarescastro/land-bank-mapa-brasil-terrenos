@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CACHOEIRA DO SUL - JARDIM AMÉRICA</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="POLY LOTES_5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#POLY LOTES_51</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#POLY LOTES_50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="POLY LOTES_50">
+		<LineStyle id="lPOLY LOTES_5LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPOLY LOTES_5PolyStyle">
+			<color>7fff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="POLY LOTES_51">
+		<LineStyle id="lPOLY LOTES_5LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPOLY LOTES_5PolyStyle">
+			<color>7fff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>POLY LOTES</name>
+		<Placemark>
+			<name>9D783E1</name>
+			<styleUrl>#POLY LOTES_5</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-52.88495694045381,-30.02788111035838,0 -52.8846868970793,-30.02781905539219,0 -52.88445752171669,-30.02779989480942,0 -52.88404391201865,-30.02771865722072,0 -52.88395086748461,-30.02770639360126,0 -52.88383204169287,-30.02753903798761,0 -52.88346953516882,-30.02686905103046,0 -52.88333418294135,-30.02661549209301,0 -52.88325102252956,-30.02656362296173,0 -52.88266185705567,-30.02623153489694,0 -52.88110354537163,-30.02568586840708,0 -52.88072617710025,-30.02570822614647,0 -52.88065983789775,-30.02599867678227,0 -52.880315205897,-30.02588587392043,0 -52.88001329485518,-30.02616472382219,0 -52.87970226799684,-30.0266166576188,0 -52.8790624934289,-30.02738465939782,0 -52.87897466711067,-30.02749149104031,0 -52.87883754184679,-30.02745239009153,0 -52.87858245979906,-30.02740833343255,0 -52.87846781318081,-30.02738554786163,0 -52.87830114161345,-30.02736481332403,0 -52.87815468513987,-30.02734549236989,0 -52.87789685523322,-30.02728151695752,0 -52.8776515158562,-30.02720134535846,0 -52.87743917394675,-30.02708762791418,0 -52.87729536574379,-30.02700041793473,0 -52.87717042872686,-30.02691679403981,0 -52.87699044119633,-30.02676368266846,0 -52.87581497940182,-30.02561435901064,0 -52.87522262517665,-30.02501495605408,0 -52.87500772498629,-30.02483445036861,0 -52.87479791461661,-30.02467678555859,0 -52.87456987115076,-30.02452049111925,0 -52.87443790239351,-30.02444887125252,0 -52.87422704314045,-30.02435818484408,0 -52.8736275628636,-30.02412794468905,0 -52.87336175472923,-30.02406397289219,0 -52.87308497371454,-30.02400421367598,0 -52.8727835072534,-30.0239478998217,0 -52.8725210027023,-30.02390428888237,0 -52.87244115411315,-30.02376760469235,0 -52.87249724394172,-30.02370356999474,0 -52.87420616702074,-30.02194352419697,0 -52.87548399714066,-30.0206463143666,0 -52.8755831872712,-30.02054265218019,0 -52.87398622201007,-30.01863162012389,0 -52.87412592842547,-30.01854358567014,0 -52.8749952690643,-30.01804165630917,0 -52.87518372583443,-30.01793277047297,0 -52.87582117693779,-30.01874090054692,0 -52.87744495573517,-30.01748742392655,0 -52.8776315404501,-30.01734338656973,0 -52.87803873400463,-30.01702745647956,0 -52.87827319723483,-30.01702195854074,0 -52.87885527055075,-30.01756047038897,0 -52.88030655463383,-30.01910044009715,0 -52.88043229875119,-30.02030076162496,0 -52.88124435593642,-30.02132482760286,0 -52.88149710307728,-30.02184882100256,0 -52.88210456398781,-30.02234578326883,0 -52.88216068592536,-30.02324890874059,0 -52.88400142248602,-30.02106715452464,0 -52.88444966856261,-30.02080063528429,0 -52.88614384646965,-30.01982035324199,0 -52.8872877705134,-30.02150108926124,0 -52.88757839004285,-30.02190209381734,0 -52.88641878672543,-30.02202040714247,0 -52.88639533786924,-30.02214019627896,0 -52.88626680031208,-30.0221144765523,0 -52.8860532652206,-30.02215389742382,0 -52.88598045937779,-30.02225229896836,0 -52.8858311590019,-30.02232568089705,0 -52.88600893132173,-30.02262419956699,0 -52.88565757381416,-30.02273149002097,0 -52.88556028890922,-30.02287927422778,0 -52.88562054144606,-30.02303008997487,0 -52.88515084246129,-30.02317302538417,0 -52.88574938811434,-30.0246575169836,0 -52.88572011304896,-30.02466650767704,0 -52.88599317159422,-30.02534358239745,0 -52.88518125083617,-30.02579315482656,0 -52.88613683344525,-30.02702775604117,0 -52.88634103295666,-30.02690817970772,0 -52.88665879074385,-30.02732005719615,0 -52.88710572490438,-30.02801653149008,0 -52.88729197093561,-30.02849206515609,0 -52.88689819413497,-30.02865234510579,0 -52.88664426807428,-30.02858366895698,0 -52.88642087397591,-30.02860445588345,0 -52.88624431926175,-30.02867996102201,0 -52.88607465619382,-30.0285549006796,0 -52.88602560080633,-30.02823926171962,0 -52.88596438841068,-30.02811725823294,0 -52.88495694045381,-30.02788111035838,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>CACHOEIRA DO SUL - JARDIM AMÉRICA</name>
+		<Camera>
+			<longitude>-52.87844724001749</longitude>
+			<latitude>-30.02539898530129</latitude>
+			<altitude>2452.94301463007</altitude>
+			<heading>-7.947555947870345</heading>
+			<tilt>0.01128446631307058</tilt>
+			<roll>-3.426658824860234</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-52.87923471015219,-30.02320494886296,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

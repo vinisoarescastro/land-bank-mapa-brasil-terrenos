@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CIDADE JARDIM 12 - PARAUAPEBAS </name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="00">
+		<LineStyle id="l0LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="01">
+		<LineStyle id="l0LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>0</name>
+		<open>1</open>
+		<Placemark>
+			<name>1FE2</name>
+			<styleUrl>#0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-49.84789360395642,-6.06442855840157,0 -49.84825208749933,-6.064402671029879,0 -49.84818582864063,-6.06349692805696,0 -49.84832786743234,-6.06304403714003,0 -49.84608797735802,-6.06257761098137,0 -49.84158180495469,-6.06163923348872,0 -49.84126487802467,-6.0637324124274,0 -49.84134384480893,-6.06481205981336,0 -49.84134445949995,-6.06482108327849,0 -49.84134498401995,-6.064830112445609,0 -49.84134541831642,-6.06483914641178,0 -49.84134576234594,-6.06484818427362,0 -49.84134601607414,-6.064857225127349,0 -49.84134617947561,-6.064866268068889,0 -49.841346252534,-6.06487531219395,0 -49.84134623524203,-6.06488435659815,0 -49.84134612760138,-6.06489340037702,0 -49.84134592962285,-6.06490244262621,0 -49.84134564132624,-6.064911482441489,0 -49.8413452627403,-6.064920518918889,0 -49.84134479390298,-6.06492955115477,0 -49.84134423486112,-6.06493857824591,0 -49.84134358567057,-6.064947599289621,0 -49.84134284639633,-6.06495661338378,0 -49.84134201711229,-6.06496561962699,0 -49.84134109790134,-6.06497461711867,0 -49.84134008885544,-6.06498360495902,0 -49.84133899007546,-6.06499258224931,0 -49.84133897081762,-6.06499273322743,0 -49.84078959010454,-6.069296836811201,0 -49.84569649724362,-6.07170384841517,0 -49.846779697539,-6.068066891909449,0 -49.84695492429056,-6.06747854363222,0 -49.84728836488567,-6.066358965354899,0 -49.84785210047761,-6.064560934147181,0 -49.84789360395642,-6.06442855840157,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>PA-PARAUAPEBAS-CJ12</name>
+			<LookAt>
+				<longitude>-49.82252240231351</longitude>
+				<latitude>-6.058173443932999</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003949281959793261</heading>
+				<tilt>2.473247113574732</tilt>
+				<range>8748.004085607838</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-blank</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-49.8439259814397,-6.066553826213621,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

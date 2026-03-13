@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>A DEFINIR - OURILÂNDIA DO NORTE.kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="Perimetro">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Perimetro1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Perimetro0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="Perimetro0">
+		<LineStyle id="lPerimetroLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPerimetroPolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Perimetro1">
+		<LineStyle id="lPerimetroLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPerimetroPolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Perimetro</name>
+		<open>1</open>
+		<Placemark>
+			<name>DDB84</name>
+			<styleUrl>#Perimetro</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-51.09438511278428,-6.77244300428595,0 -51.10272436550186,-6.77245241450989,0 -51.10271955922771,-6.77199287021299,0 -51.10268203179086,-6.765508836331411,0 -51.10332293885573,-6.765343912320861,0 -51.10329106554448,-6.753417432950081,0 -51.1033016268528,-6.75329718272857,0 -51.10102174790359,-6.75396032809881,0 -51.1010516675843,-6.756527487600169,0 -51.10106599166018,-6.75769070435689,0 -51.10108219747631,-6.75885979085926,0 -51.09851279984753,-6.759486711293961,0 -51.09654406953409,-6.7598691343176,0 -51.09654472312139,-6.75995571916603,0 -51.09435509148264,-6.76013888372442,0 -51.09435367966661,-6.761737582989511,0 -51.09437224135835,-6.76802408087399,0 -51.09438048279192,-6.771983459979549,0 -51.09438511278428,-6.77244300428595,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>OURILÂNIDA DO NORTE - A DEFINIR</name>
+		<LookAt>
+			<longitude>-51.09720234781859</longitude>
+			<latitude>-6.76385794745423</latitude>
+			<altitude>0</altitude>
+			<heading>-3.850557834010034</heading>
+			<tilt>26.50418235524448</tilt>
+			<range>5734.76449070354</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.09880954136859,-6.764523564686605,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

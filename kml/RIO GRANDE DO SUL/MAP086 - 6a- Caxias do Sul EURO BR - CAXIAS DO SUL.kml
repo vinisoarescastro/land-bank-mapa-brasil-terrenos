@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>6a- Caxias do Sul EURO BR - CAXIAS DO SUL.kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="yellowLineGreenPoly">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="yellowLineGreenPoly0">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="yellowLineGreenPoly1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#yellowLineGreenPoly</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>EURO BRASIL - TRAV. ALIANCA</name>
+		<description>Desenho exportado em 7/11/2018 às 13:28
+ via Métrica Topo 2017</description>
+		<styleUrl>#yellowLineGreenPoly1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-51.25301782166667,-29.16052979611111,0 -51.25311500111111,-29.15856644888889,0 -51.25115173805555,-29.15851955361111,0 -51.25119817111111,-29.15722898055555,0 -51.25117601944444,-29.152864185,0 -51.25116954916667,-29.15190239416667,0 -51.25274822333333,-29.15191457055555,0 -51.25309499194445,-29.15168472333333,0 -51.25352086555555,-29.15137183222222,0 -51.25411450638889,-29.15084555333333,0 -51.25472254111111,-29.14986132027778,0 -51.25478234333333,-29.14926892694444,0 -51.26755454444444,-29.14935942444444,0 -51.26740529833334,-29.15224684083333,0 -51.26727240194445,-29.15463763666667,0 -51.26132083166667,-29.15460262694445,0 -51.26130363888889,-29.15717284944444,0 -51.2562433936111,-29.15715804111111,0 -51.25625843194444,-29.15849427916667,0 -51.258672495,-29.15847240111111,0 -51.25874593777777,-29.15993981083333,0 -51.25692237194444,-29.15992234555556,0 -51.25693395694444,-29.16058547722222,0 -51.25301782166667,-29.16052979611111,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+			<styleUrl>#yellowLineGreenPoly</styleUrl>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>CAXIAS DO SUL - EuroBrasil</name>
+		<LookAt>
+			<longitude>-51.2582982362512</longitude>
+			<latitude>-29.15562722619931</latitude>
+			<altitude>0</altitude>
+			<heading>1.670918143482421</heading>
+			<tilt>18.33768186514266</tilt>
+			<range>2579.112225602634</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.25841149010192,-29.15362722387847,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

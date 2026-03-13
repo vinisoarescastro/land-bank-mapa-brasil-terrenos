@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PRESIDENTE PRUDENTE - JARDIM NOVA AMERICA I E II</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="U-GLEBA">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#U-GLEBA1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#U-GLEBA0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="U-GLEBA0">
+		<LineStyle id="lU-GLEBALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pU-GLEBAPolyStyle">
+			<color>7fffff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="U-GLEBA1">
+		<LineStyle id="lU-GLEBALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pU-GLEBAPolyStyle">
+			<color>7fffff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>U-GLEBA</name>
+		<Placemark>
+			<name>E11F2</name>
+			<styleUrl>#U-GLEBA</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-51.37109006554472,-22.06701811973081,0 -51.37116792501243,-22.06698873778188,0 -51.37127531039051,-22.06695204660554,0 -51.37152370555956,-22.06686698872513,0 -51.3717656246045,-22.06678029736065,0 -51.37255181626916,-22.06651041574973,0 -51.37271486570342,-22.06645358045104,0 -51.3730212252968,-22.06635152746361,0 -51.37311491069436,-22.06633072857627,0 -51.37443447323335,-22.065858559032,0 -51.37469676313987,-22.06576847376971,0 -51.37493027672544,-22.06569396991001,0 -51.37495242758396,-22.06571756180166,0 -51.37517907510793,-22.06583172571026,0 -51.37534634639034,-22.06592593626433,0 -51.3760156413827,-22.06627144713142,0 -51.37613351274041,-22.06632495768342,0 -51.37634422359202,-22.06642189531038,0 -51.37636680567534,-22.06644642865012,0 -51.3763757283336,-22.06645688417759,0 -51.37599643559957,-22.06658521673866,0 -51.37576306186407,-22.06666480744746,0 -51.37548736912994,-22.06674886305553,0 -51.37480168995008,-22.06698712117711,0 -51.37455355970737,-22.06707052282855,0 -51.37429698544907,-22.0671559779187,0 -51.37369075717927,-22.06736224107056,0 -51.37344038693406,-22.06744948938569,0 -51.3732318785393,-22.06752249158032,0 -51.37265670811165,-22.06771655826599,0 -51.37243559806489,-22.06779097739766,0 -51.37221083762569,-22.06786962505975,0 -51.37153650537093,-22.06810153103204,0 -51.37148298223799,-22.06811909569374,0 -51.37146564814648,-22.06803811979442,0 -51.37143250663313,-22.06796404479765,0 -51.37135206335767,-22.06776266347549,0 -51.37128580426199,-22.06759309103283,0 -51.37119672476117,-22.06735425869707,0 -51.37113336097536,-22.06717832410781,0 -51.37109006554472,-22.06701811973081,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>E11F1</name>
+			<styleUrl>#U-GLEBA</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-51.36763600453691,-22.06816750899924,0 -51.36753806379512,-22.06793342334709,0 -51.36743764270435,-22.06768363113747,0 -51.36731758224108,-22.06738155606936,0 -51.36722516487792,-22.06715725155017,0 -51.36699678272393,-22.06659863505114,0 -51.36694942102598,-22.06648628803784,0 -51.36704754540847,-22.0664522650031,0 -51.36727759911524,-22.06636784650074,0 -51.36741084558238,-22.06632216347443,0 -51.36769548284251,-22.06622223369863,0 -51.36837927577258,-22.06597804325771,0 -51.36890157422343,-22.06579476250077,0 -51.36914788309265,-22.06570980591001,0 -51.36996358471769,-22.06541621395754,0 -51.37018397629947,-22.06533673403873,0 -51.37038081995659,-22.06527898261537,0 -51.37077314917814,-22.06512930794317,0 -51.3709765498162,-22.06505186811769,0 -51.37103642091916,-22.06503052354599,0 -51.37109831994657,-22.06535807924612,0 -51.37114359644804,-22.06563371621925,0 -51.3711419206235,-22.06612180193152,0 -51.37099969283128,-22.06645891851851,0 -51.37089134214735,-22.06678117368273,0 -51.37086937599612,-22.06690453562915,0 -51.37086492691264,-22.06703064918736,0 -51.3708846359581,-22.0670889749759,0 -51.37096450131553,-22.06726908624478,0 -51.37114495806269,-22.0676875849513,0 -51.371234768264,-22.06789584988796,0 -51.37132009724283,-22.06810922859397,0 -51.37134900604731,-22.06817897406005,0 -51.37139065187939,-22.06827170865729,0 -51.37139139185646,-22.06852398297421,0 -51.37137840178831,-22.06863622042196,0 -51.37134153977527,-22.06877745436817,0 -51.37131951363407,-22.06886214053733,0 -51.37127784345634,-22.06893821418129,0 -51.37100827506026,-22.06925535047806,0 -51.37084251114358,-22.06938721204987,0 -51.37058968922646,-22.06957999925135,0 -51.37036071794778,-22.06976806478458,0 -51.37010480492896,-22.0699718536577,0 -51.36995454583821,-22.07009043477182,0 -51.36976535493822,-22.07029192094844,0 -51.3697453104208,-22.07030502344538,0 -51.36968029507938,-22.07033702361837,0 -51.36943773663774,-22.07043350879777,0 -51.36906463974265,-22.07055357586579,0 -51.36877388643823,-22.07065285411966,0 -51.36855221481003,-22.07072451363418,0 -51.36840931170884,-22.07035181900496,0 -51.36832670128314,-22.0701252683243,0 -51.36817809193906,-22.06973865728407,0 -51.36809273149824,-22.06951979578001,0 -51.3680216358895,-22.06934204590953,0 -51.36806587971171,-22.06933348903246,0 -51.36800212768649,-22.06914362304903,0 -51.36794769122491,-22.06900018580741,0 -51.36772502658502,-22.068404734166,0 -51.36763600453691,-22.06816750899924,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>PRES.  PRUDENTE - JARDIM NOVA AMERICA I E II</name>
+		<LookAt>
+			<longitude>-51.3706017575526</longitude>
+			<latitude>-22.06757907016199</latitude>
+			<altitude>0</altitude>
+			<heading>0.5005896222291527</heading>
+			<tilt>0</tilt>
+			<range>1301.174381895645</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.37007942509141,-22.06749439666593,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>PRES.  PRUDENTE - JARDIM NOVA AMERICA I E II</name>
+		<LookAt>
+			<longitude>-51.37047999045453</longitude>
+			<latitude>-22.06707636872894</latitude>
+			<altitude>0</altitude>
+			<heading>0.5005438747745791</heading>
+			<tilt>0</tilt>
+			<range>1905.4712037693</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.37346032383996,-22.06682720638303,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

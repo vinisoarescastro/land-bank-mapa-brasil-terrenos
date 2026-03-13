@@ -1,0 +1,2591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>A DEFINIR - XEREM .kml</name>
+	<open>1</open>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="yellowLineGreenPoly">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="yellowLineGreenPoly0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#yellowLineGreenPoly1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#yellowLineGreenPoly</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="yellowLineGreenPoly1">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f000000</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Poligono 0</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2872561591513,-22.6269712242329,0 -43.2872542227419,-22.6269720976241,0 -43.2872522693124,-22.6269729377171,0 -43.2872502995268,-22.6269737442261,0 -43.2872483140553,-22.6269745168767,0 -43.2872463135731,-22.6269752554064,0 -43.2872442987604,-22.6269759595637,0 -43.2872422703026,-22.6269766291095,0 -43.2872402288894,-22.6269772638157,0 -43.2872381752152,-22.6269778634668,0 -43.2872361099784,-22.6269784278585,0 -43.2872340338813,-22.6269789567992,0 -43.2872319476302,-22.6269794501088,0 -43.2872298519344,-22.6269799076196,0 -43.2872277475066,-22.626980329176,0 -43.2872256350627,-22.6269807146345,0 -43.2872235153211,-22.6269810638643,0 -43.2872213890026,-22.6269813767464,0 -43.2872192568304,-22.6269816531744,0 -43.2872171195296,-22.6269818930544,0 -43.2872149778272,-22.6269820963047,0 -43.2872128324515,-22.6269822628562,0 -43.2872106841321,-22.6269823926522,0 -43.2872085335997,-22.6269824856489,0 -43.2872063815856,-22.6269825418142,0 -43.2872042288218,-22.6269825611293,0 -43.2872020760404,-22.6269825435875,0 -43.2871999239735,-22.6269824891948,0 -43.2871977733531,-22.6269823979698,0 -43.2871956249105,-22.6269822699433,0 -43.2871934793764,-22.6269821051591,0 -43.2871913374806,-22.626981903673,0 -43.2871891999515,-22.6269816655537,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 1</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2872562055464,-22.6269712803967,0 -43.2872576570242,-22.6269706257872,0 -43.287259121257,-22.6269699961337,0 -43.2872605977471,-22.6269693916505,0 -43.2872620859923,-22.6269688125429,0 -43.2872635854867,-22.6269682590081,0 -43.2872650957205,-22.6269677312341,0 -43.2872666161802,-22.6269672294003,0 -43.2872681463487,-22.6269667536775,0 -43.287269685706,-22.6269663042273,0 -43.2872712337285,-22.6269658812026,0 -43.2872727898899,-22.6269654847472,0 -43.2872743536611,-22.626965114996,0 -43.2872759245105,-22.6269647720745,0 -43.2872775019038,-22.6269644560995,0 -43.287279085305,-22.6269641671783,0 -43.2872806741754,-22.6269639054092,0 -43.287282267975,-22.6269636708812,0 -43.2872838661619,-22.6269634636739,0 -43.2872854681925,-22.626963283858,0 -43.2872870735223,-22.6269631314945,0 -43.2872886816055,-22.6269630066353,0 -43.2872902918952,-22.6269629093226,0 -43.287291903844,-22.6269628395898,0 -43.2872935169037,-22.6269627974604,0 -43.287295130526,-22.6269627829488,0 -43.2872967441623,-22.6269627960599,0 -43.2872983572638,-22.6269628367894,0 -43.2872999692821,-22.6269629051231,0 -43.2873015796691,-22.6269630010382,0 -43.2873031878773,-22.6269631245017,0 -43.2873047933599,-22.6269632754719,0 -43.287306395571,-22.6269634538974,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 2</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2890882253139,-22.6284704482783,0 -43.2881815908291,-22.6299343216036,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 3</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2881874027487,-22.6295621564553,0 -43.2879692087184,-22.6299144530098,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 4</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2880188940511,-22.6294722183886,0 -43.287800699766,-22.62982451469979,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 5</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2877093652647,-22.6295041275922,0 -43.287617817893,-22.6296519394243,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 6</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2881813362001,-22.6299339650002,0 -43.2881791045816,-22.6299373718498,0 -43.2881766955748,-22.6299406729455,0 -43.2881741149831,-22.6299438603342,0 -43.2881713690234,-22.6299469263376,0 -43.2881684643109,-22.629949863569,0 -43.2881654078435,-22.6299526649526,0 -43.2881622069845,-22.6299553237396,0 -43.2881588694449,-22.6299578335245,0 -43.2881554032654,-22.6299601882611,0 -43.2881518167962,-22.6299623822766,0 -43.2881481186775,-22.6299644102855,0 -43.2881443178186,-22.6299662674019,0 -43.2881404233759,-22.6299679491519,0 -43.2881364447317,-22.6299694514841,0 -43.2881323914708,-22.6299707707791,0 -43.288128273358,-22.6299719038587,0 -43.2881241003142,-22.629972847993,0 -43.2881198823928,-22.6299736009079,0 -43.288115629755,-22.629974160789,0 -43.2881113526461,-22.629974526288,0 -43.2881070613698,-22.629974696524,0 -43.2881027662645,-22.6299746710871,0 -43.2880984776773,-22.6299744500385,0 -43.28809420594,-22.6299740339107,0 -43.2880899613435,-22.6299734237063,0 -43.2880857541137,-22.6299726208952,0 -43.288081594386,-22.6299716274116,0 -43.2880774921817,-22.6299704456489,0 -43.2880734573835,-22.629969078454,0 -43.2880694997115,-22.6299675291205,0 -43.2880656287002,-22.6299658013813,0 -43.2880618536752,-22.6299638993982,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 7</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2880620319378,-22.6299639954392,0 -43.2876743176565,-22.6297570605685,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 8</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2876055817172,-22.6298764780859,0 -43.2882339220889,-22.6302118417452,0 -43.2879869901952,-22.6306105364425,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 9</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.288065412232,-22.6301219034898,0 -43.28781848005,-22.6305205979116,0 -43.2862929745185,-22.6297063803409,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 10</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2862928787749,-22.629706210364,0 -43.2862893527922,-22.629658395209,0 -43.2862864041754,-22.6296105463793,0 -43.2862840332942,-22.6295626698825,0 -43.2862822404456,-22.6295147717298,0 -43.2862810258542,-22.6294668579351,0 -43.2862803896717,-22.6294189345143,0 -43.2862803319775,-22.6293710074843,0 -43.2862808527782,-22.6293230828628,0 -43.2862819520078,-22.6292751666667,0 -43.2862836295279,-22.6292272649123,0 -43.2862858851269,-22.6291793836137,0 -43.2862887185213,-22.6291315287828,0 -43.2862921293547,-22.629083706428,0 -43.2862961171981,-22.6290359225534,0 -43.2863006815504,-22.6289881831587,0 -43.2863058218378,-22.6289404942376,0 -43.2863115374145,-22.6288928617778,0 -43.2863178275621,-22.6288452917596,0 -43.2863246914903,-22.6287977901556,0 -43.2863321283368,-22.6287503629299,0 -43.2863401371673,-22.628703016037,0 -43.2863487169756,-22.6286557554216,0 -43.286357866684,-22.6286085870173,0 -43.286367585143,-22.6285615167463,0 -43.286377871132,-22.6285145505185,0 -43.286388723359,-22.6284676942305,0 -43.2864001404607,-22.6284209537654,0 -43.2864121210033,-22.6283743349913,0 -43.286424663482,-22.6283278437616,0 -43.2864377663215,-22.6282814859132,0 -43.2864514278761,-22.6282352672665,0 -43.2864656464302,-22.6281891936244,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 11</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2864659826861,-22.6281891672014,0 -43.2868311876084,-22.6270311874085,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 12</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2868307850817,-22.6270310228017,0 -43.2868323434394,-22.6270264551004,0 -43.2868341177462,-22.6270219558033,0 -43.2868361045343,-22.6270175337043,0 -43.2868382999205,-22.6270131974461,0 -43.2868406996141,-22.6270089555037,0 -43.2868432989249,-22.6270048161678,0 -43.2868460927727,-22.6270007875288,0 -43.2868490756968,-22.6269968774602,0 -43.2868522418675,-22.6269930936043,0 -43.2868555850963,-22.6269894433563,0 -43.2868590988492,-22.6269859338507,0 -43.2868627762587,-22.6269825719467,0 -43.2868666101373,-22.6269793642147,0 -43.286870592992,-22.6269763169244,0 -43.2868747170382,-22.6269734360314,0 -43.2868789742159,-22.6269707271664,0 -43.2868833562044,-22.6269681956238,0 -43.2868878544394,-22.6269658463513,0 -43.2868924601293,-22.6269636839406,0 -43.2868971642723,-22.6269617126179,0 -43.2869019576745,-22.62695993623599,0 -43.2869068309673,-22.6269583582671,0 -43.286911774626,-22.6269569817949,0 -43.2869167789886,-22.6269558095099,0 -43.2869218342741,-22.6269548437032,0 -43.2869269306022,-22.6269540862624,0 -43.2869320580123,-22.626953538668,0 -43.2869372064832,-22.6269532019902,0 -43.2869423659524,-22.626953076887,0 -43.2869475263358,-22.6269531636028,0 -43.2869526775477,-22.6269534619684,0 -43.2869578095204,-22.6269539714004,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 13</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.286958132377,-22.6269543052135,0 -43.2871893863369,-22.6269820449505,0 -43.2872013778613,-22.6268967231875,0 -43.2870548845457,-22.6268793864812,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 14</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2895179656273,-22.6285013742134,0 -43.2890331457781,-22.6292841855778,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 15</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2896864746379,-22.6285913108954,0 -43.289201655355,-22.6293741228007,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 16</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2898553408731,-22.6286814379484,0 -43.2893705221577,-22.6294642503955,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 17</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2900238503399,-22.6287713743008,0 -43.289539032191,-22.6295541872887,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 18</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2902653775822,-22.6287441782879,0 -43.2901927170324,-22.6288615010236,0 -43.289707899451,-22.6296443145533,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 19</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2896350325216,-22.629761968606,0 -43.289150208311,-22.6305447800775,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 20</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2903612269555,-22.6289514370466,0 -43.2898764099406,-22.6297342511171,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 21</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2905297371066,-22.629041372905,0 -43.290044920658,-22.6298241875162,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 22</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2906986044847,-22.6291314991326,0 -43.2902137886038,-22.6299143142857,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 23</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2908799798906,-22.6302698654517,0 -43.2910570603945,-22.6303643738602,0 -43.2905428893286,-22.6311945833997,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 24</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2889602786533,-22.6294018390703,0 -43.2884754520295,-22.6301846486111,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 25</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2884027891721,-22.6303019703748,0 -43.2881558575676,-22.6307006653481,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 26</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.287896545606,-22.6300317745299,0 -43.287649613135,-22.6304304686757,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 27</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2891287883153,-22.62949177637431,0 -43.2886439622579,-22.630274586456,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 28</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2892976552033,-22.6295819040506,0 -43.2888128297135,-22.6303647146743,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 29</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2894661653217,-22.6296718410251,0 -43.2889813403982,-22.6304546521894,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 30</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2898035432417,-22.6298519050162,0 -43.2893187194522,-22.6306347172633,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 31</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2899720540443,-22.6299418414966,0 -43.2894872308212,-22.6307246542845,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 32</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2901409220754,-22.6300319683475,0 -43.2896560994198,-22.6308147816773,0 -43.289656095583,-22.6308147878723,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 33</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2895834371571,-22.6309321040088,0 -43.2893365075736,-22.6313308009119,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 34</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2903094333343,-22.6301219044984,0 -43.2898246112452,-22.6309047183689,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 35</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2904783014595,-22.6302120308252,0 -43.2899934799381,-22.6309948452376,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 36</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2906468131748,-22.6303019666465,0 -43.2901619922198,-22.6310847815997,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 37</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2885712994854,-22.6303919083007,0 -43.2883243681692,-22.6307906035495,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 38</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.288740167026,-22.6304820366001,0 -43.2884932359989,-22.6308807321249,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 39</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2889086777956,-22.6305719741965,0 -43.288661747057,-22.6309706699967,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 40</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2890775457936,-22.6306621021657,0 -43.288830615344,-22.6310607982419,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 41</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2892460570195,-22.6307520394325,0 -43.2889991268584,-22.6311507357842,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 42</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2894145684734,-22.6308419765348,0 -43.2891676386008,-22.6312406731618,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 43</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2897519490674,-22.6310220407815,0 -43.2895050197724,-22.63142073796,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 44</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2899208178453,-22.6311121677313,0 -43.2896738888394,-22.6315108651859,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 45</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.290089330212,-22.6312021041745,0 -43.2898424014946,-22.6316008019046,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 46</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2902581998104,-22.631292230988,0 -43.2900112713821,-22.631690928994,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 47</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2904267126334,-22.6313821671016,0 -43.2901797844937,-22.6317808653831,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 48</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2905955826892,-22.6314722935848,0 -43.2903486548386,-22.6318709921424,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 49</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2907640959686,-22.6315622293688,0 -43.2905171684065,-22.6319609282017,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 50</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2877280365687,-22.6299418361388,0 -43.2874811038093,-22.6303405300092,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 51</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875501387425,-22.6298662892491,0 -43.2873122373516,-22.6302504004431,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 52</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2873040721636,-22.6298187401101,0 -43.2871051707169,-22.6301398817976,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 53</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2908749588225,-22.6314652944505,0 -43.2905754196438,-22.6313054299332,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 54</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2913848027917,-22.6305392901495,0 -43.2910570603945,-22.6303643738602,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 55</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2908142955949,-22.6304848381928,0 -43.2904165048826,-22.6311271314756,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 56</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2895695630536,-22.6283728097882,0 -43.2896914853994,-22.62817594651,0 -43.2911707557027,-22.6287066054765,0 -43.2916038138052,-22.628937730568,0 -43.2908474498742,-22.6301590191601,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 57</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2911186467416,-22.6294496048732,0 -43.2907210661736,-22.630091567517,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 58</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2906154007191,-22.6308059849922,0 -43.2885068721149,-22.6296806316515,0 -43.2883804897472,-22.6296131780627,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 59</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2904561972577,-22.6295229069439,0 -43.2890645633962,-22.6287801683166,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 60</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2914761000837,-22.630171742856,0 -43.290997697659,-22.629916418644,0 -43.2908713140901,-22.6298489671266,0 -43.2904075515258,-22.6296014534406,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 61</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2909684001451,-22.6296922048864,0 -43.290504637893,-22.6294446914983,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 62</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2907744330546,-22.630005397884,0 -43.2903106701788,-22.6297578839006,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 63</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2910652805155,-22.6295357743158,0 -43.2906015185749,-22.6292882612252,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 64</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2910865000325,-22.629338522718,0 -43.2910901700385,-22.6293405942599,0 -43.2910937261281,-22.6293428304769,0 -43.2910971597343,-22.6293452259815,0 -43.2911004625852,-22.6293477750026,0 -43.2911036267238,-22.6293504713997,0 -43.2911066445272,-22.6293533086765,0 -43.2911095087254,-22.6293562799978,0 -43.291112212418,-22.6293593782054,0 -43.2911147490916,-22.6293625958354,0 -43.2911171126351,-22.629365925136,0 -43.2911192973543,-22.6293693580867,0 -43.291121297986,-22.629372886417,0 -43.2911231097105,-22.6293765016268,0 -43.291124728163,-22.6293801950067,0 -43.2911261494447,-22.6293839576589,0 -43.2911273701312,-22.6293877805187,0 -43.291128387282,-22.6293916543765,0 -43.2911291984465,-22.6293955698996,0 -43.2911298016706,-22.6293995176551,0 -43.2911301955009,-22.6294034881324,0 -43.2911303789887,-22.6294074717661,0 -43.2911303516919,-22.6294114589593,0 -43.2911301136763,-22.6294154401062,0 -43.2911296655153,-22.629419405616,0 -43.2911290082884,-22.6294233459351,0 -43.2911281435791,-22.6294272515709,0 -43.2911270734704,-22.6294311131144,0 -43.2911258005405,-22.6294349212625,0 -43.2911243278558,-22.6294386668409,0 -43.2911226589643,-22.6294423408262,0 -43.2911207978866,-22.6294459343673,0 -43.2911187491061,-22.6294494388069,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 65</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2907211685391,-22.630091401451,0 -43.290718936978,-22.6300948083396,0 -43.2907165280261,-22.6300981094768,0 -43.2907139474868,-22.6301012969099,0 -43.290711201577,-22.63010436296,0 -43.2907082969118,-22.6301073002406,0 -43.2907052404887,-22.6301101016755,0 -43.290702039671,-22.6301127605159,0 -43.2906987021698,-22.6301152703563,0 -43.2906952360255,-22.6301176251503,0 -43.2906916495883,-22.6301198192248,0 -43.2906879514984,-22.6301218472942,0 -43.2906841506648,-22.6301237044726,0 -43.290680256244,-22.630125386286,0 -43.2906762776182,-22.6301268886827,0 -43.2906722243723,-22.6301282080431,0 -43.2906681062709,-22.6301293411888,0 -43.2906639332349,-22.6301302853901,0 -43.2906597153176,-22.6301310383722,0 -43.2906554626805,-22.6301315983213,0 -43.2906511855685,-22.630131963888,0 -43.2906468942856,-22.6301321341919,0 -43.29064259917,-22.6301321088227,0 -43.290638310569,-22.6301318878416,0 -43.2906340388144,-22.6301314717807,0 -43.2906297941971,-22.6301308616426,0 -43.290625586943,-22.630130058897,0 -43.2906214271877,-22.6301290654779,0 -43.2906173249524,-22.6301278837786,0 -43.29061329012,-22.6301265166458,0 -43.2906093324106,-22.630124967373,0 -43.2906054613589,-22.6301232396928,0 -43.2906016862906,-22.6301213377673,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 66</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2907817919511,-22.6303735654568,0 -43.2907854619687,-22.6303756370152,0 -43.2907890180688,-22.6303778732472,0 -43.2907924516841,-22.6303802687655,0 -43.290795754543,-22.6303828177991,0 -43.2907989186884,-22.630385514207,0 -43.2908019364976,-22.6303883514935,0 -43.2908048007005,-22.6303913228232,0 -43.2908075043968,-22.6303944210378,0 -43.2908100410731,-22.6303976386737,0 -43.2908124046184,-22.630400967979,0 -43.2908145893386,-22.6304044009332,0 -43.2908165899704,-22.6304079292659,0 -43.2908184016942,-22.6304115444773,0 -43.2908200201453,-22.6304152378577,0 -43.2908214414246,-22.6304190005095,0 -43.2908226621083,-22.6304228233681,0 -43.2908236792555,-22.6304266972239,0 -43.2908244904157,-22.6304306127444,0 -43.2908250936349,-22.6304345604967,0 -43.2908254874598,-22.6304385309703,0 -43.2908256709416,-22.6304425146,0 -43.2908256436383,-22.6304465017888,0 -43.2908254056155,-22.6304504829311,0 -43.2908249574468,-22.6304544484361,0 -43.2908243002117,-22.6304583887503,0 -43.2908234354937,-22.6304622943813,0 -43.2908223653759,-22.63046615592,0 -43.2908210924363,-22.6304699640634,0 -43.2908196197414,-22.6304737096376,0 -43.2908179508392,-22.6304773836189,0 -43.2908160897502,-22.6304809771565,0 -43.2908140409579,-22.630484481593,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 67</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2904162502456,-22.6311267748752,0 -43.2904140186587,-22.6311301817577,0 -43.29041160968,-22.6311334828884,0 -43.290409029113,-22.6311366703145,0 -43.2904062831746,-22.6311397363573,0 -43.2904033784798,-22.6311426736303,0 -43.2904003220266,-22.6311454750573,0 -43.2903971211781,-22.6311481338894,0 -43.2903937836455,-22.6311506437212,0 -43.2903903174692,-22.6311529985063,0 -43.2903867309996,-22.6311551925718,0 -43.2903830328769,-22.6311572206319,0 -43.2903792320102,-22.6311590778009,0 -43.2903753375562,-22.6311607596047,0 -43.290371358897,-22.6311622619915,0 -43.2903673056176,-22.631163581342,0 -43.2903631874827,-22.6311647144778,0 -43.2903590144134,-22.63116565866889,0 -43.2903547964631,-22.631166411641,0 -43.2903505437931,-22.6311669715797,0 -43.2903462666486,-22.6311673371362,0 -43.2903419753337,-22.6311675074299,0 -43.2903376801865,-22.6311674820507,0 -43.2903333915546,-22.6311672610593,0 -43.2903291197696,-22.6311668449885,0 -43.2903248751228,-22.6311662348406,0 -43.2903206678399,-22.6311654320852,0 -43.2903165080567,-22.6311644386565,0 -43.2903124057945,-22.6311632569478,0 -43.2903083709361,-22.6311618898058,0 -43.2903044132019,-22.6311603405241,0 -43.2903005421265,-22.6311586128353,0 -43.2902967670355,-22.6311567109012,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 68</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2905752411961,-22.631305333798,0 -43.290571571167,-22.6313032622351,0 -43.2905680150571,-22.6313010259988,0 -43.2905645814333,-22.6312986304763,0 -43.2905612785677,-22.6312960814388,0 -43.2905581144172,-22.6312933850272,0 -43.2905550966046,-22.6312905477374,0 -43.2905522324002,-22.6312875764048,0 -43.2905495287041,-22.6312844781876,0 -43.2905469920297,-22.6312812605498,0 -43.2905446284882,-22.6312779312432,0 -43.2905424437737,-22.6312744982881,0 -43.2905404431493,-22.6312709699551,0 -43.2905386314347,-22.6312673547444,0 -43.2905370129947,-22.6312636613653,0 -43.2905355917279,-22.6312598987157,0 -43.2905343710586,-22.63125607586,0 -43.2905333539274,-22.631252202008,0 -43.2905325427847,-22.6312482864923,0 -43.2905319395845,-22.6312443387457,0 -43.29053154578,-22.6312403682787,0 -43.29053136232,-22.6312363846567,0 -43.2905313896464,-22.6312323974768,0 -43.2905316276933,-22.6312284163442,0 -43.2905320758872,-22.6312244508502,0 -43.2905327331484,-22.6312205105478,0 -43.2905335978935,-22.6312166049298,0 -43.2905346680391,-22.6312127434052,0 -43.2905359410071,-22.6312089352768,0 -43.2905374137309,-22.631205189719,0 -43.2905390826624,-22.6312015157549,0 -43.2905409437811,-22.6311979222357,0 -43.2905429926031,-22.6311944178184,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 69</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2908798019887,-22.6302697696075,0 -43.2908761319721,-22.63026769805141,0 -43.2908725758733,-22.6302654618213,0 -43.2908691422591,-22.6302630663048,0 -43.2908658394016,-22.6302605172728,0 -43.2908626752574,-22.6302578208662,0 -43.2908596574495,-22.6302549835809,0 -43.290856793248,-22.6302520122523,0 -43.2908540895531,-22.6302489140385,0 -43.2908515528782,-22.6302456964035,0 -43.2908491893343,-22.6302423670987,0 -43.2908470046155,-22.630238934145,0 -43.2908450039851,-22.6302354058127,0 -43.2908431922625,-22.6302317906017,0 -43.2908415738126,-22.6302280972215,0 -43.2908401525343,-22.6302243345699,0 -43.2908389318515,-22.6302205117114,0 -43.2908379147049,-22.6302166378557,0 -43.2908371035451,-22.63021272233521,0 -43.2908365003261,-22.6302087745828,0 -43.2908361065011,-22.6302048041091,0 -43.2908359230188,-22.6302008204794,0 -43.2908359503213,-22.6301968332905,0 -43.2908361883428,-22.630192852148,0 -43.2908366365098,-22.63018888664291,0 -43.2908372937427,-22.6301849463283,0 -43.290838158458,-22.630181040697,0 -43.2908392285726,-22.630177179158,0 -43.2908405015085,-22.630173371014,0 -43.290841974199,-22.6301696254393,0 -43.2908436430963,-22.6301659514572,0 -43.2908455041798,-22.63016235791889,0 -43.2908475529659,-22.6301588534815,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 70</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2913274024587,-22.6307692671646,0 -43.2909357535122,-22.6305602439038,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 71</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.291279147876,-22.6309622333853,0 -43.2908339457981,-22.6307246287764,0 -43.2908339449426,-22.6307246283198,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 72</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2912334720487,-22.6311464336616,0 -43.290736858787,-22.6308813908618,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 73</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.291144966217,-22.6315018009514,0 -43.2916296500388,-22.6295556427896,0 -43.2913226164901,-22.6293917784728,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 74</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2908959684889,-22.6317481434439,0 -43.2907028192359,-22.6320600101237,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 75</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2911038740458,-22.6310772673684,0 -43.2908663903345,-22.631460721448,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 76</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2909267926271,-22.6309827589614,0 -43.2906893086242,-22.6313662127627,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 77</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2914302729143,-22.6303554212004,0 -43.2909008167084,-22.6300728494825,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 78</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2915221323613,-22.6299877330785,0 -43.2910947836289,-22.6297596563225,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 79</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2916296500388,-22.6295556427896,0 -43.2915724558791,-22.629785288561,0 -43.2912015161694,-22.6295873174078,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 80</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2914353029957,-22.6288477958024,0 -43.2911928983319,-22.6292392049003,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 81</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2912667924141,-22.6287578608722,0 -43.291024387467,-22.62914926969979,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 82</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.291082172937,-22.6286747618819,0 -43.2908469514872,-22.6290545708055,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 83</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2908804631083,-22.6286023844542,0 -43.2906616614266,-22.6289556797915,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 84</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.290664669336,-22.6285251364964,0 -43.2904635193468,-22.6288499291535,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 85</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2904258133031,-22.62843910707929,0 -43.2902439570072,-22.6287327458216,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 86</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2901504711603,-22.6283406591292,0 -43.2899911925389,-22.6285978414718,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 87</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2883562690341,-22.62965228509,0 -43.2879364244027,-22.6294282017984,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 88</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2884773730836,-22.6294567488952,0 -43.2881442823305,-22.6292789689352,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 89</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2885986822376,-22.6292608808416,0 -43.2883091470115,-22.6291063478649,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 90</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2887199908256,-22.62906501300751,0 -43.2884493773109,-22.6289205791944,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 91</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2888410940142,-22.6288694761236,0 -43.2885633404666,-22.6287212315684,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 92</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.288962401888,-22.6286736080544,0 -43.2886500186565,-22.6285068807597,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 93</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2890995138194,-22.6284345805471,0 -43.2887182285485,-22.6282310783868,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 94</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875130175662,-22.6273399891542,0 -43.287567481367,-22.6269951142787,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 95</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.287558702992,-22.6268345652417,0 -43.2876266177514,-22.6268438312387,0 -43.2876941464599,-22.6268552733197,0 -43.2877612082372,-22.6268688777806,0 -43.2878277227618,-22.6268846283271,0 -43.2878936103677,-22.62690250609471,0 -43.2879587921399,-22.6269224896711,0 -43.2880231900084,-22.6269445551216,0 -43.288086726842,-22.6269686760182,0 -43.2881493265409,-22.6269948234709,0 -43.2882109141272,-22.6270229661626,0 -43.2882714158354,-22.6270530703862,0 -43.2883307592004,-22.6270851000851,0 -43.2883888731441,-22.627119016897,0 -43.2884456880611,-22.6271547801988,0 -43.2885011359014,-22.6271923471558,0 -43.2885551502523,-22.6272316727735,0 -43.2886076664179,-22.6272727099503,0 -43.2886586214967,-22.6273154095349,0 -43.2887079544565,-22.6273597203848,0 -43.2887556062079,-22.6274055894275,0 -43.288801519675,-22.6274529617242,0 -43.2888456398638,-22.6275017805354,0 -43.2888879139278,-22.6275519873893,0 -43.2889282912317,-22.6276035221513,0 -43.2889667234118,-22.6276563230961,0 -43.2890031644338,-22.6277103269818,0 -43.2890375706484,-22.6277654691261,0 -43.2890699008434,-22.6278216834826,0 -43.2891001162926,-22.6278789027211,0 -43.2891281808029,-22.6279370583072,0 -43.2891540607572,-22.6279960805855,0 -43.289177725155,-22.6280558988618,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 96</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2894055454869,-22.6283112839055,0 -43.2893957233846,-22.6283059052589,0 -43.2893860330607,-22.6283003244223,0 -43.2893764793442,-22.6282945441768,0 -43.2893670669959,-22.6282885674025,0 -43.2893578007061,-22.62828239707819,0 -43.2893486850922,-22.6282760362784,0 -43.289339724697,-22.6282694881728,0 -43.2893309239853,-22.6282627560246,0 -43.2893222873429,-22.62825584318851,0 -43.2893138190734,-22.6282487531094,0 -43.2893055233967,-22.6282414893203,0 -43.2892974044469,-22.6282340554409,0 -43.2892894662694,-22.6282264551756,0 -43.2892817128203,-22.6282186923121,0 -43.289274147963,-22.6282107707182,0 -43.2892667754673,-22.628202694342,0 -43.289259599007,-22.6281944672077,0 -43.2892526221582,-22.6281860934152,0 -43.2892458483977,-22.6281775771373,0 -43.2892392811007,-22.6281689226178,0 -43.28923292354,-22.6281601341694,0 -43.2892267788835,-22.6281512161715,0 -43.2892208501932,-22.6281421730683,0 -43.2892151404235,-22.628133009366,0 -43.2892096524195,-22.6281237296311,0 -43.2892043889161,-22.6281143384878,0 -43.289199352536,-22.6281048406159,0 -43.289194545789,-22.6280952407484,0 -43.2891899710702,-22.628085543669,0 -43.2891856306593,-22.6280757542101,0 -43.2891815267191,-22.6280658772498,0 -43.2891776612947,-22.6280559177101,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 97</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2912525485709,-22.629297056932,0 -43.2894057240028,-22.628311381875,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 98</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2912525745087,-22.629296631172,0 -43.2912562445164,-22.6292987027102,0 -43.291259800608,-22.6293009389235,0 -43.2912632342164,-22.6293033344247,0 -43.2912665370696,-22.6293058834426,0 -43.2912697012107,-22.6293085798364,0 -43.291272719017,-22.6293114171103,0 -43.2912755832181,-22.6293143884289,0 -43.2912782869139,-22.62931748663391,0 -43.2912808235909,-22.6293207042614,0 -43.2912831871379,-22.6293240335598,0 -43.2912853718608,-22.6293274665085,0 -43.2912873724964,-22.6293309948369,0 -43.2912891842249,-22.6293346100452,0 -43.2912908026816,-22.6293383034237,0 -43.2912922239675,-22.6293420660747,0 -43.2912934446584,-22.6293458889335,0 -43.2912944618137,-22.6293497627905,0 -43.2912952729828,-22.6293536783131,0 -43.2912958762116,-22.6293576260682,0 -43.2912962700467,-22.6293615965453,0 -43.2912964535394,-22.6293655801792,0 -43.2912964262474,-22.6293695673727,0 -43.2912961882367,-22.6293735485203,0 -43.2912957400807,-22.6293775140308,0 -43.2912950828588,-22.629381454351,0 -43.2912942181544,-22.629385359988,0 -43.2912931480507,-22.6293892215328,0 -43.2912918751257,-22.6293930296826,0 -43.291290402446,-22.6293967752629,0 -43.2912887335594,-22.6294004492503,0 -43.2912868724865,-22.6294040427936,0 -43.2912848237108,-22.6294075472355,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 99</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2912847213465,-22.6294077133021,0 -43.290826385673,-22.6301477770968,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 100</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.290867691338,-22.6302893234706,0 -43.290863002383,-22.6302866767162,0 -43.2908584589757,-22.6302838195694,0 -43.2908540720613,-22.6302807589134,0 -43.2908498522083,-22.6302775021215,0 -43.2908458095826,-22.6302740570397,0 -43.290841953923,-22.6302704319674,0 -43.2908382945182,-22.6302666356375,0 -43.2908348401839,-22.6302626771957,0 -43.2908315992419,-22.6302585661782,0 -43.2908285794997,-22.6302543124888,0 -43.290825788232,-22.6302499263748,0 -43.2908232321634,-22.6302454184027,0 -43.2908209174513,-22.6302407994326,0 -43.2908188496722,-22.6302360805918,0 -43.2908170338074,-22.6302312732482,0 -43.2908154742314,-22.6302263889833,0 -43.2908141747014,-22.6302214395635,0 -43.290813138348,-22.6302164369122,0 -43.2908123676677,-22.6302113930813,0 -43.2908118645172,-22.6302063202215,0 -43.2908116301085,-22.6302012305539,0 -43.2908116650064,-22.6301961363397,0 -43.2908119691267,-22.6301910498512,0 -43.2908125417368,-22.6301859833421,0 -43.2908133814572,-22.630180949018,0 -43.2908144862649,-22.630175959007,0 -43.2908158534982,-22.6301710253301,0 -43.2908174798635,-22.630166159873,0 -43.2908193614428,-22.6301613743571,0 -43.2908214937031,-22.6301566803106,0 -43.2908238715075,-22.6301520890421,0 -43.290826489128,-22.630147611612,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 101</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.290947636159,-22.6303324321557,0 -43.2908676643546,-22.6302897509162,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 102</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2909476626702,-22.6303320062526,0 -43.29095133269,-22.6303340778024,0 -43.2909548887922,-22.6303363140265,0 -43.29095832241,-22.6303387095374,0 -43.2909616252712,-22.6303412585643,0 -43.2909647894189,-22.6303439549662,0 -43.2909678072304,-22.6303467922472,0 -43.2909706714353,-22.6303497635718,0 -43.2909733751336,-22.630352861782,0 -43.2909759118117,-22.6303560794138,0 -43.2909782753583,-22.6303594087156,0 -43.2909804600796,-22.6303628416666,0 -43.2909824607122,-22.6303663699967,0 -43.2909842724363,-22.6303699852055,0 -43.2909858908874,-22.6303736785837,0 -43.2909873121663,-22.6303774412335,0 -43.2909885328491,-22.6303812640904,0 -43.2909895499949,-22.6303851379446,0 -43.2909903611533,-22.6303890534634,0 -43.2909909643702,-22.6303930012141,0 -43.2909913581923,-22.6303969716861,0 -43.2909915416708,-22.630400955314,0 -43.2909915143637,-22.6304049425009,0 -43.2909912763367,-22.6304089236411,0 -43.2909908281633,-22.6304128891438,0 -43.2909901709232,-22.6304168294553,0 -43.2909893061996,-22.6304207350832,0 -43.2909882360759,-22.6304245966185,0 -43.2909869631299,-22.6304284047581,0 -43.2909854904285,-22.6304321503279,0 -43.2909838215194,-22.6304358243042,0 -43.2909819604232,-22.6304394178363,0 -43.2909799116236,-22.6304429222668,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 103</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2909801666514,-22.630443278626,0 -43.2905218253664,-22.6311833414833,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 104</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2905631307658,-22.6313248878213,0 -43.2905584417739,-22.6313222410648,0 -43.2905538983313,-22.6313193839153,0 -43.2905495113835,-22.6313163232559,0 -43.290545291499,-22.6313130664602,0 -43.2905412488439,-22.6313096213738,0 -43.2905373931572,-22.6313059962966,0 -43.2905337337277,-22.6313021999615,0 -43.2905302793711,-22.631298241514,0 -43.2905270384094,-22.6312941304907,0 -43.2905240186501,-22.6312898767952,0 -43.2905212273683,-22.631285490675,0 -43.2905186712882,-22.6312809826967,0 -43.2905163565676,-22.6312763637203,0 -43.290514288783,-22.6312716448735,0 -43.2905124729156,-22.6312668375242,0 -43.2905109133401,-22.6312619532538,0 -43.2905096138137,-22.6312570038288,0 -43.2905085774668,-22.6312520011729,0 -43.2905078067963,-22.6312469573378,0 -43.2905073036585,-22.6312418844746,0 -43.2905070692656,-22.6312367948043,0 -43.2905071041822,-22.6312317005882,0 -43.2905074083243,-22.6312266140987,0 -43.290507980959,-22.6312215475895,0 -43.2905088207068,-22.6312165132665,0 -43.2905099255446,-22.6312115232575,0 -43.2905112928109,-22.6312065895839,0 -43.2905129192116,-22.6312017241314,0 -43.2905148008287,-22.6311969386212,0 -43.2905169331292,-22.631192244582,0 -43.290519310976,-22.631187653322,0 -43.290521928641,-22.6311831759021,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 105</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2908739161523,-22.6314907548994,0 -43.2905633094224,-22.6313249836194,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 106</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2908222616877,-22.6315672555049,0 -43.2876066249548,-22.62985101768991,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 107</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2880499215053,-22.6299835489238,0 -43.2876514969468,-22.6297708976177,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 108</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2882023997665,-22.6299452072023,0 -43.2881995485267,-22.6299495599621,0 -43.2881964706474,-22.6299537776053,0 -43.2881931735435,-22.629957849971,0 -43.288189665158,-22.6299617672485,0 -43.2881859539428,-22.6299655200009,0 -43.2881820488386,-22.62996909918751,0 -43.288177959253,-22.6299724961856,0 -43.2881736950382,-22.6299757028118,0 -43.2881692664671,-22.6299787113408,0 -43.2881646842084,-22.6299815145249,0 -43.2881599593012,-22.629984105611,0 -43.2881551031282,-22.629986478357,0 -43.2881501273882,-22.6299886270467,0 -43.2881450440683,-22.6299905465037,0 -43.2881398654147,-22.629992232104,0 -43.2881346039031,-22.6299936797867,0 -43.288129272209,-22.6299948860643,0 -43.2881238831768,-22.6299958480306,0 -43.2881184497892,-22.6299965633684,0 -43.2881129851358,-22.6299970303543,0 -43.2881075023812,-22.6299972478632,0 -43.288102014734,-22.6299972153712,0 -43.2880965354144,-22.6299969329566,0 -43.2880910776224,-22.6299964012996,0 -43.2880856545064,-22.6299956216812,0 -43.2880802791312,-22.6299945959794,0 -43.2880749644464,-22.6299933266654,0 -43.2880697232556,-22.629991816797,0 -43.2880645681853,-22.6299900700115,0 -43.2880595116545,-22.6299880905172,0 -43.2880545658447,-22.6299858830828,0 -43.2880497426708,-22.6299834530262,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 109</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2891078525728,-22.6284840100476,0 -43.2882026547587,-22.6299455639995,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 110</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.28924218922,-22.62844811289949,0 -43.2888446034798,-22.6290900706053,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 111</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2892422926753,-22.6284479474158,0 -43.2892451438492,-22.6284435946327,0 -43.289248221661,-22.6284393769646,0 -43.2892515186958,-22.6284353045723,0 -43.289255027011,-22.6284313872665,0 -43.2892587381547,-22.6284276344843,0 -43.2892626431865,-22.6284240552665,0 -43.2892667326988,-22.6284206582356,0 -43.2892709968397,-22.6284174515752,0 -43.2892754253366,-22.6284144430107,0 -43.2892800075207,-22.6284116397897,0 -43.2892847323534,-22.6284090486654,0 -43.2892895884521,-22.6284066758802,0 -43.2892945641181,-22.6284045271501,0 -43.2892996473646,-22.6284026076516,0 -43.2893048259459,-22.6284009220091,0 -43.2893100873861,-22.6283994742832,0 -43.2893154190101,-22.6283982679617,0 -43.2893208079738,-22.6283973059506,0 -43.2893262412945,-22.6283965905677,0 -43.2893317058831,-22.6283961235362,0 -43.289337188575,-22.6283959059813,0 -43.2893426761619,-22.6283959384272,0 -43.2893481554239,-22.6283962207955,0 -43.289353613161,-22.6283967524061,0 -43.289359036225,-22.6283975319783,0 -43.2893644115515,-22.6283985576342,0 -43.2893697261909,-22.6283998269026,0 -43.2893749673398,-22.628401336726,0 -43.2893801223719,-22.628403083467,0 -43.2893851788682,-22.6284050629177,0 -43.2893901246474,-22.6284072703093,0 -43.2893949477947,-22.628409700324,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 112</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2910987889333,-22.6293190631306,0 -43.2893951261652,-22.6284097946272,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 113</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2910986105604,-22.6293189688292,0 -43.2911032994888,-22.6293216155754,0 -43.2911078428715,-22.6293244727139,0 -43.2911122297631,-22.6293275333617,0 -43.2911164495954,-22.62933079014559,0 -43.2911204922024,-22.6293342352198,0 -43.2911243478454,-22.6293378602847,0 -43.2911280072357,-22.6293416566074,0 -43.2911314615577,-22.6293456150423,0 -43.2911347024896,-22.6293497260534,0 -43.2911377222239,-22.629353979737,0 -43.2911405134858,-22.6293583658454,0 -43.2911430695509,-22.6293628738125,0 -43.2911453842614,-22.6293674927783,0 -43.2911474520411,-22.6293722116154,0 -43.2911492679085,-22.62937701895549,0 -43.291150827489,-22.6293819032179,0 -43.2911521270255,-22.6293868526357,0 -43.2911531633874,-22.6293918552857,0 -43.2911539340778,-22.629396899116,0 -43.2911544372401,-22.6294019719758,0 -43.2911546716622,-22.629407061644,0 -43.2911546367792,-22.6294121558596,0 -43.2911543326752,-22.6294172423501,0 -43.2911537600828,-22.62942230886179,0 -43.2911529203813,-22.6294273431892,0 -43.2911518155936,-22.6294323332042,0 -43.2911504483812,-22.6294372668855,0 -43.2911488220378,-22.6294421323475,0 -43.2911469404813,-22.6294469178692,0 -43.2911448082444,-22.6294516119217,0 -43.291142430464,-22.6294562031968,0 -43.2911398128682,-22.6294606806337,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 114</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2911397105037,-22.6294608467002,0 -43.2907421299938,-22.6301028093994,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 115</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2907422323592,-22.6301026433333,0 -43.2907393811926,-22.630106996143,0 -43.2907363033836,-22.6301112138394,0 -43.2907330063467,-22.6301152862616,0 -43.290729498025,-22.6301192035989,0 -43.29072578687,-22.6301229564141,0 -43.2907218818224,-22.6301265356662,0 -43.2907177922898,-22.6301299327327,0 -43.290713528124,-22.6301331394297,0 -43.2907090995978,-22.6301361480319,0 -43.2907045173801,-22.6301389512914,0 -43.2906997925095,-22.630141542455,0 -43.2906949363689,-22.6301439152802,0 -43.2906899606569,-22.6301460640508,0 -43.2906848773607,-22.6301479835902,0 -43.2906796987261,-22.6301496692739,0 -43.290674437229,-22.6301511170413,0 -43.2906691055448,-22.6301523234043,0 -43.290663716518,-22.6301532854568,0 -43.2906582831313,-22.6301540008811,0 -43.2906528184739,-22.6301544679537,0 -43.2906473357108,-22.6301546855494,0 -43.2906418480506,-22.6301546531438,0 -43.2906363687133,-22.6301543708154,0 -43.2906309108992,-22.6301538392439,0 -43.2906254877566,-22.6301530597102,0 -43.2906201123503,-22.6301520340921,0 -43.2906147976303,-22.6301507648605,0 -43.2906095564,-22.6301492550731,0 -43.2906044012859,-22.630147508367,0 -43.2905993447073,-22.6301455289502,0 -43.2905943988459,-22.6301433215913,0 -43.2905895756166,-22.6301408916082,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 116</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2905895486324,-22.6301413190536,0 -43.2888858798495,-22.6292320448078,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 117</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2888859068386,-22.6292316173629,0 -43.2888812179602,-22.6292289705547,0 -43.2888766746311,-22.629226113356,0 -43.2888722877965,-22.6292230526502,0 -43.2888680680244,-22.6292197958107,0 -43.2888640254808,-22.6292163506834,0 -43.2888601699042,-22.6292127255679,0 -43.2888565105831,-22.6292089291974,0 -43.2888530563329,-22.6292049707175,0 -43.2888498154753,-22.6292008596646,0 -43.2888467958175,-22.6291966059425,0 -43.2888440046343,-22.6291922197987,0 -43.2888414486496,-22.6291877117996,0 -43.2888391340211,-22.6291830928055,0 -43.2888370663248,-22.6291783739436,0 -43.2888352505418,-22.6291735665821,0 -43.2888336910466,-22.6291686823024,0 -43.288832391596,-22.6291637328709,0 -43.2888313553204,-22.629158730211,0 -43.2888305847163,-22.6291536863748,0 -43.2888300816401,-22.6291486135129,0 -43.2888298473037,-22.6291435238464,0 -43.2888298822716,-22.6291384296364,0 -43.2888301864595,-22.6291333431554,0 -43.2888307591346,-22.629128276657,0 -43.2888315989172,-22.6291232423467,0 -43.2888327037843,-22.6291182523525,0 -43.2888340710742,-22.6291133186957,0 -43.2888356974927,-22.6291084532616,0 -43.2888375791219,-22.6291036677717,0 -43.2888397114287,-22.6290989737542,0 -43.2888420892763,-22.6290943825174,0 -43.2888447069362,-22.6290899051219,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 118</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2886848094655,-22.6293480798172,0 -43.2886876606769,-22.6293437270466,0 -43.2886907385269,-22.629339509392,0 -43.2886940356008,-22.629335437014,0 -43.2886975439556,-22.6293315197232,0 -43.2887012551394,-22.62932776695679,0 -43.2887051602118,-22.6293241877553,0 -43.2887092497651,-22.6293207907415,0 -43.2887135139471,-22.6293175840989,0 -43.2887179424852,-22.6293145755525,0 -43.2887225247107,-22.6293117723503,0 -43.2887272495847,-22.6293091812454,0 -43.2887321057245,-22.6293068084798,0 -43.2887370814314,-22.6293046597697,0 -43.2887421647184,-22.6293027402917,0 -43.2887473433396,-22.6293010546698,0 -43.2887526048194,-22.6292996069649,0 -43.2887579364823,-22.6292984006645,0 -43.288763325484,-22.6292974386748,0 -43.288768758842,-22.6292967233132,0 -43.288774223467,-22.6292962563031,0 -43.2887797061942,-22.6292960387695,0 -43.2887851938154,-22.6292960712366,0 -43.2887906731105,-22.6292963536261,0 -43.2887961308794,-22.6292968852577,0 -43.2888015539739,-22.6292976648508,0 -43.2888069293295,-22.629298690527,0 -43.2888122439964,-22.6292999598156,0 -43.2888174851714,-22.6293014696588,0 -43.2888226402279,-22.6293032164192,0 -43.288827696747,-22.6293051958887,0 -43.2888326425473,-22.6293074032987,0 -43.2888374657139,-22.6293098333314,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 119</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2886847060088,-22.6293482453004,0 -43.2882869094234,-22.6299905329758,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 120</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2907938759013,-22.6303544378417,0 -43.2888374386247,-22.6293102593771,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 121</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2883282124036,-22.6301320798435,0 -43.2883235235078,-22.6301294330178,0 -43.288318980163,-22.6301265758026,0 -43.2883145933147,-22.6301235150808,0 -43.2883103735309,-22.6301202582261,0 -43.2883063309774,-22.6301168130844,0 -43.2883024753929,-22.6301131879553,0 -43.2882988160659,-22.6301093915718,0 -43.288295361812,-22.63010543308,0 -43.2882921209525,-22.630101322016,0 -43.288289101295,-22.6300970682837,0 -43.288286310114,-22.6300926821306,0 -43.2882837541337,-22.6300881741232,0 -43.2882814395114,-22.6300835551216,0 -43.2882793718234,-22.6300788362535,0 -43.2882775560507,-22.6300740288867,0 -43.2882759965677,-22.6300691446026,0 -43.2882746971312,-22.6300641951678,0 -43.2882736608717,-22.6300591925058,0 -43.2882728902855,-22.6300541486683,0 -43.2882723872289,-22.6300490758063,0 -43.288272152914,-22.6300439861406,0 -43.2882721879051,-22.6300388919326,0 -43.2882724921178,-22.6300338054546,0 -43.2882730648193,-22.6300287389603,0 -43.2882739046299,-22.630023704655,0 -43.2882750095264,-22.6300187146669,0 -43.288276376847,-22.6300137810172,0 -43.2882780032977,-22.6300089155912,0 -43.2882798849603,-22.63000413011009,0 -43.2882820173016,-22.6299994361026,0 -43.2882843951847,-22.6299948448768,0 -43.2882870128811,-22.629990367493,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 122</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2902848350565,-22.6311763606037,0 -43.2883283908754,-22.630132175547,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 123</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2904373141899,-22.6311380168044,0 -43.2904344629904,-22.6311423696063,0 -43.2904313851471,-22.6311465872943,0 -43.2904280880748,-22.6311506597076,0 -43.2904245797165,-22.6311545770356,0 -43.2904208685239,-22.631158329841,0 -43.2904169634378,-22.6311619090829,0 -43.2904128738656,-22.6311653061389,0 -43.2904086096597,-22.631168512825,0 -43.2904041810927,-22.6311715214159,0 -43.2903995988335,-22.6311743246639,0 -43.2903948739211,-22.6311769158156,0 -43.2903900177382,-22.6311792886288,0 -43.2903850419837,-22.631181437387,0 -43.2903799586448,-22.6311833569139,0 -43.2903747799675,-22.631185042585,0 -43.2903695184277,-22.6311864903395,0 -43.290364186701,-22.6311876966896,0 -43.2903587976319,-22.6311886587291,0 -43.2903533642031,-22.6311893741404,0 -43.2903478995043,-22.63118984119991,0 -43.2903424167003,-22.6311900587826,0 -43.2903369289997,-22.6311900263642,0 -43.2903314496229,-22.6311897440228,0 -43.29032599177,-22.6311892124385,0 -43.2903205685897,-22.6311884328922,0 -43.2903151931467,-22.6311874072617,0 -43.290309878391,-22.6311861380178,0 -43.2903046371262,-22.6311846282183,0 -43.290299481979,-22.6311828815005,0 -43.2902944253687,-22.6311809020724,0 -43.2902894794768,-22.6311786947023,0 -43.2902846562187,-22.6311762647084,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 124</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2908353594812,-22.6304960800665,0 -43.290437568827,-22.6311383734048,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 125</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2907939026217,-22.6303540116015,0 -43.2907985915774,-22.6303566583581,0 -43.2908031349857,-22.6303595155067,0 -43.2908075219012,-22.6303625761641,0 -43.2908117417556,-22.630365832957,0 -43.2908157843829,-22.6303692780398,0 -43.2908196400443,-22.6303729031129,0 -43.2908232994512,-22.6303766994433,0 -43.2908267537878,-22.6303806578854,0 -43.2908299947323,-22.6303847689031,0 -43.2908330144771,-22.6303890225926,0 -43.2908358057474,-22.6303934087066,0 -43.290838361819,-22.6303979166786,0 -43.2908406765338,-22.6304025356487,0 -43.2908427443158,-22.6304072544893,0 -43.2908445601834,-22.6304120618326,0 -43.290846119762,-22.6304169460974,0 -43.2908474192946,-22.6304218955169,0 -43.2908484556503,-22.630426898168,0 -43.2908492263326,-22.6304319419988,0 -43.2908497294847,-22.6304370148585,0 -43.2908499638945,-22.6304421045261,0 -43.2908499289973,-22.6304471987402,0 -43.2908496248771,-22.6304522852287,0 -43.2908490522666,-22.6304573517377,0 -43.2908482125451,-22.6304623860617,0 -43.2908471077356,-22.6304673760729,0 -43.2908457404997,-22.6304723097496,0 -43.2908441141309,-22.6304771752067,0 -43.2908422325474,-22.63048196072261,0 -43.290840100282,-22.6304866547688,0 -43.2908377224715,-22.6304912460371,0 -43.2908351048441,-22.6304957234668,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 126</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.286793716033,-22.6271492118857,0 -43.2871673697047,-22.6272507526187,0 -43.2872549481894,-22.6269720591012,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 127</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2870563080507,-22.6267743134836,0 -43.2875591032595,-22.6268345384428,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 128</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2872073174522,-22.6268516243466,0 -43.2872096841494,-22.6268520189277,0 -43.2872119977887,-22.62685262696,0 -43.2872142360886,-22.6268534425876,0 -43.2872163774929,-22.6268544579556,0 -43.2872184013789,-22.6268556632856,0 -43.2872202882553,-22.6268570469695,0 -43.2872220199505,-22.6268585956817,0 -43.2872235797873,-22.6268602945072,0 -43.2872249527437,-22.6268621270855,0 -43.2872261255973,-22.6268640757678,0 -43.287227087053,-22.6268661217872,0 -43.2872278278512,-22.6268682454396,0 -43.2872283408579,-22.6268704262727,0 -43.2872286211323,-22.6268726432843,0 -43.2872286659754,-22.6268748751231,0 -43.2872284749551,-22.6268771002954,0 -43.2872280499112,-22.6268792973715,0 -43.2872273949371,-22.6268814451924,0 -43.2872265163404,-22.6268835230733,0 -43.2872254225826,-22.6268855110032,0 -43.2872241241971,-22.6268873898373,0 -43.2872226336881,-22.6268891414811,0 -43.28722096541,-22.6268907490657,0 -43.2872191354292,-22.6268921971089,0 -43.2872171613694,-22.6268934716654,0 -43.287215062242,-22.6268945604603,0 -43.2872128582626,-22.6268954530081,0 -43.2872105706569,-22.626896140713,0 -43.2872082214557,-22.6268966169521,0 -43.287205833283,-22.6268968771389,0 -43.2872034291385,-22.6268969187676,0 -43.2872010321752,-22.6268967414374,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 129</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2870547439025,-22.6268790736654,0 -43.2870523772055,-22.6268786790819,0 -43.2870500635666,-22.6268780710474,0 -43.2870478252674,-22.6268772554175,0 -43.2870456838642,-22.6268762400473,0 -43.2870436599796,-22.6268750347152,0 -43.2870417731049,-22.6268736510294,0 -43.2870400414117,-22.6268721023153,0 -43.2870384815771,-22.6268704034881,0 -43.2870371086232,-22.6268685709083,0 -43.2870359357723,-22.6268666222249,0 -43.2870349743196,-22.6268645762044,0 -43.2870342335244,-22.6268624525514,0 -43.2870337205209,-22.6268602717178,0 -43.2870334402496,-22.6268580547062,0 -43.2870333954097,-22.6268558228675,0 -43.287033586433,-22.6268535976956,0 -43.2870340114798,-22.6268514006201,0 -43.2870346664568,-22.6268492528003,0 -43.287035545056,-22.6268471749205,0 -43.2870366388161,-22.626845186992,0 -43.2870379372036,-22.6268433081596,0 -43.2870394277143,-22.6268415565175,0 -43.2870410959938,-22.626839948935,0 -43.2870429259756,-22.6268385008939,0 -43.2870449000359,-22.6268372263397,0 -43.2870469991637,-22.626836137547,0 -43.2870492031429,-22.6268352450014,0 -43.2870514907483,-22.6268345572988,0 -43.2870538399488,-22.626834081062,0 -43.2870562281204,-22.6268338208774,0 -43.2870586322638,-22.6268337792508,0 -43.2870610292256,-22.626833956583,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 130</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2870608354303,-22.6268344973074,0 -43.2872076864687,-22.626852024066,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 131</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2870564412578,-22.6267738830691,0 -43.2870489232324,-22.6267727882263,0 -43.2870414797605,-22.62677131854741,0 -43.2870341325116,-22.6267694783107,0 -43.2870269028749,-22.6267672728736,0 -43.2870198118975,-22.6267647086565,0 -43.2870128802223,-22.6267617931245,0 -43.2870061280291,-22.6267585347651,0 -43.2869995749747,-22.6267549430642,0 -43.2869932401363,-22.6267510284779,0 -43.2869871419559,-22.6267468024023,0 -43.2869812981865,-22.6267422771404,0 -43.2869757258404,-22.6267374658661,0 -43.2869704411398,-22.626732382586,0 -43.2869654594695,-22.6267270420985,0 -43.2869607953319,-22.6267214599509,0 -43.2869564623054,-22.6267156523937,0 -43.2869524730041,-22.62670963633409,0 -43.2869488390417,-22.6267034292858,0 -43.2869455709973,-22.6266970493189,0 -43.2869426783846,-22.6266905150066,0 -43.2869401696248,-22.6266838453717,0 -43.286938052021,-22.6266770598306,0 -43.2869363317381,-22.62667017813749,0 -43.2869350137841,-22.6266632203263,0 -43.2869341019956,-22.6266562066524,0 -43.2869335990272,-22.626649157534,0 -43.2869335063428,-22.6266420934926,0 -43.2869338242123,-22.6266350350929,0 -43.2869345517103,-22.626628002883,0 -43.2869356867188,-22.6266210173353,0 -43.2869372259334,-22.6266140987859,0 -43.2869391648733,-22.6266072673761,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 132</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.28693910081,-22.6266076844549,0 -43.2871249742329,-22.6260176532965,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 133</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2862686488978,-22.6297078769218,0 -43.2862651042818,-22.6296598096186,0 -43.2862621400779,-22.6296117084625,0 -43.2862597566577,-22.629563579493,0 -43.2862579543198,-22.629515428753,0 -43.2862567332899,-22.6294672622882,0 -43.2862560937206,-22.629419086146,0 -43.2862560356917,-22.6293709063754,0 -43.2862565592099,-22.6293227290254,0 -43.2862576642089,-22.6292745601452,0 -43.2862593505492,-22.6292264057825,0 -43.2862616180185,-22.6291782719834,0 -43.2862644663316,-22.6291301647913,0 -43.2862678951302,-22.6290820902464,0 -43.2862719039832,-22.6290340543846,0 -43.2862764923866,-22.6289860632371,0 -43.2862816597639,-22.6289381228293,0 -43.2862874054656,-22.6288902391805,0 -43.2862937287696,-22.6288424183026,0 -43.2863006288816,-22.6287946661997,0 -43.2863081049345,-22.6287469888674,0 -43.2863161559891,-22.6286993922916,0 -43.286324781034,-22.6286518824485,0 -43.2863339789857,-22.6286044653029,0 -43.2863437486888,-22.6285571468082,0 -43.2863540889161,-22.6285099329056,0 -43.2863649983688,-22.6284628295228,0 -43.2863764756764,-22.6284158425739,0 -43.2863885193976,-22.6283689779582,0 -43.2864011280196,-22.6283222415597,0 -43.2864142999587,-22.6282756392462,0 -43.2864280335607,-22.6282291768689,0 -43.2864423271007,-22.6281828602614,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 134</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2864427600965,-22.6281829460316,0 -43.2868076080471,-22.6270247752289,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 135</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2868074666497,-22.6270246898895,0 -43.2868093492943,-22.6270191715939,0 -43.2868114928288,-22.6270137359369,0 -43.2868138930639,-22.6270083935425,0 -43.2868165453083,-22.6270031548518,0 -43.2868194443784,-22.62699803010389,0 -43.286822584608,-22.6269930293146,0 -43.2868259598598,-22.6269881622578,0 -43.2868295635369,-22.6269834384458,0 -43.2868333885961,-22.62697886711121,0 -43.2868374275614,-22.6269744571884,0 -43.286841672539,-22.6269702172963,0 -43.2868461152321,-22.6269661557217,0 -43.2868507469579,-22.6269622804026,0 -43.2868555586638,-22.6269585989132,0 -43.2868605409455,-22.6269551184488,0 -43.2868656840654,-22.6269518458116,0 -43.2868709779716,-22.626948787398,0 -43.2868764123174,-22.62694594918541,0 -43.2868819764817,-22.626943336721,0 -43.2868876595894,-22.6269409551108,0 -43.2868934505335,-22.6269388090093,0 -43.2868993379957,-22.6269369026112,0 -43.2869053104692,-22.6269352396423,0 -43.2869113562812,-22.6269338233529,0 -43.2869174636155,-22.6269326565109,0 -43.2869236205357,-22.626931741397,0 -43.2869298150082,-22.6269310797997,0 -43.2869360349265,-22.626930673012,0 -43.2869422681339,-22.6269305218289,0 -43.2869485024479,-22.62693062654609,0 -43.2869547256841,-22.6269309869587,0 -43.2869609256793,-22.6269316023625,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 136</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2869612107772,-22.6269316944229,0 -43.2870974409395,-22.6269479619289,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 137</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2861475225767,-22.6297165000907,0 -43.2861416830409,-22.6296331260296,0 -43.2861374774657,-22.6295501831292,0 -43.2861353151204,-22.6294670074748,0 -43.2861346344228,-22.6293837411797,0 -43.2861354350611,-22.6293003831816,0 -43.2861380741795,-22.62921712455489,0 -43.2861425522922,-22.629133966024,0 -43.2861485117321,-22.6290507157895,0 -43.2861566669975,-22.6289677556626,0 -43.2861660981182,-22.6288850355694,0 -43.286177011075,-22.6288022244959,0 -43.2861899138647,-22.628720034542,0 -43.2862042984847,-22.6286377536068,0 -43.2862203165127,-22.6285559031033,0 -43.2862381727845,-22.62847415230391,0 -43.2862576622497,-22.6283928322718,0 -43.2862787858408,-22.6283119430568,0 -43.2863015416851,-22.6282314845571,0 -43.2863259307151,-22.6281514568223,0 -43.2870168035575,-22.6259599172149,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 138</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.287578111693,-22.6268138163667,0 -43.287578111693,-22.6268138163667,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 139</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.2871350708525,-22.6260772820466,0 -43.2871350708525,-22.6260772820466,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 140</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2913614094246,-22.6293291399363,0 -43.2894178338783,-22.6282918286002,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 141</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2894176561432,-22.62829173015029,0 -43.2894083011679,-22.6282866073573,0 -43.2893990717032,-22.6282812919894,0 -43.2893899723482,-22.6282757866951,0 -43.2893810076376,-22.6282700942179,0 -43.2893721820386,-22.6282642173944,0 -43.2893634999492,-22.6282581591535,0 -43.2893549656958,-22.6282519225139,0 -43.2893465835313,-22.6282455105836,0 -43.2893383576327,-22.6282389265578,0 -43.2893302920992,-22.6282321737173,0 -43.2893223909499,-22.6282252554275,0 -43.2893146581221,-22.6282181751357,0 -43.2893070974694,-22.6282109363704,0 -43.2892997127592,-22.6282035427387,0 -43.2892925076717,-22.6281959979251,0 -43.2892854857971,-22.6281883056894,0 -43.2892786506348,-22.6281804698646,0 -43.2892720055907,-22.6281724943558,0 -43.2892655539761,-22.6281643831372,0 -43.289259299006,-22.6281561402509,0 -43.2892532437975,-22.6281477698044,0 -43.2892473913679,-22.628139275969,0 -43.2892417446336,-22.6281306629773,0 -43.2892363064084,-22.6281219351214,0 -43.2892310794024,-22.6281130967507,0 -43.2892260662201,-22.6281041522694,0 -43.2892212693598,-22.6280951061348,0 -43.2892166912117,-22.6280859628548,0 -43.2892123340573,-22.6280767269856,0 -43.2892082000677,-22.6280674031298,0 -43.289204291303,-22.6280579959337,0 -43.2892006097109,-22.628048510085,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 142</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875618197764,-22.6268121965732,0 -43.2876305664441,-22.6268215760821,0 -43.2876989223318,-22.6268331583312,0 -43.2877668055683,-22.6268469294484,0 -43.2878341348484,-22.6268628729401,0 -43.2879008295302,-22.6268809697106,0 -43.2879668097319,-22.6269011980852,0 -43.2880319964271,-22.6269235338361,0 -43.2880963115401,-22.6269479502116,0 -43.2881596780386,-22.6269744179676,0 -43.2882220200265,-22.6270029054034,0 -43.2882832628346,-22.6270333783991,0 -43.2883433331099,-22.6270658004565,0 -43.2884021589041,-22.6271001327432,0 -43.2884596697587,-22.6271363341384,0 -43.2885157967903,-22.6271743612829,0 -43.2885704727727,-22.6272141686308,0 -43.2886236322175,-22.6272557085036,0 -43.2886752114525,-22.6272989311478,0 -43.2887251486981,-22.6273437847945,0 -43.2887733841408,-22.6273902157211,0 -43.2888198600059,-22.6274381683157,0 -43.2888645206254,-22.6274875851439,0 -43.2889073125055,-22.6275384070173,0 -43.2889481843907,-22.6275905730648,0 -43.2889870873247,-22.627644020805,0 -43.2890239747096,-22.6276986862215,0 -43.2890588023611,-22.6277545038391,0 -43.2890915285622,-22.6278114068029,0 -43.2891221141123,-22.6278693269574,0 -43.289150522375,-22.627928194929,0 -43.2891767193214,-22.6279879402087,0 -43.2892006735712,-22.6280484912367,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 143</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875368884775,-22.62699114573,0 -43.2876096049016,-22.6270012717831,0 -43.2876818193505,-22.627014126161,0 -43.2877534130923,-22.6270296877294,0 -43.2878242684154,-22.6270479309031,0 -43.2878942688222,-22.6270688256873,0 -43.2879632992204,-22.6270923377283,0 -43.2880312461127,-22.6271184283686,0 -43.2880979977826,-22.6271470547113,0 -43.2881634444789,-22.6271781696902,0 -43.2882274785956,-22.6272117221476,0 -43.2882899948489,-22.62724765691789,0 -43.2883508904506,-22.6272859149185,0 -43.2884100652765,-22.6273264332472,0 -43.2884674220317,-22.6273691452851,0 -43.2885228664101,-22.6274139808067,0 -43.2885763072497,-22.6274608660946,0 -43.2886276566822,-22.6275097240617,0 -43.2886768302778,-22.627560474377,0 -43.2887237471839,-22.6276130335979,0 -43.2887683302581,-22.6276673153081,0 -43.2888105061947,-22.6277232302586,0 -43.2888502056456,-22.627780686515,0 -43.2888873633346,-22.6278395896089,0 -43.2889219181638,-22.6278998426924,0 -43.2889538133153,-22.6279613466984,0 -43.2889829963434,-22.6280240005023,0 -43.2890094192619,-22.6280877010894,0 -43.2890330386223,-22.6281523437235,0 -43.2890538155858,-22.628217822119,0 -43.2890717159866,-22.6282840286166,0 -43.2890867103887,-22.6283508543594,0 -43.289098774134,-22.6284181894721,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 144</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875619760989,-22.6268122593745,0 -43.2870597437795,-22.6267518934245,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 145</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875371006003,-22.6269912463887,0 -43.2873067659565,-22.6269635564896,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 146</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2870595569771,-22.6267515147018,0 -43.2870533340449,-22.6267506084021,0 -43.2870471728261,-22.6267493918401,0 -43.2870410912569,-22.6267478685574,0 -43.2870351070417,-22.6267460429885,0 -43.2870292376013,-22.626743920448,0 -43.2870235000226,-22.6267415071148,0 -43.2870179110084,-22.6267388100146,0 -43.2870124868294,-22.6267358369989,0 -43.2870072432759,-22.6267325967227,0 -43.2870021956127,-22.6267290986189,0 -43.2869973585344,-22.626725352871,0 -43.2869927461222,-22.6267213703833,0 -43.2869883718036,-22.6267171627495,0 -43.286984248313,-22.6267127422187,0 -43.2869803876541,-22.6267081216596,0 -43.2869768010661,-22.6267033145234,0 -43.28697349899,-22.6266983348043,0 -43.2869704910384,-22.626693196999,0 -43.2869677859681,-22.6266879160643,0 -43.2869653916537,-22.626682507374,0 -43.2869633150655,-22.6266769866732,0 -43.2869615622486,-22.6266713700338,0 -43.2869601383057,-22.6266656738065,0 -43.2869590473822,-22.6266599145738,0 -43.2869582926536,-22.6266541091017,0 -43.2869578763172,-22.6266482742905,0 -43.2869577995849,-22.6266424271266,0 -43.28695806268,-22.6266365846316,0 -43.2869586648366,-22.6266307638139,0 -43.2869596043017,-22.6266249816187,0 -43.2869608783404,-22.6266192548787,0 -43.2869624832436,-22.6266136002654,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 147</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.286962323685,-22.6266139062639,0 -43.2871467514641,-22.6260292768761,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 148</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2907987269384,-22.6315807119328,0 -43.2882339220889,-22.6302118417452,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 149</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.287276748077,-22.6273333856579,0 -43.2872687544336,-22.6269666399799,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 150</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2902969453013,-22.6311568069399,0 -43.2883405012844,-22.63011262204,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 151</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2883403233847,-22.6301125261932,0 -43.2883366534144,-22.6301104545814,0 -43.2883330973646,-22.6301082182978,0 -43.2883296638021,-22.6301058227298,0 -43.2883263609986,-22.6301032736485,0 -43.2883231969111,-22.6301005771949,0 -43.288320179162,-22.6300977398653,0 -43.2883173150214,-22.6300947684948,0 -43.2883146113893,-22.6300916702417,0 -43.288312074779,-22.6300884525703,0 -43.2883097113015,-22.6300851232321,0 -43.2883075266505,-22.6300816902477,0 -43.2883055260892,-22.6300781618877,0 -43.2883037144369,-22.6300745466522,0 -43.2883020960583,-22.6300708532506,0 -43.288300674852,-22.6300670905808,0 -43.288299454242,-22.6300632677073,0 -43.2882984371687,-22.6300593938398,0 -43.2882976260823,-22.6300554783109,0 -43.288297022937,-22.6300515305535,0 -43.2882966291855,-22.630047560078,0 -43.2882964457766,-22.6300435764498,0 -43.288296473152,-22.6300395892658,0 -43.2882967112458,-22.6300356081314,0 -43.2882971594844,-22.6300316426377,0 -43.2882978167879,-22.6300277023379,0 -43.2882986815728,-22.6300237967247,0 -43.2882997517556,-22.6300199352068,0 -43.2883010247584,-22.6300161270871,0 -43.2883024975141,-22.6300123815399,0 -43.2883041664748,-22.6300087075883,0 -43.2883060276198,-22.6300051140834,0 -43.2883080764655,-22.6300016096822,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 152</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2883079733709,-22.6300017753588,0 -43.2887057698982,-22.6293594876279,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 153</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2887058729917,-22.629359321951,0 -43.2887081045873,-22.6293559150923,0 -43.2887105135709,-22.6293526139871,0 -43.2887130941388,-22.629349426588,0 -43.2887158400743,-22.6293463605736,0 -43.2887187447622,-22.6293434233305,0 -43.2887218012048,-22.6293406219346,0 -43.2887250020388,-22.6293379631348,0 -43.2887283395531,-22.6293354533364,0 -43.2887318057073,-22.6293330985856,0 -43.2887353921511,-22.6293309045553,0 -43.2887390902445,-22.6293288765313,0 -43.2887428910783,-22.629327019399,0 -43.2887467854961,-22.6293253376327,0 -43.2887507641158,-22.6293238352837,0 -43.2887548173524,-22.6293225159713,0 -43.2887589354415,-22.6293213828741,0 -43.2887631084621,-22.6293204387216,0 -43.2887673263611,-22.6293196857884,0 -43.288771578977,-22.6293191258884,0 -43.2887758560651,-22.6293187603705,0 -43.2887801473214,-22.6293185901153,0 -43.2887844424078,-22.6293186155328,0 -43.2887887309771,-22.6293188365619,0 -43.2887930026977,-22.62931925267,0 -43.2887972472786,-22.6293198628549,0 -43.2888014544944,-22.6293206656463,0 -43.2888056142093,-22.6293216591104,0 -43.2888097164023,-22.6293228408538,0 -43.2888137511907,-22.6293242080296,0 -43.2888177088544,-22.6293257573441,0 -43.2888215798591,-22.6293274850649,0 -43.288825354879,-22.6293293870298,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 154</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2888253283618,-22.6293298129322,0 -43.2907817658026,-22.6303739915537,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 155</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2906018641921,-22.6301214336117,0 -43.2888981955547,-22.6292121595049,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 156</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2888980176557,-22.6292120636587,0 -43.2888943476991,-22.6292099920605,0 -43.2888907916615,-22.6292077557897,0 -43.2888873581097,-22.6292053602342,0 -43.2888840553155,-22.6292028111649,0 -43.2888808912356,-22.6292001147228,0 -43.2888778734926,-22.6291972774037,0 -43.2888750093566,-22.6291943060432,0 -43.2888723057275,-22.6291912077997,0 -43.2888697691187,-22.6291879901368,0 -43.2888674056409,-22.6291846608066,0 -43.2888652209882,-22.6291812278295,0 -43.2888632204235,-22.6291776994761,0 -43.2888614087664,-22.6291740842463,0 -43.2888597903812,-22.6291703908497,0 -43.2888583691669,-22.629166628184,0 -43.2888571485473,-22.6291628053138,0 -43.288856131463,-22.629158931449,0 -43.2888553203641,-22.6291550159218,0 -43.2888547172047,-22.6291510681653,0 -43.2888543234378,-22.62914709769,0 -43.2888541400121,-22.629143114061,0 -43.2888541673694,-22.6291391268755,0 -43.2888544054438,-22.6291351457389,0 -43.2888548536617,-22.629131180242,0 -43.2888555109433,-22.6291272399383,0 -43.2888563757051,-22.6291233343202,0 -43.288857445864,-22.6291194727969,0 -43.2888587188415,-22.6291156646709,0 -43.2888601915711,-22.6291119191166,0 -43.2888618605048,-22.62910824515721,0 -43.288863721622,-22.6291046516438,0 -43.288865770439,-22.6291011472333,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 157</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2888656673458,-22.6291013129105,0 -43.289263253028,-22.6284593551493,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 158</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2892633561201,-22.6284591894718,0 -43.2892655876955,-22.6284557826123,0 -43.2892679966569,-22.6284524815056,0 -43.289270577201,-22.6284492941042,0 -43.2892733231111,-22.6284462280868,0 -43.2892762277721,-22.6284432908397,0 -43.2892792841865,-22.628440489439,0 -43.289282484991,-22.6284378306335,0 -43.2892858224746,-22.6284353208283,0 -43.2892892885973,-22.6284329660699,0 -43.2892928750087,-22.6284307720309,0 -43.2892965730689,-22.6284287439971,0 -43.2893003738692,-22.628426886854,0 -43.2893042682529,-22.6284252050758,0 -43.2893082468383,-22.6284237027138,0 -43.2893123000406,-22.6284223833875,0 -43.2893164180955,-22.6284212502751,0 -43.2893205910821,-22.6284203061066,0 -43.2893248089474,-22.6284195531562,0 -43.2893290615304,-22.6284189932382,0 -43.2893333385862,-22.6284186277012,0 -43.2893376298111,-22.6284184574259,0 -43.2893419248671,-22.6284184828225,0 -43.2893462134072,-22.6284187038299,0 -43.2893504851,-22.6284191199156,0 -43.2893547296546,-22.6284197300773,0 -43.2893589368456,-22.6284205328449,0 -43.2893630965376,-22.6284215262846,0 -43.2893671987095,-22.6284227080031,0 -43.289371233479,-22.6284240751537,0 -43.2893751911259,-22.6284256244426,0 -43.2893790621161,-22.6284273521375,0 -43.2893828371238,-22.6284292540764,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 159</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2893830158575,-22.6284293485734,0 -43.2910866787686,-22.6293386172134,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 160</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2909475690741,-22.6314922400162,0 -43.2909710189214,-22.6314833804711,0 -43.2909956948668,-22.6314781228119,0 -43.291020959457,-22.6314766028598,0 -43.2910461600322,-22.6314788598799,0 -43.2910706455861,-22.6314848355667,0 -43.2910937835836,-22.6314943755504,0 -43.2911149763004,-22.6315072333849,0 -43.2911336762644,-22.6315230769137,0 -43.2911494003982,-22.6315414968507,0 -43.2911617424985,-22.6315620173535,0 -43.2911703837299,-22.6315841083151,0 -43.2911751008611,-22.6316071990589,0 -43.2911757720323,-22.6316306930802,0 -43.291172379903,-22.6316539834563,0 -43.2911650121003,-22.631676468525,0 -43.2911538589556,-22.6316975674274,0 -43.2911392085877,-22.6317167351134,0 -43.2911214394598,-22.6317334764218,0 -43.2911010106034,-22.6317473588722,0 -43.291078449759,-22.6317580238377,0 -43.2910543397439,-22.6317651958088,0 -43.2910293033955,-22.631768689511,0 -43.2910039874814,-22.631768414691,0 -43.2909790459914,-22.6317643784485,0 -43.2909551232427,-22.6317566850525,0 -43.2909328372346,-22.6317455332476,0 -43.2909127636842,-22.63173121112,0 -43.2908954211533,-22.6317140886552,0 -43.2908812576525,-22.6316946081798,0 -43.2908706390673,-22.6316732729353,0 -43.2908638397071,-22.6316506340768,0 -43.2908610352184,-22.6316272764362,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 161</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2909475806931,-22.6314922013597,0 -43.2909454225966,-22.6314931728697,0 -43.2909432331984,-22.6314940820247,0 -43.2909410145886,-22.6314949279569,0 -43.2909387688852,-22.6314957098586,0 -43.290936498232,-22.6314964269833,0 -43.2909342047968,-22.6314970786466,0 -43.2909318907689,-22.6314976642264,0 -43.2909295583575,-22.6314981831634,0 -43.2909272097892,-22.6314986349623,0 -43.290924847306,-22.6314990191921,0 -43.2909224731633,-22.6314993354856,0 -43.2909200896277,-22.6314995835411,0 -43.2909176989745,-22.6314997631216,0 -43.2909153034859,-22.6314998740558,0 -43.290912905449,-22.6314999162378,0 -43.2909105071528,-22.6314998896272,0 -43.290908110887,-22.6314997942495,0 -43.2909057189392,-22.6314996301958,0 -43.2909033335929,-22.6314993976226,0 -43.2909009571251,-22.6314990967519,0 -43.2908985918047,-22.6314987278712,0 -43.2908962398897,-22.6314982913324,0 -43.2908939036253,-22.6314977875522,0 -43.2908915852419,-22.6314972170118,0 -43.2908892869527,-22.6314965802556,0 -43.2908870109518,-22.6314958778916,0 -43.2908847594119,-22.6314951105902,0 -43.2908825344825,-22.6314942790843,0 -43.2908803382878,-22.6314933841672,0 -43.2908781729241,-22.6314924266934,0 -43.2908760404587,-22.6314914075772,0 -43.2908739429275,-22.6314903277911,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 162</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2908220831578,-22.63156716067209,0 -43.2908242050922,-22.6315683352548,0 -43.2908262856875,-22.6315695719248,0 -43.2908283228366,-22.6315708694294,0 -43.2908303144759,-22.6315722264545,0 -43.2908322585882,-22.6315736416253,0 -43.2908341532043,-22.6315751135088,0 -43.2908359964052,-22.631576640614,0 -43.2908377863239,-22.6315782213939,0 -43.2908395211475,-22.6315798542478,0 -43.2908411991189,-22.6315815375215,0 -43.2908428185383,-22.6315832695101,0 -43.2908443777655,-22.6315850484592,0 -43.2908458752213,-22.6315868725671,0 -43.2908473093888,-22.6315887399864,0 -43.2908486788155,-22.6315906488251,0 -43.2908499821142,-22.6315925971502,0 -43.2908512179649,-22.631594582988,0 -43.2908523851158,-22.6315966043273,0 -43.2908534823846,-22.6315986591206,0 -43.29085450866,-22.6316007452868,0 -43.2908554629026,-22.6316028607126,0 -43.2908563441458,-22.6316050032555,0 -43.2908571514968,-22.6316071707452,0 -43.2908578841381,-22.63160936098661,0 -43.2908585413275,-22.6316115717609,0 -43.2908591223994,-22.6316138008291,0 -43.2908596267652,-22.6316160459332,0 -43.290860053914,-22.6316183047994,0 -43.2908604034133,-22.6316205751396,0 -43.2908606749088,-22.6316228546542,0 -43.2908608681258,-22.6316251410343,0 -43.2908609828684,-22.6316274319643,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 163</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2907985484085,-22.6315806170999,0 -43.2908005604703,-22.6315817287783,0 -43.2908025355,-22.6315828962818,0 -43.2908044717008,-22.6315841185483,0 -43.2908063673113,-22.6315853944658,0 -43.2908082206068,-22.6315867228734,0 -43.2908100299013,-22.6315881025627,0 -43.2908117935487,-22.6315895322783,0 -43.2908135099445,-22.6315910107197,0 -43.2908151775272,-22.6315925365417,0 -43.2908167947796,-22.6315941083562,0 -43.2908183602304,-22.6315957247332,0 -43.2908198724554,-22.6315973842022,0 -43.2908213300788,-22.6315990852533,0 -43.2908227317744,-22.6316008263392,0 -43.2908240762672,-22.6316026058757,0 -43.2908253623339,-22.6316044222438,0 -43.2908265888044,-22.6316062737912,0 -43.2908277545629,-22.6316081588332,0 -43.2908288585489,-22.631610075655,0 -43.290829899758,-22.6316120225127,0 -43.2908308772428,-22.6316139976351,0 -43.2908317901143,-22.6316159992251,0 -43.2908326375417,-22.631618025462,0 -43.2908334187541,-22.6316200745022,0 -43.2908341330409,-22.6316221444816,0 -43.2908347797521,-22.6316242335169,0 -43.2908353582994,-22.6316263397076,0 -43.2908358681565,-22.6316284611376,0 -43.2908363088594,-22.6316305958769,0 -43.2908366800073,-22.6316327419832,0 -43.2908369812625,-22.6316348975042,0 -43.2908372123509,-22.6316370604787,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 164</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2909450165547,-22.6314683224778,0 -43.2909429230632,-22.6314691462699,0 -43.2909408044788,-22.63146991279021,0 -43.2909386626192,-22.631470621381,0 -43.290936499322,-22.6314712714346,0 -43.2909343164433,-22.6314718623931,0 -43.2909321158561,-22.6314723937493,0 -43.2909298994483,-22.6314728650475,0 -43.2909276691218,-22.6314732758833,0 -43.2909254267899,-22.6314736259043,0 -43.2909231743766,-22.6314739148099,0 -43.2909209138145,-22.63147414235261,0 -43.2909186470431,-22.6314743083369,0 -43.2909163760072,-22.6314744126205,0 -43.2909141026554,-22.6314744551138,0 -43.2909118289382,-22.6314744357806,0 -43.2909095568064,-22.63147435463731,0 -43.2909072882094,-22.6314742117535,0 -43.2909050250936,-22.6314740072518,0 -43.2909027694009,-22.6314737413078,0 -43.2909005230665,-22.6314734141496,0 -43.2908982880177,-22.6314730260577,0 -43.2908960661723,-22.6314725773654,0 -43.2908938594365,-22.6314720684574,0 -43.2908916697036,-22.6314714997706,0 -43.2908894988526,-22.6314708717927,0 -43.2908873487457,-22.6314701850626,0 -43.2908852212279,-22.6314694401695,0 -43.2908831181246,-22.6314686377525,0 -43.2908810412401,-22.6314677785001,0 -43.2908789923564,-22.6314668631494,0 -43.2908769732314,-22.6314658924858,0 -43.2908749855975,-22.6314648673422,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 165</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875522121596,-22.6269733069839,0 -43.2876260102992,-22.6269836049352,0 -43.2876992895369,-22.6269967129484,0 -43.2877719257678,-22.627012608824,0 -43.2878437959758,-22.6270312656416,0 -43.2879147784424,-22.6270526518041,0 -43.2879847529517,-22.6270767310927,0 -43.2880536009953,-22.6271034627271,0 -43.288121205972,-22.6271328014351,0 -43.2881874533857,-22.6271646975293,0 -43.2882522310392,-22.6271990969908,0 -43.2883154292244,-22.627235941561,0 -43.2883769409075,-22.6272751688405,0 -43.2884366619111,-22.6273167123942,0 -43.28849449109,-22.6273605018642,0 -43.2885503305026,-22.6274064630888,0 -43.2886040855772,-22.6274545182281,0 -43.2886556652717,-22.6275045858959,0 -43.2887049822277,-22.6275565812975,0 -43.2887519529191,-22.6276104163732,0 -43.2887964977928,-22.6276659999476,0 -43.2888385414041,-22.6277232378835,0 -43.2888780125441,-22.6277820332422,0 -43.2889148443602,-22.6278422864472,0 -43.2889489744701,-22.6279038954523,0 -43.2889803450663,-22.6279667559156,0 -43.289008903015,-22.6280307613749,0 -43.2890345999458,-22.6280958034293,0 -43.2890573923334,-22.6281617719215,0 -43.2890772415716,-22.6282285551255,0 -43.2890941140389,-22.6282960399351,0 -43.2891079811549,-22.6283641120556,0 -43.2891188194293,-22.6284326561976,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 166</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2891185573927,-22.6284330223379,0 -43.2891187605347,-22.6284346538145,0 -43.2891189281051,-22.6284362887702,0 -43.2891190600353,-22.6284379265367,0 -43.2891191562713,-22.6284395664445,0 -43.2891192167737,-22.6284412078232,0 -43.2891192415179,-22.6284428500019,0 -43.2891192304938,-22.6284444923094,0 -43.2891191837058,-22.6284461340744,0 -43.289119101173,-22.6284477746256,0 -43.2891189829293,-22.6284494132927,0 -43.289118829023,-22.6284510494056,0 -43.2891186395168,-22.6284526822957,0 -43.2891184144884,-22.6284543112955,0 -43.2891181540297,-22.6284559357391,0 -43.2891178582471,-22.6284575549624,0 -43.2891175272616,-22.6284591683036,0 -43.2891171612085,-22.6284607751032,0 -43.2891167602373,-22.6284623747045,0 -43.289116324512,-22.6284639664534,0 -43.2891158542108,-22.6284655496995,0 -43.2891153495257,-22.6284671237956,0 -43.2891148106632,-22.628468688098,0 -43.2891142378436,-22.6284702419676,0 -43.2891136313008,-22.628471784769,0 -43.2891129912829,-22.6284733158717,0 -43.2891123180515,-22.6284748346499,0 -43.2891116118818,-22.6284763404825,0 -43.2891108730625,-22.6284778327542,0 -43.2891101018955,-22.6284793108549,0 -43.2891092986961,-22.6284807741804,0 -43.2891084637926,-22.6284822221327,0 -43.2891075975262,-22.6284836541197,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 167</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2882301018525,-22.627413162566,0 -43.2882667038481,-22.6274207921574,0 -43.2884750537934,-22.6275637460324,0 -43.2886149611969,-22.627759686055,0 -43.288716163928,-22.6279874426464,0 -43.2887195752646,-22.6282243014223,0 -43.2886666890948,-22.6284646250401,0 -43.2885743262137,-22.6287019597631,0 -43.2884620412588,-22.628903966449,0 -43.2883142697461,-22.6291011444104,0 -43.2881403377998,-22.6292830369704,0 -43.2879369866522,-22.6294280609346,0 -43.2876846701974,-22.6295125546759,0 -43.2874224798981,-22.6295485627874,0 -43.2871989868845,-22.6295381968406,0 -43.2870246801783,-22.6295289478395,0 -43.2869144199826,-22.6295221326542,0 -43.2866618754611,-22.6294720060272,0 -43.2864283283915,-22.6293160427267,0 -43.2864043037775,-22.6290725902421,0 -43.2864028859323,-22.6288363534783,0 -43.286414240122,-22.6285994370495,0 -43.2864345017209,-22.628373448337,0 -43.2864996820119,-22.6281401261345,0 -43.2866222691604,-22.6279445000677,0 -43.2867289953722,-22.6277399678429,0 -43.2867370823754,-22.6277698605739,0 -43.2867543945597,-22.6277173648776,0 -43.2867538371897,-22.627590948723,0 -43.286793292212,-22.6275471850264,0 -43.2869633511179,-22.6273799833047,0 -43.2872038135577,-22.6273314992925,0 -43.2874692492386,-22.6273377948731,0 -43.2877355339841,-22.6273511579244,0 -43.2880239166634,-22.6273710235435,0 -43.2882013098207,-22.6274074971031,0 -43.2882667038481,-22.6274207921574,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 168</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.288716163928,-22.6279874426464,0 -43.28891783627,-22.6278926762046,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 169</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2884919948537,-22.6275877804312,0 -43.2886038371342,-22.6274869611826,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 170</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2880515837787,-22.6273769714411,0 -43.2881657967542,-22.6271795216388,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 171</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2877884407634,-22.6273547020461,0 -43.2878925376674,-22.6270685095264,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 172</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875522180964,-22.6269737389954,0 -43.2871012504934,-22.626919568925,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 173</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875227860011,-22.6298487703764,0 -43.2874996134322,-22.6298577300862,0 -43.2874752018961,-22.6298631588374,0 -43.2874501713549,-22.62986491876,0 -43.2874251574914,-22.6298629651588,0 -43.2874007955646,-22.629857347648,0 -43.2873777042767,-22.6298482088917,0 -43.28735647006,-22.6298357809801,0 -43.2873376321838,-22.6298203795361,0 -43.2873216690587,-22.6298023956987,0 -43.287308986087,-22.62978228619,0 -43.2872999053668,-22.629760561716,0 -43.2872946575126,-22.6297377739962,0 -43.2872933757978,-22.6297145017525,0 -43.2872960927712,-22.6296913360116,0 -43.2873027394302,-22.6296688650949,0 -43.2873131469731,-22.6296476596778,0 -43.2873270510866,-22.6296282582968,0 -43.2873440986584,-22.6296111536722,0 -43.2873638567449,-22.6295967801957,0 -43.2873858235663,-22.6295855028981,0 -43.28740944125,-22.6295776081795,0 -43.2874341099979,-22.6295732965348,0 -43.2874592033197,-22.62957267746379,0 -43.287484083942,-22.6295757666881,0 -43.2875081199935,-22.6295824857538,0 -43.2875307010514,-22.6295926640225,0 -43.2875512536437,-22.6296060430059,0 -43.287569255813,-22.6296222829293,0 -43.2875842503725,-22.6296409713614,0 -43.2875958565167,-22.6296616336877,0 -43.2876037794924,-22.6296837451642,0 -43.2876078180843,-22.6297067442438,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 174</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875228509377,-22.6298490845008,0 -43.2875252933697,-22.6298479643498,0 -43.2875277721779,-22.6298469153175,0 -43.2875302849603,-22.6298459384202,0 -43.2875328292815,-22.6298450346051,0 -43.2875354026756,-22.6298442047479,0 -43.2875380026488,-22.6298434496529,0 -43.2875406266812,-22.6298427700517,0 -43.2875432722299,-22.6298421666031,0 -43.2875459367308,-22.629841639892,0 -43.2875486176019,-22.6298411904288,0 -43.2875513122449,-22.6298408186489,0 -43.2875540180483,-22.6298405249129,0 -43.2875567323898,-22.6298403095052,0 -43.2875594526389,-22.6298401726348,0 -43.2875621761593,-22.6298401144342,0 -43.2875649003114,-22.6298401349599,0 -43.2875676224553,-22.6298402341919,0 -43.2875703399528,-22.629840412034,0 -43.2875730501702,-22.6298406683141,0 -43.287575750481,-22.6298410027835,0 -43.2875784382681,-22.6298414151183,0 -43.2875811109268,-22.62984190491879,0 -43.287583765867,-22.6298424717103,0 -43.2875864005155,-22.6298431149436,0 -43.287589012319,-22.6298438339951,0 -43.2875915987464,-22.6298446281681,0 -43.2875941572909,-22.629845496693,0 -43.2875966854732,-22.629846438728,0 -43.2875991808429,-22.6298474533599,0 -43.2876016409817,-22.6298485396059,0 -43.2876040635055,-22.6298496964129,0 -43.2876064460663,-22.6298509226598,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 175</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2876513188392,-22.6297708021074,0 -43.2876490461734,-22.6297695463023,0 -43.2876468154262,-22.6297682273156,0 -43.2876446286351,-22.6297668463517,0 -43.2876424877979,-22.6297654046723,0 -43.2876403948697,-22.6297639035942,0 -43.2876383517624,-22.6297623444885,0 -43.2876363603424,-22.6297607287793,0 -43.2876344224286,-22.6297590579426,0 -43.287632539791,-22.6297573335043,0 -43.2876307141494,-22.62975555704,0 -43.2876289471714,-22.6297537301719,0 -43.287627240471,-22.6297518545691,0 -43.2876255956071,-22.6297499319445,0 -43.2876240140822,-22.6297479640545,0 -43.2876224973409,-22.6297459526966,0 -43.2876210467686,-22.6297438997081,0 -43.2876196636904,-22.629741806964,0 -43.2876183493696,-22.6297396763761,0 -43.2876171050066,-22.6297375098905,0 -43.2876159317382,-22.6297353094861,0 -43.287614830636,-22.6297330771728,0 -43.2876138027058,-22.6297308149898,0 -43.2876128488867,-22.6297285250032,0 -43.2876119700496,-22.629726209305,0 -43.2876111669975,-22.6297238700102,0 -43.2876104404639,-22.6297215092557,0 -43.2876097911124,-22.62971912919789,0 -43.2876092195362,-22.6297167320108,0 -43.2876087262572,-22.6297143198839,0 -43.2876083117261,-22.6297118950208,0 -43.2876079763216,-22.6297094596363,0 -43.28760772035,-22.6297070159547,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 176</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2876741397577,-22.629756964721,0 -43.2876719794255,-22.6297557730539,0 -43.2876698568435,-22.6297545242943,0 -43.287667773762,-22.6297532194719,0 -43.2876657318989,-22.6297518596628,0 -43.287663732938,-22.6297504459884,0 -43.2876617785277,-22.6297489796144,0 -43.2876598702796,-22.6297474617501,0 -43.2876580097674,-22.6297458936471,0 -43.2876561985253,-22.6297442765985,0 -43.287654438047,-22.6297426119379,0 -43.2876527297841,-22.629740901038,0 -43.2876510751455,-22.6297391453095,0 -43.2876494754954,-22.6297373462005,0 -43.2876479321533,-22.6297355051945,0 -43.2876464463916,-22.6297336238096,0 -43.2876450194356,-22.6297317035974,0 -43.2876436524621,-22.6297297461413,0 -43.2876423465982,-22.6297277530555,0 -43.2876411029209,-22.6297257259835,0 -43.2876399224557,-22.629723666597,0 -43.2876388061761,-22.6297215765943,0 -43.2876377550026,-22.6297194576988,0 -43.2876367698021,-22.6297173116578,0 -43.2876358513869,-22.6297151402411,0 -43.2876350005144,-22.6297129452392,0 -43.2876342178863,-22.6297107284623,0 -43.287633504148,-22.6297084917385,0 -43.2876328598881,-22.6297062369121,0 -43.2876322856377,-22.6297039658426,0 -43.2876317818706,-22.6297016804028,0 -43.2876313490019,-22.6296993824774,0 -43.2876309873889,-22.6296970739613,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 177</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2872441237912,-22.6267740172985,0 -43.2872781814065,-22.6267780839552,0 -43.2872930457277,-22.6266704831177,0 -43.2872593454889,-22.6266666072003,0 -43.2872441237912,-22.6267740172985,0 -43.2872504316501,-22.6267293177859,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 178</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2873794344139,-22.6267902352159,0 -43.2873857422305,-22.6267455356954,0 -43.2876025465281,-22.6267712953654,0 -43.2875963903632,-22.626816516311,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 179</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2874032280213,-22.6267932339244,0 -43.2874097420162,-22.62674820305,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 180</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2874275844408,-22.6267960916235,0 -43.2874338922424,-22.6267513921001,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 181</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2874515835101,-22.6267987585848,0 -43.2874578913042,-22.62675405906,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 182</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2874757341641,-22.6268019469549,0 -43.287482042677,-22.6267572478165,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 183</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875000905875,-22.6268048046433,0 -43.2875060413236,-22.6267599154434,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 184</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875240896605,-22.6268074715938,0 -43.2875303970143,-22.626762772739,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 185</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875482399008,-22.6268106606275,0 -43.2875541917658,-22.6267657711385,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 186</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875722397026,-22.6268133279586,0 -43.287578547459,-22.6267686284268,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 187</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.2872781814065,-22.6267780839552,0 -43.2872930457277,-22.6266704831177,0 -43.2873265412356,-22.6266746911558,0 -43.2873116762134,-22.6267822916103,0 -43.2872781814065,-22.6267780839552,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 188</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.2873116762134,-22.6267822916103,0 -43.2873265412356,-22.6266746911558,0 -43.2873605988304,-22.6266787577937,0 -43.2873453767911,-22.6267861685804,0 -43.2873116762134,-22.6267822916103,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 189</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.2873453767911,-22.6267861685804,0 -43.2873605988304,-22.6266787577937,0 -43.2873942986588,-22.6266826343643,0 -43.2873794344139,-22.6267902352159,0 -43.2873453767911,-22.6267861685804,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 190</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.28909870294,-22.6284179002706,0 -43.2890993711894,-22.6284235357003,0 -43.2890996143492,-22.6284292006758,0 -43.2890994890205,-22.6284339644227,0 -43.2890989483612,-22.6284396122301,0 -43.2890979846268,-22.6284452112685,0 -43.2890966025128,-22.6284507342603,0 -43.2890948087524,-22.6284561542976,0 -43.2890926120847,-22.6284614449747,0 -43.2890900232116,-22.6284665805161,0 -43.2890879706849,-22.6284700916763,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 191</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2909450622098,-22.6314684024673,0 -43.290956843921,-22.6314640243661,0 -43.2909689259218,-22.6314604198515,0 -43.2909812493504,-22.6314576064842,0 -43.2909937541682,-22.6314555979708,0 -43.2910063794533,-22.6314544040964,0 -43.2910190636969,-22.6314540306774,0 -43.2910317451027,-22.6314544795331,0 -43.2910443618886,-22.6314557484768,0 -43.2910568525869,-22.6314578313263,0 -43.2910691563445,-22.6314607179343,0 -43.2910812132189,-22.6314643942375,0 -43.2910929644704,-22.6314688423254,0 -43.2911043528482,-22.6314740405276,0 -43.2911153228694,-22.6314799635188,0 -43.2911258210894,-22.6314865824431,0 -43.2911357963617,-22.631493865054,0 -43.2911452000881,-22.631501775871,0 -43.2911539864544,-22.6315102763538,0 -43.2911621126544,-22.63151932508899,0 -43.291169539098,-22.6315288779921,0 -43.2911762296042,-22.6315388885225,0 -43.2911821515774,-22.6315493079099,0 -43.2911872761663,-22.6315600853922,0 -43.2911915784041,-22.6315711684627,0 -43.2911950373306,-22.6315825031257,0 -43.2911976360942,-22.6315940341601,0 -43.2911993620335,-22.6316057053877,0 -43.2912002067399,-22.6316174599476,0 -43.2912001660978,-22.6316292405727,0 -43.2911992403049,-22.6316409898691,0 -43.2911974338715,-22.6316526505952,0 -43.291194755598,-22.6316641659411,0 -43.2911912185325,-22.6316754798052,0 -43.2911868399071,-22.6316865370675,0 -43.2911816410538,-22.6316972838578,0 -43.2911756473009,-22.6317076678191,0 -43.291168887849,-22.6317176383614,0 -43.2911613956296,-22.6317271469091,0 -43.2911532071439,-22.6317361471375,0 -43.2911443622853,-22.6317445951985,0 -43.2911349041452,-22.6317524499335,0 -43.2911248788027,-22.6317596730752,0 -43.2911143351003,-22.631766229433,0 -43.291103324406,-22.6317720870648,0 -43.2910919003629,-22.6317772174329,0 -43.2910801186278,-22.6317815955425,0 -43.2910743485944,-22.631783424789,0 -43.29106214313,-22.6317866511828,0 -43.291049724951,-22.6317890793556,0 -43.2910371545576,-22.6317906974772,0 -43.2910244931919,-22.6317914976645,0 -43.2910118025388,-22.6317914760188,0 -43.2909991444263,-22.6317906326459,0 -43.2909865805236,-22.6317889716545,0 -43.290974172041,-22.6317865011368,0 -43.2909619794316,-22.6317832331289,0 -43.2909500620966,-22.6317791835524,0 -43.2909384780965,-22.6317743721365,0 -43.2909272838673,-22.631768822322,0 -43.2909165339463,-22.6317625611471,0 -43.2909062807062,-22.6317556191157,0 -43.2908965740997,-22.6317480300488,0 -43.2908958733948,-22.6317474391179,0 -43.2908868068616,-22.6317391961407,0 -43.2908783818303,-22.6317303861419,0 -43.2908706393468,-22.6317210520431,0 -43.2908636171315,-22.6317112393191,0 -43.290857349396,-22.6317009957768,0 -43.2908518666759,-22.6316903713217,0 -43.2908471956822,-22.631679417715,0 -43.2908433591715,-22.6316681883218,0 -43.2908403758345,-22.6316567378506,0 -43.2908382602058,-22.6316451220869,0 -43.2908373019362,-22.6316369306546,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 192</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875257064712,-22.6298724966246,0 -43.2875139668958,-22.6298769707961,0 -43.2875019197116,-22.6298806738648,0 -43.2874896236114,-22.6298835877894,0 -43.2874771385009,-22.6298856983739,0 -43.2874645252064,-22.6298869953354,0 -43.2874518451789,-22.6298874723554,0 -43.2874391601944,-22.6298871271098,0 -43.2874265320532,-22.6298859612808,0 -43.2874140222784,-22.629883980548,0 -43.2874016918166,-22.6298811945615,0 -43.2873896007409,-22.6298776168944,0 -43.2873778079578,-22.6298732649768,0 -43.2873663709209,-22.6298681600109,0 -43.2873553453503,-22.6298623268676,0 -43.2873447849615,-22.6298557939656,0 -43.2873347412039,-22.6298485931326,0 -43.2873252630096,-22.6298407594504,0 -43.2873163965555,-22.629832331084,0 -43.287308185038,-22.6298233490957,0 -43.2873040846234,-22.6298183439348,0 -43.2872969541304,-22.6298085987422,0 -43.2872905732962,-22.6297984155486,0 -43.2872849732071,-22.6297878439657,0 -43.2872801811464,-22.6297769354972,0 -43.28727622046,-22.6297657432883,0 -43.2872731104441,-22.6297543218662,0 -43.28727086625,-22.629742726875,0 -43.287269498811,-22.6297310148044,0 -43.2872690147888,-22.6297192427143,0 -43.2872694165415,-22.6297074679573,0 -43.2872707021114,-22.6296957478988,0 -43.2872728652352,-22.6296841396375,0 -43.2872758953741,-22.6296726997278,0 -43.2872797777655,-22.6296614839039,0 -43.2872844934945,-22.6296505468077,0 -43.2872900195864,-22.629639941724,0 -43.2872963291185,-22.6296297203192,0 -43.2873033913513,-22.6296199323911,0 -43.2873111718783,-22.6296106256253,0 -43.2873196327935,-22.6296018453634,0 -43.2873287328761,-22.6295936343818,0 -43.2873384277914,-22.6295860326834,0 -43.2873486703069,-22.6295790773031,0 -43.2873594105221,-22.6295728021264,0 -43.2873705961119,-22.6295672377253,0 -43.2873821725814,-22.6295624112091,0 -43.2873940835314,-22.6295583460919,0 -43.287406270933,-22.6295550621784,0 -43.2874186754106,-22.6295525754677,0 -43.2874312365312,-22.6295508980746,0 -43.2874438930984,-22.6295500381711,0 -43.2874565834509,-22.6295499999468,0 -43.2874692457628,-22.6295507835877,0 -43.2874818183449,-22.6295523852762,0 -43.287494239945,-22.629554797209,0 -43.2875064500465,-22.6295580076354,0 -43.2875183891631,-22.6295620009147,0 -43.287529999129,-22.6295667575921,0 -43.2875412233816,-22.6295722544935,0 -43.2875520072377,-22.6295784648387,0 -43.2875622981594,-22.6295853583717,0 -43.2875720460105,-22.629592901508,0 -43.2875812033004,-22.6296010574982,0 -43.2875897254158,-22.6296097866074,0 -43.2875975708377,-22.6296190463082,0 -43.287604701344,-22.6296287914884,0 -43.2876110821954,-22.6296389746707,0 -43.2876166823049,-22.6296495462435,0 -43.2876176774646,-22.62965164108,0 -43.2876223096392,-22.6296626084727,0 -43.287626106403,-22.6296738491088,0 -43.2876290492584,-22.62968530822531,0 -43.2876311067224,-22.6296968079471,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 193</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				-43.2875257443148,-22.6298727819339,0 -43.2875313946755,-22.6298706284194,0 -43.2875371930949,-22.629868846043,0 -43.2875431113235,-22.6298674434882,0 -43.2875491205286,-22.629866427588,0 -43.287550286658,-22.6298662766862,0 -43.2875563662369,-22.6298657283854,0 -43.2875624722075,-22.6298655751069,0 -43.2875685748222,-22.6298658175972,0 -43.2875746443497,-22.6298664546749,0 -43.28758065122,-22.6298674832364,0 -43.2875865661682,-22.6298688982707,0 -43.2875923603773,-22.6298706928836,0 -43.2875980056185,-22.6298728583323,0 -43.287603474389,-22.6298753840668,0 -43.2876054026199,-22.629876383393,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 194</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.2935104784941,-22.6297961157054,0 -43.2935019909246,-22.6297990825495,0 -43.2870132263095,-22.6259963722886,0 -43.2935104784941,-22.6297961157054,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 195</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.2935019909246,-22.6297990825495,0 -43.2870132263095,-22.6259963722886,0 -43.287017537379,-22.6260070519168,0 -43.2935019909246,-22.6297990825495,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 196</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.2870132263095,-22.6259963722886,0 -43.287017537379,-22.6260070519168,0 -43.28595161219,-22.6295281487469,0 -43.2870132263095,-22.6259963722886,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 197</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.287017537379,-22.6260070519168,0 -43.28595161219,-22.6295281487469,0 -43.285960304953,-22.629524850814,0 -43.287017537379,-22.6260070519168,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 198</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.28595161219,-22.6295281487469,0 -43.285960304953,-22.629524850814,0 -43.2926206882529,-22.6330875262216,0 -43.28595161219,-22.6295281487469,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 199</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.285960304953,-22.629524850814,0 -43.2926206882529,-22.6330875262216,0 -43.2926161713539,-22.6330771781467,0 -43.285960304953,-22.629524850814,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 200</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.2926206882529,-22.6330875262216,0 -43.2926161713539,-22.6330771781467,0 -43.2935104784941,-22.6297961157054,0 -43.2926206882529,-22.6330875262216,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Poligono 201</name>
+		<description>Desenho exportado em 26/3/2025 as 13:45 via Metrica TOPO CAD</description>
+		<styleUrl>#yellowLineGreenPoly0</styleUrl>
+		<Polygon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<coordinates>
+						-43.2926161713539,-22.6330771781467,0 -43.2935104784941,-22.6297961157054,0 -43.2935019909246,-22.6297990825495,0 -43.2926161713539,-22.6330771781467,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>XEREM - A DEFINIR</name>
+		<LookAt>
+			<longitude>-43.28854893629805</longitude>
+			<latitude>-22.62913850367951</latitude>
+			<altitude>0</altitude>
+			<heading>-1.677849347714013</heading>
+			<tilt>0</tilt>
+			<range>1534.451577710375</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-43.28967551121273,-22.62940877380495,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

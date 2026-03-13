@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RESIDENCIAL CIDADE JARDIM I - STP2 - TANGARÁ DA SERRA</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="0">
+		<LineStyle id="l0LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="01">
+		<LineStyle id="l0LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>0</name>
+		<Placemark>
+			<name>7121</name>
+			<styleUrl>#00</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-57.54262527555343,-14.61087229136569,0 -57.54527333109856,-14.60756673579778,0 -57.54534055332049,-14.60750756913091,0 -57.55451971994622,-14.61460201360937,0 -57.55445527550203,-14.61468923583192,0 -57.55414555328101,-14.61509423583344,0 -57.55383388661559,-14.6154984025016,0 -57.55350888661686,-14.615928680281,0 -57.55268027550901,-14.6170114580628,0 -57.5518938866232,-14.61805201362225,0 -57.54999777551955,-14.62046673585346,0 -57.54783110886144,-14.62318145808577,0 -57.54632999775687,-14.62260006919373,0 -57.54602277553598,-14.62252340252658,0 -57.54596860886953,-14.62255173586001,0 -57.54588277553655,-14.6225722914156,0 -57.54578020999137,-14.62264209053706,0 -57.54333778973157,-14.6223411534715,0 -57.5432799616592,-14.62280720600728,0 -57.54099938811162,-14.62253889992074,0 -57.54107178656998,-14.62195546904195,0 -57.53811830191579,-14.6216079614052,0 -57.53812108676343,-14.62158552177977,0 -57.53815450489713,-14.62131624627006,0 -57.53799318829234,-14.621297264602,0 -57.53516789336272,-14.6209648014365,0 -57.53539183797967,-14.61914556020523,0 -57.53541039929062,-14.618978667786,0 -57.5354219497585,-14.61880913407872,0 -57.53542517232234,-14.61865682265375,0 -57.53541773533315,-14.61849177317636,0 -57.53539165811802,-14.61831948037091,0 -57.53534808096706,-14.61814587791081,0 -57.53528802931154,-14.61798082797889,0 -57.53521174719177,-14.61782189516966,0 -57.53512489998962,-14.61767899201388,0 -57.5350261033365,-14.61754444682751,0 -57.53491709549282,-14.61742304941747,0 -57.53479365201374,-14.6173059242118,0 -57.53464455418709,-14.61719017241946,0 -57.53728697375713,-14.61752868515231,0 -57.53846271200491,-14.61606145017267,0 -57.53846275564012,-14.61606148289632,0 -57.54262527555343,-14.61087229136569,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>LIMITES</name>
+		<Placemark>
+			<name>6FCE</name>
+			<styleUrl>#00</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-57.53198081763298,-14.61697511498431,0 -57.53131415655325,-14.62203468354331,0 -57.53475566148342,-14.62191211871795,0 -57.5350228226077,-14.61910457003141,0 -57.53504032339004,-14.61894721563856,0 -57.53505080109333,-14.61879343138629,0 -57.53505360266451,-14.61866102830217,0 -57.53504752556183,-14.61852615384414,0 -57.53502675636048,-14.6183889297174,0 -57.53499174705216,-14.61824945889385,0 -57.5349439515357,-14.61811809398021,0 -57.53488292417387,-14.61799094386818,0 -57.53481344727283,-14.61787662249608,0 -57.53473455150309,-14.61776917892967,0 -57.53464727055981,-14.61767197771757,0 -57.53454641726066,-14.61757628635092,0 -57.53443988124815,-14.61749195311547,0 -57.53432695642134,-14.61742011715842,0 -57.5341981204215,-14.61735393809383,0 -57.53412452587713,-14.61732312719949,0 -57.53393040112845,-14.61726082401655,0 -57.53379054436584,-14.61722570874988,0 -57.53368420786786,-14.6172046360017,0 -57.53345478649545,-14.61716988976827,0 -57.53198081763298,-14.61697511498431,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>TANGARÁ CIDADE JARDIM II A IV</name>
+		<Camera>
+			<longitude>-57.53877159118548</longitude>
+			<latitude>-14.62223709778824</latitude>
+			<altitude>3987.333338963845</altitude>
+			<heading>1.896665130744638</heading>
+			<tilt>9.580285092507653</tilt>
+			<roll>6.007052645853225</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-57.54466293569787,-14.61712150032817,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TANGARÁ CIDADE JARDIM II A IV</name>
+		<Camera>
+			<longitude>-57.53952506952999</longitude>
+			<latitude>-14.61790516447885</latitude>
+			<altitude>5936.208588550388</altitude>
+			<heading>13.08824516245161</heading>
+			<tilt>3.324604027756608</tilt>
+			<roll>17.47765573055363</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-57.53334109811825,-14.61955262847401,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

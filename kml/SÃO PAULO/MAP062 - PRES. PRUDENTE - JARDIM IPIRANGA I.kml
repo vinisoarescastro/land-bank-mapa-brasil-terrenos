@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PRES. PRUDENTE - JARDIM IPIRANGA I</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="INFLUENCIA--AREA-DIRETAMENTE-AFETADA">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#INFLUENCIA--AREA-DIRETAMENTE-AFETADA1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#INFLUENCIA--AREA-DIRETAMENTE-AFETADA0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="INFLUENCIA--AREA-DIRETAMENTE-AFETADA0">
+		<LineStyle id="lINFLUENCIA--AREA-DIRETAMENTE-AFETADALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pINFLUENCIA--AREA-DIRETAMENTE-AFETADAPolyStyle">
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="INFLUENCIA--AREA-DIRETAMENTE-AFETADA1">
+		<LineStyle id="lINFLUENCIA--AREA-DIRETAMENTE-AFETADALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pINFLUENCIA--AREA-DIRETAMENTE-AFETADAPolyStyle">
+			<color>7f0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>INFLUENCIA--AREA-DIRETAMENTE-AFETADA</name>
+		<open>1</open>
+		<Placemark>
+			<name>BE4D</name>
+			<styleUrl>#INFLUENCIA--AREA-DIRETAMENTE-AFETADA</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-51.39923680032736,-22.07531993516846,0 -51.39885361762499,-22.07504231399516,0 -51.39844572760416,-22.07474019267072,0 -51.39838696906554,-22.07469710431008,0 -51.39828985300456,-22.0746264483257,0 -51.39792041970601,-22.074353774858,0 -51.39748508917503,-22.0740325050363,0 -51.39738680517617,-22.07395550226131,0 -51.39766014202034,-22.07348133926167,0 -51.39733350819795,-22.07317711679059,0 -51.39766420052119,-22.07274271990722,0 -51.3980608268211,-22.07223370061829,0 -51.3983596908606,-22.07184949285823,0 -51.39872441041436,-22.07136895309408,0 -51.40125775381684,-22.0727179617207,0 -51.40770010146802,-22.07614621586208,0 -51.40721397849817,-22.07706607713939,0 -51.40717924452589,-22.07713180164162,0 -51.40806340153388,-22.0776404131858,0 -51.40951006668488,-22.07847344965096,0 -51.41037104622456,-22.07929230386844,0 -51.41057365827101,-22.07948500060838,0 -51.41009217076957,-22.08005874121047,0 -51.40997022017742,-22.08020664437684,0 -51.40989848358878,-22.0802918827057,0 -51.40984997256101,-22.08034826245372,0 -51.4098014614949,-22.08040464218755,0 -51.40975294994257,-22.08046102242764,0 -51.40970443924754,-22.08051740161264,0 -51.40965584467592,-22.08057387822016,0 -51.40960780349563,-22.0806306725301,0 -51.40956025101346,-22.08068770414205,0 -51.40951263821372,-22.08074480803594,0 -51.40946505534933,-22.08080187596785,0 -51.40941747264756,-22.08085894364538,0 -51.4093698897281,-22.0809160115247,0 -51.40932230692911,-22.0809730792002,0 -51.40927425301046,-22.08102965328638,0 -51.40922592920538,-22.08108617548147,0 -51.40917759215863,-22.08114272956782,0 -51.40910410946414,-22.08122920028126,0 -51.40900755180123,-22.08134282423998,0 -51.40836531658817,-22.08196876911101,0 -51.40650917122223,-22.0805946098393,0 -51.4056771252686,-22.07998735123738,0 -51.40271306215256,-22.07783020061869,0 -51.40258325863361,-22.07773808249357,0 -51.40223804768148,-22.07748925372198,0 -51.40181987859277,-22.07719322786211,0 -51.40142850914622,-22.07691458865943,0 -51.40115903247486,-22.07671623832128,0 -51.40080221163629,-22.07645998330917,0 -51.40044467342201,-22.07619762894303,0 -51.40001074687491,-22.07588276904243,0 -51.39958600087784,-22.07557413177023,0 -51.39923680032736,-22.07531993516846,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>PRES. PRUDENTE - JARDIM IPIRANGA I</name>
+		<LookAt>
+			<longitude>-51.40377791734653</longitude>
+			<latitude>-22.07738726448495</latitude>
+			<altitude>0</altitude>
+			<heading>-0.3289186179299265</heading>
+			<tilt>12.18554269773239</tilt>
+			<range>1733.2929788802</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.40425177937561,-22.07664661286931,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JARDIM IPIRANGA II - PRESIDENTE PRUDENTE</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/<br/>http://tbn2net.appspot.com]]></description>
+	<gx:balloonVisibility>1</gx:balloonVisibility>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="U-GLEBA">
+		<LineStyle id="lU-GLEBALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pU-GLEBAPolyStyle">
+			<color>7fffff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="U-GLEBA0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#U-GLEBA1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#U-GLEBA</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="U-GLEBA1">
+		<LineStyle id="lU-GLEBALineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pU-GLEBAPolyStyle">
+			<color>7fffff00</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>U-GLEBA</name>
+		<open>1</open>
+		<Placemark>
+			<name>D8E</name>
+			<styleUrl>#U-GLEBA0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-51.38990033035625,-22.06609556223419,0 -51.38978415308209,-22.06620219554318,0 -51.3895630693361,-22.06675668092663,0 -51.38957888689248,-22.06758057533463,0 -51.38967327054148,-22.06833604907473,0 -51.38992538716101,-22.06851929432761,0 -51.39207816424033,-22.07008395603132,0 -51.39431126988457,-22.07170686513046,0 -51.3968359057673,-22.07354765756011,0 -51.39734076007868,-22.07281786746959,0 -51.39739945217109,-22.07271130047884,0 -51.39717455102423,-22.07251695811042,0 -51.39636534511551,-22.0718850450234,0 -51.39713963008873,-22.07083194121985,0 -51.39717747394052,-22.07077436388368,0 -51.39732959034166,-22.07054292660297,0 -51.39723552362354,-22.07043473076689,0 -51.39656549076706,-22.07001317912247,0 -51.39593984925903,-22.06928873167911,0 -51.39261313739222,-22.06752990317047,0 -51.39100417593998,-22.06667920690259,0 -51.38990033035625,-22.06609556223419,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>PRES. PRUDENTE - JARDIM IPIRANGA II</name>
+		<Camera>
+			<longitude>-51.39353522503256</longitude>
+			<latitude>-22.07059099333414</latitude>
+			<altitude>1435.540461040707</altitude>
+			<heading>0.1238632171223624</heading>
+			<tilt>2.645482784610921</tilt>
+			<roll>0.5111467821972997</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.3933083983538,-22.06965361777799,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

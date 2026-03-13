@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>2d-Guaíba II - GUAÍBA</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="PERIMETRO">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PERIMETRO1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PERIMETRO0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PERIMETRO0">
+		<LineStyle id="lPERIMETROLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPERIMETROPolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="PERIMETRO1">
+		<LineStyle id="lPERIMETROLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pPERIMETROPolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>PERIMETRO</name>
+		<Placemark>
+			<name>C8575</name>
+			<styleUrl>#PERIMETRO</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-51.37130959511146,-30.15600539713392,0 -51.37211559863015,-30.1554712356684,0 -51.37660553011347,-30.15306814815496,0 -51.3736106371229,-30.14725638922497,0 -51.37352219507336,-30.14729084306586,0 -51.37133310584438,-30.14822700944279,0 -51.36910669998384,-30.1486897386571,0 -51.36671760429051,-30.14919268203757,0 -51.3668607421211,-30.1494024583189,0 -51.36707452579257,-30.14970588974147,0 -51.3674490343755,-30.15022843246585,0 -51.36760455473934,-30.1504443097531,0 -51.36776414957775,-30.15066667293313,0 -51.36842453942228,-30.15158114939787,0 -51.36876452381081,-30.15205875374507,0 -51.36899310396743,-30.15240067407896,0 -51.36906791508767,-30.15249657261921,0 -51.36923015451841,-30.15267443663811,0 -51.36944227084311,-30.15283311877752,0 -51.36978964086837,-30.15300549748749,0 -51.37005960325445,-30.15313757440388,0 -51.37015375203449,-30.15318360361048,0 -51.37017489676447,-30.15320096088751,0 -51.37019802458902,-30.15322101985952,0 -51.37022997819607,-30.15326866830916,0 -51.3702495909384,-30.15332068323099,0 -51.37026940730492,-30.15342720438354,0 -51.37027707428128,-30.15356155466921,0 -51.3702734333736,-30.1536710297697,0 -51.37025213064799,-30.1537782083739,0 -51.37020739621577,-30.15378401987439,0 -51.37019045182104,-30.15380698940369,0 -51.37010732013363,-30.15404185579348,0 -51.37012755626146,-30.15431640833107,0 -51.37020491371751,-30.15442610618643,0 -51.37029742253116,-30.154560939056,0 -51.37052848849293,-30.15489815687278,0 -51.37067458149624,-30.1550607232718,0 -51.37069891693106,-30.15509810539904,0 -51.37072990328908,-30.15519232184618,0 -51.371001754972,-30.1555775230994,0 -51.37130959511146,-30.15600539713392,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>GUAIBA - 02</name>
+		<LookAt>
+			<longitude>-51.37101954171765</longitude>
+			<latitude>-30.1511853955356</latitude>
+			<altitude>0</altitude>
+			<heading>0.07185610957868656</heading>
+			<tilt>43.15513048149247</tilt>
+			<range>1710.662791668751</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-51.3725722920022,-30.15192804136129,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

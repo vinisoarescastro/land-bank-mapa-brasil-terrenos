@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RESIDENCIAL CIDADE JARDIM III - CÁCERES</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<StyleMap id="0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="00">
+		<LineStyle id="l0LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="01">
+		<LineStyle id="l0LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>0</name>
+		<open>1</open>
+		<Placemark>
+			<name>9FCE</name>
+			<styleUrl>#0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-57.65707508621046,-16.10367729131519,0 -57.65666416657532,-16.10376611157077,0 -57.65688471656816,-16.12105417157557,0 -57.66100110654456,-16.12386639157557,0 -57.6642813259066,-16.11934665961382,0 -57.66314844290445,-16.11857805751373,0 -57.65887736161649,-16.1156802413576,0 -57.66123308221446,-16.11243571784828,0 -57.66075852951165,-16.11211373766002,0 -57.66218486145665,-16.11014920136189,0 -57.66036509521076,-16.10891448948919,0 -57.66242760468604,-16.10607872023893,0 -57.65989295935786,-16.10398821646944,0 -57.65922057967327,-16.10491211603555,0 -57.65823654487929,-16.10424530741816,0 -57.65753665615609,-16.10520928171796,0 -57.65742768061676,-16.10492653962429,0 -57.65733299735334,-16.10468158132978,0 -57.65723226872506,-16.10444221221779,0 -57.65718258816012,-16.10432729318872,0 -57.65717496201586,-16.10430046890516,0 -57.65715203664107,-16.10421283392769,0 -57.65713196623376,-16.10412454683939,0 -57.65711477054556,-16.10403569454151,0 -57.65710046649833,-16.10394636449146,0 -57.65708906816771,-16.10385664461684,0 -57.65708058676918,-16.10376662322882,0 -57.65707508621046,-16.10367729131519,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>CÁCERES - CIDADE JARDIM III</name>
+			<LookAt>
+				<longitude>-57.66062307333245</longitude>
+				<latitude>-16.11528433300079</latitude>
+				<altitude>0</altitude>
+				<heading>-1.469632012892828</heading>
+				<tilt>4.467344959455589</tilt>
+				<range>3996.27697452914</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-57.65856010353195,-16.11289877683395,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

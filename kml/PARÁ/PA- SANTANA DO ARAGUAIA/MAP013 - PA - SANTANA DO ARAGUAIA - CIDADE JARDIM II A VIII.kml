@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PA - SANTANA DO ARAGUAIA - CIDADE JARDIM II A VIII</name>
+	<open>1</open>
+	<description><![CDATA[Powered by Neyton<br/>http://tbn2.blogspot.com/]]></description>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="0">
+		<LineStyle id="l0LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="01">
+		<LineStyle id="l0LineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="p0PolyStyle">
+			<color>7fffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle id="lArea de PreservacaoLineStyle">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="pArea de PreservacaoPolyStyle">
+			<color>7f009926</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>0</name>
+		<open>1</open>
+		<Placemark>
+			<name>73D3</name>
+			<styleUrl>#00</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-50.359424574453,-9.34161750909205,0 -50.362909636184,-9.34079280277056,0 -50.36329433263776,-9.33901409918316,0 -50.37388970556285,-9.34125020538232,0 -50.37119766781363,-9.34987294964046,0 -50.37032477176291,-9.349639074543211,0 -50.36987087145758,-9.34951271505858,0 -50.3694728738122,-9.34940765434229,0 -50.36901910425996,-9.349284911795451,0 -50.3685403480863,-9.349151524228409,0 -50.36809178975601,-9.34903292309067,0 -50.36771451063728,-9.348932745130959,0 -50.36716187995478,-9.348781741416269,0 -50.366796335254,-9.348678906285761,0 -50.3663528596312,-9.348560293998871,0 -50.36589418632652,-9.348436363073089,0 -50.36547371259183,-9.34831856861374,0 -50.36500784257014,-9.34819650495576,0 -50.36457478125325,-9.34807547620408,0 -50.36398157333812,-9.34791571249368,0 -50.36371024083401,-9.347810157847981,0 -50.36332507986537,-9.347704199989129,0 -50.36282842825937,-9.347569244406181,0 -50.36241751779471,-9.34745682693198,0 -50.36193834290902,-9.347326387534441,0 -50.36157126486227,-9.347227315966441,0 -50.36104916548819,-9.34708576410393,0 -50.36066484318928,-9.346980293364521,0 -50.35980300030565,-9.34674715964783,0 -50.35936256597365,-9.346626608914431,0 -50.35897255960185,-9.346522699876539,0 -50.3583536499643,-9.34635319417561,0 -50.35803270068088,-9.3462673529244,0 -50.35753742113063,-9.346131533460101,0 -50.35708839433882,-9.346009806782639,0 -50.35668713553437,-9.34590015890978,0 -50.35628480444974,-9.3457943886925,0 -50.35582470359675,-9.345668678968771,0 -50.355357680698,-9.34554386054554,0 -50.35485294716402,-9.345410190960051,0 -50.35448093645737,-9.34531194448302,0 -50.35404381311422,-9.34519786428134,0 -50.35613600679097,-9.343083619594511,0 -50.359424574453,-9.34161750909205,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>73F0</name>
+			<styleUrl>#00</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-50.3612708270949,-9.32763246571991,0 -50.36177751681393,-9.325279933336979,0 -50.35912575335585,-9.32270062946969,0 -50.35891856520803,-9.322584334559471,0 -50.35870519336691,-9.32254344956347,0 -50.35835821783222,-9.32262501085243,0 -50.35441392602138,-9.32490378555401,0 -50.35365622283111,-9.3235013728815,0 -50.35614817021722,-9.32286179208362,0 -50.35647523376794,-9.32135766887067,0 -50.36542413300626,-9.32337372484802,0 -50.36653461921085,-9.32362234315916,0 -50.36684611863028,-9.323727595248171,0 -50.36590363070549,-9.3278471976841,0 -50.36442631812581,-9.33546464559493,0 -50.37569788266329,-9.33787189402852,0 -50.375456528343,-9.3396238515182,0 -50.36374548157535,-9.33709760146751,0 -50.36404132537254,-9.33568254633466,0 -50.36414162098708,-9.33519851097105,0 -50.36215889410097,-9.334813662537121,0 -50.36234494924184,-9.333890387205679,0 -50.36001958542851,-9.33344769902576,0 -50.36034095384377,-9.33196241557172,0 -50.36037512123755,-9.33180331754901,0 -50.36090945577492,-9.3319165231661,0 -50.36106142287463,-9.331208892216161,0 -50.36052708933472,-9.331095686891761,0 -50.3612708270949,-9.32763246571991,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>PA - SANTANA DO ARAGUAIA - CIDADE JARDIM II A VIII</name>
+		<LookAt>
+			<longitude>-50.36120657838536</longitude>
+			<latitude>-9.337881390181456</latitude>
+			<altitude>0</altitude>
+			<heading>-1.66318093344858</heading>
+			<tilt>0.03607279002433206</tilt>
+			<range>5269.74753224746</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-50.36315361877264,-9.33053904295539,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>PA - SANTANA DO ARAGUAIA - CIDADE JARDIM II A VIII</name>
+		<LookAt>
+			<longitude>-50.36120657838536</longitude>
+			<latitude>-9.337881390181456</latitude>
+			<altitude>0</altitude>
+			<heading>-1.66318093344858</heading>
+			<tilt>0.03607279002433206</tilt>
+			<range>5269.74753224746</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_grn-blank</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-50.3658055285526,-9.344490235107752,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
