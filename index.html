@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Land Bank — Grupo Brasil Terrenos</title>
+  <title>Land Bank - Grupo Brasil Terrenos</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
 </head>
@@ -29,7 +31,7 @@
     </div>
     <div class="stats-grid" id="statsGrid"></div>
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Buscar terreno, cidade ou regional...">
+      <input type="text" id="searchInput" placeholder="Buscar terreno, cidade ou regional…">
     </div>
     <div class="filters">
       <h3>Regionais</h3>
@@ -94,17 +96,14 @@
       </div>
     </div>
 
-
-
     <div id="map"></div>
 
-      <div class="map-footer">
-        Desenvolvido pelo <strong>Centro de Inteligência e Dados - Brasil Terrenos</strong> · 
-        Encontrou alguma divergência? 
-        <a href="mailto:controladoria@btsa.com.br">Entre em contato com a área</a>
-      </div>
-
+    <div class="map-footer">
+      Desenvolvido pelo <strong>Centro de Inteligência e Dados</strong> · Versão 1.0.4<br>
+      Identificou alguma divergência nas informações?
+      <a href="mailto:controladoria@btsa.com.br">Entre em contato com nossa equipe</a>.
     </div>
+
   </div>
 
   <!-- Scripts: data first, then app logic -->
