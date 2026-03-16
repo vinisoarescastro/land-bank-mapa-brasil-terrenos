@@ -341,8 +341,8 @@ function buildOverviewMarkers() {
     marker.bindTooltip(`
       <div class="ov-tooltip">
         ${regional ? `<span class="ov-tag" style="background:${color}">${regional}</span>` : ''}
-        <strong>${name}</strong>
-        ${city  ? `<div class="ov-city">${city}</div>`   : ''}
+        <strong>${city  ? `<div class="ov-city">${city}</div></strong>`   : ''}
+        ${name}
         ${units ? `<div class="ov-units">${units}</div>` : ''}
         <div class="ov-hint">Clique para aproximar</div>
       </div>`, {

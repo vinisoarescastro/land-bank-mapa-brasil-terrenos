@@ -54,6 +54,8 @@
   /* ── Accent principal — âmbar terroso ── */
   --accent:       #27A06A;
   --accent2:      #0458b9;
+  --accent-black: #000;
+  --accent-white: #fff;
   --accent-light: #27A06A;
   --accent-dim:   rgba(0, 0, 0, 0.075);
   --accent-ring:  0 0 0 3px rgba(212,134,58,0.20);
@@ -877,7 +879,7 @@ body {
 
 .ov-hint {
   font-size: 9.5px;
-  color: var(--accent);
+  color: var(--accent-black);
   font-weight: 600;
   margin-top: 4px;
   opacity: 0.80;
