@@ -1,24 +1,25 @@
 // ===== GLOBALS =====
-const items = DATA.items;
+const items  = DATA.items;
 const colors = DATA.colors;
-const stats = DATA.stats;
+const stats  = DATA.stats;
 
-let activeRegionals = new Set();
-let polygonLayers = [];
-let searchTerm = '';
-let somenteVinculados = false;
+let activeRegionals    = new Set();
+let activeYears        = new Set();   // ← NOVO: filtro por ano
+let polygonLayers      = [];
+let searchTerm         = '';
+let somenteVinculados  = false;
 
 // ===== HELPERS =====
-const fmtNum = (n) => n ? n.toLocaleString('pt-BR') : '-';
-const fmtBRL = (n) => {
+const fmtNum  = (n) => n ? n.toLocaleString('pt-BR') : '-';
+const fmtBRL  = (n) => {
   if (!n) return '-';
   if (Math.abs(n) >= 1000) {
     const bi = n / 1000;
-    return 'R$ ' + bi.toLocaleString('pt-BR', {minimumFractionDigits: bi % 1 === 0 ? 0 : 2, maximumFractionDigits: 2}) + ' bi';
+    return 'R$ ' + bi.toLocaleString('pt-BR', { minimumFractionDigits: bi % 1 === 0 ? 0 : 2, maximumFractionDigits: 2 }) + ' bi';
   }
-  return 'R$ ' + n.toLocaleString('pt-BR', {minimumFractionDigits: n % 1 === 0 ? 0 : 1, maximumFractionDigits: 1}) + ' mi';
+  return 'R$ ' + n.toLocaleString('pt-BR', { minimumFractionDigits: n % 1 === 0 ? 0 : 1, maximumFractionDigits: 1 }) + ' mi';
 };
-const fmtArea = (n) => n ? (n / 10000).toLocaleString('pt-BR', {minimumFractionDigits: 0, maximumFractionDigits: 0}) + ' ha' : '-';
+const fmtArea = (n) => n ? (n / 10000).toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: 0 }) + ' ha' : '-';
 
 function isLinked(item) {
   return !!(item.e && item.e.regional !== null && item.e.regional !== undefined);
@@ -60,8 +61,8 @@ document.getElementById('statsGrid').innerHTML = `
 `;
 
 // ===== MAP INIT =====
-const map = L.map('map', {zoomControl: false, attributionControl: false}).setView([-12, -50], 4);
-L.control.zoom({position: 'topright'}).addTo(map);
+const map = L.map('map', { zoomControl: false, attributionControl: false }).setView([-12, -50], 4);
+L.control.zoom({ position: 'topright' }).addTo(map);
 
 // ===== TILE LAYERS =====
 const streetLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -81,20 +82,20 @@ const vegetationLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y
 });
 
 const layerMap = {
-  layerStreets: streetLayer,
-  layerSatellite: satelliteLayer,
-  layerTerrain: terrainLayer,
+  layerStreets:    streetLayer,
+  layerSatellite:  satelliteLayer,
+  layerTerrain:    terrainLayer,
   layerVegetation: vegetationLayer
 };
 
 // ===== LAYER GROUPS =====
 const ZOOM_THRESHOLD = 12;
-const layerGroup    = L.layerGroup().addTo(map);
-const overviewGroup = L.layerGroup().addTo(map);
+const layerGroup     = L.layerGroup().addTo(map);
+const overviewGroup  = L.layerGroup().addTo(map);
 
 // ===== LAYER TOGGLE LOGIC =====
 function handleLayerToggle(id) {
-  const cb = document.getElementById(id);
+  const cb    = document.getElementById(id);
   const layer = layerMap[id];
   if (cb.checked) {
     if (id === 'layerStreets') {
@@ -133,9 +134,9 @@ document.getElementById('layerToggle').addEventListener('click', () => {
 });
 
 // ===== MOBILE SIDEBAR DRAWER =====
-const sidebar       = document.getElementById('sidebar');
-const overlay       = document.getElementById('sidebarOverlay');
-const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const sidebar        = document.getElementById('sidebar');
+const overlay        = document.getElementById('sidebarOverlay');
+const mobileMenuBtn  = document.getElementById('mobileMenuBtn');
 const sidebarCloseBtn = document.getElementById('sidebarClose');
 
 function openSidebar() {
@@ -149,11 +150,11 @@ function closeSidebar() {
   document.body.style.overflow = '';
 }
 
-if (mobileMenuBtn)  mobileMenuBtn.addEventListener('click', openSidebar);
-if (overlay)        overlay.addEventListener('click', closeSidebar);
+if (mobileMenuBtn)   mobileMenuBtn.addEventListener('click', openSidebar);
+if (overlay)         overlay.addEventListener('click', closeSidebar);
 if (sidebarCloseBtn) sidebarCloseBtn.addEventListener('click', closeSidebar);
 
-// ===== FILTER CHIPS =====
+// ===== FILTER CHIPS — REGIONAIS =====
 const allRegionals = [...new Set(
   items.filter(i => isLinked(i)).map(i => i.e.regional).filter(Boolean).filter(r => r !== 'None')
 )].sort();
@@ -165,13 +166,14 @@ allChip.className = 'chip active';
 allChip.textContent = 'Todos';
 allChip.onclick = () => {
   activeRegionals.clear();
-  document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+  // Escopo correto: apenas os chips deste bloco
+  chipsEl.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
   allChip.classList.add('active');
   updateMap();
 };
 chipsEl.appendChild(allChip);
 
-/* 
+/*
 const vinculadosChip = document.createElement('div');
 vinculadosChip.className = 'chip';
 vinculadosChip.innerHTML = `<span class="dot" style="background:#27a06a"></span>Vinculados`;
@@ -201,6 +203,45 @@ allRegionals.forEach(r => {
   chipsEl.appendChild(chip);
 });
 
+// ===== FILTER CHIPS — ANOS =====
+const allYears = [...new Set(
+  items
+    .filter(i => isLinked(i) && i.e.year)
+    .map(i => String(i.e.year))
+    .filter(y => y !== 'null' && y !== 'None' && y.trim() !== '')
+)].sort();
+
+const yearChipsEl = document.getElementById('yearChips');
+
+const allYearChip = document.createElement('div');
+allYearChip.className = 'chip active';
+allYearChip.textContent = 'Todos';
+allYearChip.onclick = () => {
+  activeYears.clear();
+  yearChipsEl.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+  allYearChip.classList.add('active');
+  updateMap();
+};
+yearChipsEl.appendChild(allYearChip);
+
+allYears.forEach(y => {
+  const chip = document.createElement('div');
+  chip.className = 'chip';
+  chip.textContent = y;
+  chip.onclick = () => {
+    if (activeYears.has(y)) {
+      activeYears.delete(y);
+      chip.classList.remove('active');
+    } else {
+      activeYears.add(y);
+      chip.classList.add('active');
+    }
+    allYearChip.classList.toggle('active', activeYears.size === 0);
+    updateMap();
+  };
+  yearChipsEl.appendChild(chip);
+});
+
 // ===== SEARCH =====
 document.getElementById('searchInput').addEventListener('input', (e) => {
   searchTerm = e.target.value.toUpperCase();
@@ -217,7 +258,7 @@ function popupContent(item) {
       <div class="popup-nodata">Área KML sem dados da planilha vinculados.</div>`;
   }
 
-  const e = item.e;
+  const e             = item.e;
   const regionalColor = colors[e.regional] || '#7f8c8d';
   const statusClass   = e.on_off === 1 ? 'on' : 'off';
   const statusLabel   = e.on_off === 1 ? 'ON' : 'OFF';
@@ -225,7 +266,7 @@ function popupContent(item) {
   return `
     <div class="popup-header">
       ${e.regional ? `<div class="popup-regional-badge" style="background:${regionalColor}">${e.regional}</div>` : ''}
-      ${e.cidade ? `<div class="popup-city">${e.cidade}</div>` : ''}
+      ${e.cidade   ? `<div class="popup-city">${e.cidade}</div>` : ''}
       <div class="popup-title">Empreendimento:<br> ${e.empreendimento || e.nome || item.n}</div>
     </div>
     <div class="popup-body">
@@ -283,20 +324,31 @@ function popupContent(item) {
 // ===== FILTER LOGIC =====
 function passesFilter(item) {
   if (somenteVinculados && !isLinked(item)) return false;
+
+  // Filtro por regional
   if (activeRegionals.size > 0) {
     const r = isLinked(item) ? item.e.regional : null;
     if (!r || !activeRegionals.has(r)) return false;
   }
+
+  // Filtro por ano ← NOVO
+  if (activeYears.size > 0) {
+    const y = isLinked(item) ? String(item.e.year ?? '') : '';
+    if (!y || !activeYears.has(y)) return false;
+  }
+
+  // Filtro por texto
   if (searchTerm) {
     const haystack = [
       item.n,
-      item.e ? item.e.nome : '',
-      item.e ? item.e.cidade : '',
+      item.e ? item.e.nome          : '',
+      item.e ? item.e.cidade        : '',
       item.e ? item.e.empreendimento : '',
-      item.e ? item.e.regional : ''
+      item.e ? item.e.regional      : ''
     ].join(' ').toUpperCase();
     if (!haystack.includes(searchTerm)) return false;
   }
+
   return true;
 }
 
@@ -310,8 +362,8 @@ function makeOverviewIcon(color) {
   return L.divIcon({
     className: '',
     html: `<div class="ov-pin" style="--pin-color:${color}"></div>`,
-    iconSize:   [22, 30],
-    iconAnchor: [11, 30],
+    iconSize:      [22, 30],
+    iconAnchor:    [11, 30],
     tooltipAnchor: [0, -32],
   });
 }
@@ -341,14 +393,14 @@ function buildOverviewMarkers() {
     marker.bindTooltip(`
       <div class="ov-tooltip">
         ${regional ? `<span class="ov-tag" style="background:${color}">${regional}</span>` : ''}
-        <strong>${city  ? `<div class="ov-city">${city}</div></strong>`   : ''}
+        <strong>${city ? `<div class="ov-city">${city}</div></strong>` : ''}
         ${name}
         ${units ? `<div class="ov-units">${units}</div>` : ''}
         <div class="ov-hint">Clique para aproximar</div>
       </div>`, {
-      direction: 'top',
-      className: 'ov-tooltip-outer',
-      offset: [0, -4],
+      direction:  'top',
+      className:  'ov-tooltip-outer',
+      offset:     [0, -4],
     });
 
     marker.on('click', () => {
@@ -395,12 +447,8 @@ function updateMap() {
         color: color, weight: 2, opacity: 0.85,
         fillColor: color, fillOpacity: 0.15, smoothFactor: 1.2
       });
-      polygon.on('mouseover', function () {
-        this.setStyle({ weight: 3, fillOpacity: 0.28 });
-      });
-      polygon.on('mouseout', function () {
-        this.setStyle({ weight: 2, fillOpacity: 0.15 });
-      });
+      polygon.on('mouseover', function () { this.setStyle({ weight: 3, fillOpacity: 0.28 }); });
+      polygon.on('mouseout',  function () { this.setStyle({ weight: 2, fillOpacity: 0.15 }); });
       polygon.bindPopup(popupContent(item), { maxWidth: 320, className: '' });
       polygon.addTo(layerGroup);
       polygonLayers.push({ layer: polygon, item: item, idx: idx, centroid: centroid });
@@ -422,18 +470,18 @@ function updateMap() {
 
     const linked      = isLinked(item);
     const displayName = linked ? (item.e.empreendimento || item.e.nome || item.n) : item.n;
-    const cityText    = linked ? (item.e.cidade || '') : '';
+    const cityText    = linked ? (item.e.cidade   || '') : '';
     const regional    = linked ? (item.e.regional || '') : '';
     const unitsText   = linked && item.e.total_unidades ? fmtNum(item.e.total_unidades) + ' un.' : '';
     const hasLocation = !!(centroid);
 
     div.innerHTML = `
       <div class="meta">
-        ${regional ? `<span class="regional-tag" style="background:${colors[regional] || '#5a6e8e'}">${regional}</span>` : ''}
-        ${cityText  ? `<span>${cityText}</span>`   : ''}
-        ${unitsText ? `<span>${unitsText}</span>`  : ''}
-        ${!linked       ? '<span class="no-match">sem dados</span>' : ''}
-        ${!hasLocation  ? '<span class="no-match" title="Sem coordenadas cadastradas">sem loc.</span>' : ''}
+        ${regional  ? `<span class="regional-tag" style="background:${colors[regional] || '#5a6e8e'}">${regional}</span>` : ''}
+        ${cityText  ? `<span>${cityText}</span>`  : ''}
+        ${unitsText ? `<span>${unitsText}</span>` : ''}
+        ${!linked      ? '<span class="no-match">sem dados</span>'                                     : ''}
+        ${!hasLocation ? '<span class="no-match" title="Sem coordenadas cadastradas">sem loc.</span>' : ''}
       </div>
       <div class="name" title="${item.n}">${displayName}</div>`;
 
@@ -451,7 +499,6 @@ function updateMap() {
     listEl.appendChild(div);
   });
 
-  // document.getElementById('counter').textContent = visibleCount + ' de ' + items.length + ' terrenos';
   document.getElementById('counter').textContent = `Lista de empreendimentos:`;
 
   buildOverviewMarkers();
