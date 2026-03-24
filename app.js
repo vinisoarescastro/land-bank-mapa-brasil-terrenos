@@ -154,92 +154,127 @@ if (mobileMenuBtn)   mobileMenuBtn.addEventListener('click', openSidebar);
 if (overlay)         overlay.addEventListener('click', closeSidebar);
 if (sidebarCloseBtn) sidebarCloseBtn.addEventListener('click', closeSidebar);
 
-// ===== FILTER CHIPS — REGIONAIS =====
+// ===== MULTI-SELECT DROPDOWN (reutilizável) =====
+function buildMultiSelect(containerId, options, activeSet, colorMap, onChangeFn) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = '';
+
+  const wrapper  = document.createElement('div');
+  wrapper.className = 'filter-select';
+
+  const btn = document.createElement('button');
+  btn.type  = 'button';
+  btn.className = 'filter-select-btn';
+
+  const panel = document.createElement('div');
+  panel.className = 'filter-dropdown';
+  panel.style.display = 'none';
+
+  function updateBtn() {
+    btn.innerHTML = activeSet.size === 0
+      ? `Todos <span class="fsd-arrow">▾</span>`
+      : `${activeSet.size} selecionado${activeSet.size > 1 ? 's' : ''} <span class="fsd-arrow">▾</span>`;
+    btn.classList.toggle('has-filter', activeSet.size > 0);
+  }
+
+  // Opção "Todos"
+  const allLbl = document.createElement('label');
+  allLbl.className = 'filter-option';
+  const allChk = document.createElement('input');
+  allChk.type = 'checkbox';
+  allChk.checked = true;
+  allLbl.appendChild(allChk);
+  allLbl.appendChild(document.createTextNode('Todos'));
+  panel.appendChild(allLbl);
+
+  // Opções individuais
+  const optEls = options.map(val => {
+    const lbl = document.createElement('label');
+    lbl.className = 'filter-option';
+    const chk = document.createElement('input');
+    chk.type = 'checkbox';
+    lbl.appendChild(chk);
+    if (colorMap && colorMap[val]) {
+      const dot = document.createElement('span');
+      dot.className = 'dot';
+      dot.style.background = colorMap[val];
+      lbl.appendChild(dot);
+    }
+    lbl.appendChild(document.createTextNode(val));
+    panel.appendChild(lbl);
+
+    chk.addEventListener('change', () => {
+      chk.checked ? activeSet.add(val) : activeSet.delete(val);
+      allChk.checked = activeSet.size === 0;
+      updateBtn();
+      onChangeFn();
+    });
+
+    return { val, chk };
+  });
+
+  allChk.addEventListener('change', () => {
+    activeSet.clear();
+    optEls.forEach(o => { o.chk.checked = false; });
+    allChk.checked = true;
+    updateBtn();
+    onChangeFn();
+  });
+
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const open = panel.style.display === 'block';
+    document.querySelectorAll('.filter-dropdown').forEach(d => d.style.display = 'none');
+    panel.style.display = open ? 'none' : 'block';
+  });
+
+  document.addEventListener('click', () => { panel.style.display = 'none'; });
+
+  wrapper.appendChild(btn);
+  wrapper.appendChild(panel);
+  container.appendChild(wrapper);
+  updateBtn();
+
+  // Para reset externo
+  wrapper._sync = () => {
+    optEls.forEach(o => { o.chk.checked = activeSet.has(o.val); });
+    allChk.checked = activeSet.size === 0;
+    updateBtn();
+  };
+
+  return wrapper;
+}
+
+
+// ===== INICIALIZAR FILTROS =====
 const allRegionals = [...new Set(
   items.filter(i => isLinked(i)).map(i => i.e.regional).filter(Boolean).filter(r => r !== 'None')
 )].sort();
 
-const chipsEl = document.getElementById('filterChips');
-
-const allChip = document.createElement('div');
-allChip.className = 'chip active';
-allChip.textContent = 'Todos';
-allChip.onclick = () => {
-  activeRegionals.clear();
-  // Escopo correto: apenas os chips deste bloco
-  chipsEl.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-  allChip.classList.add('active');
-  updateMap();
-};
-chipsEl.appendChild(allChip);
-
-/*
-const vinculadosChip = document.createElement('div');
-vinculadosChip.className = 'chip';
-vinculadosChip.innerHTML = `<span class="dot" style="background:#27a06a"></span>Vinculados`;
-vinculadosChip.onclick = () => {
-  somenteVinculados = !somenteVinculados;
-  vinculadosChip.classList.toggle('active', somenteVinculados);
-  updateMap();
-};
-chipsEl.appendChild(vinculadosChip);
-*/
-
-allRegionals.forEach(r => {
-  const chip = document.createElement('div');
-  chip.className = 'chip';
-  chip.innerHTML = `<span class="dot" style="background:${colors[r] || '#7f8c8d'}"></span>${r}`;
-  chip.onclick = () => {
-    if (activeRegionals.has(r)) {
-      activeRegionals.delete(r);
-      chip.classList.remove('active');
-    } else {
-      activeRegionals.add(r);
-      chip.classList.add('active');
-    }
-    allChip.classList.toggle('active', activeRegionals.size === 0);
-    updateMap();
-  };
-  chipsEl.appendChild(chip);
-});
-
-// ===== FILTER CHIPS — ANOS =====
 const allYears = [...new Set(
-  items
-    .filter(i => isLinked(i) && i.e.year)
+  items.filter(i => isLinked(i) && i.e.year)
     .map(i => String(i.e.year))
     .filter(y => y !== 'null' && y !== 'None' && y.trim() !== '')
 )].sort();
 
-const yearChipsEl = document.getElementById('yearChips');
+const regionalSelect = buildMultiSelect('filterRegional', allRegionals, activeRegionals, colors, updateMap);
+const yearSelect     = buildMultiSelect('filterYear',     allYears,     activeYears,     null,   updateMap);
 
-const allYearChip = document.createElement('div');
-allYearChip.className = 'chip active';
-allYearChip.textContent = 'Todos';
-allYearChip.onclick = () => {
+
+// ===== FILTER NOTICE =====
+function updateFilterNotice() {
+  const active = activeRegionals.size > 0 || activeYears.size > 0 || searchTerm;
+  document.getElementById('filterNotice').style.display = active ? 'flex' : 'none';
+}
+
+document.getElementById('clearFiltersBtn').addEventListener('click', () => {
+  activeRegionals.clear();
   activeYears.clear();
-  yearChipsEl.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-  allYearChip.classList.add('active');
+  searchTerm = '';
+  document.getElementById('searchInput').value = '';
+  regionalSelect._sync();
+  yearSelect._sync();
   updateMap();
-};
-yearChipsEl.appendChild(allYearChip);
-
-allYears.forEach(y => {
-  const chip = document.createElement('div');
-  chip.className = 'chip';
-  chip.textContent = y;
-  chip.onclick = () => {
-    if (activeYears.has(y)) {
-      activeYears.delete(y);
-      chip.classList.remove('active');
-    } else {
-      activeYears.add(y);
-      chip.classList.add('active');
-    }
-    allYearChip.classList.toggle('active', activeYears.size === 0);
-    updateMap();
-  };
-  yearChipsEl.appendChild(chip);
 });
 
 // ===== SEARCH =====
@@ -503,6 +538,7 @@ function updateMap() {
 
   buildOverviewMarkers();
   setTimeout(applyZoomVisibility, 0);
+  updateFilterNotice();
 }
 
 // Initial render

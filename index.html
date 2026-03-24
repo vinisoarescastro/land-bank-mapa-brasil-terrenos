@@ -36,16 +36,21 @@
       <input type="text" id="searchInput" placeholder="Buscar terreno, cidade ou regional…">
     </div>
 
-    <!-- Filtro por Regional -->
-    <div class="filters">
-      <h3>Regionais</h3>
-      <div class="filter-chips" id="filterChips"></div>
+    <div class="filters-row">
+      <div class="filters">
+        <h3>Regionais</h3>
+        <div id="filterRegional"></div>
+      </div>
+      <div class="filters">
+        <h3>Ano Previsto</h3>
+        <div id="filterYear"></div>
+      </div>
     </div>
 
-    <!-- Filtro por Ano -->
-    <div class="filters">
-      <h3>Ano Previsto</h3>
-      <div class="filter-chips" id="yearChips"></div>
+    <!-- Banner de filtros ativos -->
+    <div class="filter-notice" id="filterNotice">
+      <span>Filtros ativos — exibindo apenas os dados correspondentes.</span>
+      <button id="clearFiltersBtn">Limpar filtros</button>
     </div>
 
     <div class="counter" id="counter"></div>
