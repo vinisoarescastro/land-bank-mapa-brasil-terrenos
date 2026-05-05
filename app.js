@@ -39,7 +39,7 @@ function getCentroid(item) {
 // ===== STATS =====
 document.getElementById('statsGrid').innerHTML = `
   <div class="stat-card stat-card-full">
-    <div class="val">230</div>
+    <div class="val">240</div>
     <div class="label">Empreendimentos</div>
   </div>
   <div class="stat-card">
