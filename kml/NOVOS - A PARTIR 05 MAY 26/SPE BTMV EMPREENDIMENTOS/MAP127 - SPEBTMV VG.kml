@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Area 28ha Sr Leuiz Melo.kmz</name>
+	<Style id="inline">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>4.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>4.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Medida do polígono</name>
+		<styleUrl>#inline0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-56.14705501117726,-15.6023405731139,0 -56.1468494305484,-15.60066909069917,0 -56.16188812363163,-15.60479118608109,0 -56.16167766259642,-15.60563655781626,0 -56.15101876786132,-15.60390744161196,0 -56.14838942466009,-15.60345457491025,0 -56.14825953354465,-15.60287528718449,0 -56.15004985742516,-15.60318013336509,0 -56.14984307861258,-15.60270052241655,0 -56.14705501117726,-15.6023405731139,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

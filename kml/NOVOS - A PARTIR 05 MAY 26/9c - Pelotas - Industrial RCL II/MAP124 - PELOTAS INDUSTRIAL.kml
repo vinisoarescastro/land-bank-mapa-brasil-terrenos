@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="KMZ_PELOTAS_INDUSTRIAL.kmz" id="KMZ_PELOTAS_INDUSTRIAL.kmz">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Folder><name>KMZ_PELOTAS_INDUSTRIAL.kmz</name>
+  <Placemark>
+	<name>Polígono sem título</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#KMZ_PELOTAS_INDUSTRIAL.kmz">
+		<SimpleData name="tessellate">1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-52.3430788179287,-31.6648601600032,0 -52.3428931735825,-31.6638786195562,0 -52.3421000621107,-31.6639496655161,0 -52.341950504098,-31.6639028279344,0 -52.3412650146574,-31.6607759505076,0 -52.339119498117,-31.661559249765,0 -52.3388680709569,-31.6600425222741,0 -52.3409311697845,-31.6591905858916,0 -52.3404788977292,-31.6567006917386,0 -52.3385249820859,-31.6573302374331,0 -52.338234765893,-31.6574071803593,0 -52.3379096016746,-31.655598422859,0 -52.3399928378449,-31.6546561117978,0 -52.342124577242,-31.6538275632959,0 -52.3445399426578,-31.6598352514273,0 -52.3466059692119,-31.6630213853092,0 -52.3430788179287,-31.6648601600032,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

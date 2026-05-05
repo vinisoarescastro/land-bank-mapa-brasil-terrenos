@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Area_365ha_Sr_Zezo_Malouf.kmz" id="Area_365ha_Sr_Zezo_Malouf.kmz">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Folder><name>Area_365ha_Sr_Zezo_Malouf.kmz</name>
+  <Placemark>
+	<name>Area 365ha Sr Zezo Malouf</name>
+	<description>Area 365ha Sr Zezo Malouf</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Area_365ha_Sr_Zezo_Malouf.kmz">
+		<SimpleData name="tessellate">1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-56.06286331091,-15.7299584683568,0 -56.0576341621882,-15.7317218732472,0 -56.0560297420625,-15.7236203181695,0 -56.1138969459788,-15.6959813201955,0 -56.1140104908401,-15.698146611066,0 -56.1031413362762,-15.7053757648033,0 -56.098321462187,-15.7070458065752,0 -56.0950345140965,-15.7158709260477,0 -56.0797380692399,-15.7178513544623,0 -56.061738601502,-15.7228875499929,0 -56.06286331091,-15.7299584683568,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

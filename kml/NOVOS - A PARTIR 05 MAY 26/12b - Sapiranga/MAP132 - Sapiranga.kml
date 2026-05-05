@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="1169___44_hectares___Sapiranga.kmz" id="1169___44_hectares___Sapiranga.kmz">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Folder><name>1169___44_hectares___Sapiranga.kmz</name>
+  <Placemark>
+	<name>1169 - 44 hectares - Sapiranga</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#1169___44_hectares___Sapiranga.kmz">
+		<SimpleData name="tessellate">1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-50.9744436045197,-29.639810455182,0 -50.9748652981178,-29.6429997728244,0 -50.9730202157187,-29.6432899260346,0 -50.9743025588314,-29.6537854364677,0 -50.9722207889371,-29.6539970446694,0 -50.9706469989388,-29.6431141764059,0 -50.9703505036524,-29.6432224988944,0 -50.9699413156985,-29.6395489231409,0 -50.9699159719101,-29.6393810546016,0 -50.970121058807,-29.6393903092901,0 -50.9703637765153,-29.6393159978921,0 -50.9705018136345,-29.639126113554,0 -50.9725338859418,-29.6394426788642,0 -50.9744436045197,-29.639810455182,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

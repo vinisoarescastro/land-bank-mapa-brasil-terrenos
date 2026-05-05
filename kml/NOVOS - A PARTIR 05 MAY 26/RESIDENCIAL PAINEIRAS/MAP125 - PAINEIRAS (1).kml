@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="PAINEIRAS" id="PAINEIRAS">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Folder><name>PAINEIRAS</name>
+  <Placemark>
+	<name>PAINEIRAS</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#PAINEIRAS">
+		<SimpleData name="tessellate">1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-63.8410701514886,-8.82163906218142,0 -63.8415626375938,-8.82180897137906,0 -63.8409596804686,-8.82391812424795,0 -63.8442267310848,-8.82502622984475,0 -63.8436062489122,-8.82713270204849,0 -63.8470684812938,-8.82823186941646,0 -63.8480827233468,-8.82504105949193,0 -63.8450404994086,-8.81933543492499,0 -63.8454146037703,-8.81888777696018,0 -63.8502231444737,-8.82749887810634,0 -63.8467765015352,-8.83214340035776,0 -63.8407206317347,-8.8242043421814,0 -63.8370348310966,-8.81909489742189,0 -63.8409591217821,-8.81662548843916,0 -63.839070989117,-8.81329180146871,0 -63.8386540681311,-8.81272400405158,0 -63.8384188980633,-8.81215264941829,0 -63.8371885307744,-8.80879414582407,0 -63.837199334994,-8.80612869187879,0 -63.8367675630665,-8.80423737910413,0 -63.8375185913028,-8.80388934433107,0 -63.8377160768416,-8.80422846985416,0 -63.8381074815432,-8.80400473607422,0 -63.8384549189818,-8.8047263636931,0 -63.8386783897728,-8.80516268127975,0 -63.8389228901389,-8.80532556970103,0 -63.8389824519847,-8.80557874071144,0 -63.838613391164,-8.80824302723559,0 -63.839946631997,-8.81059162723486,0 -63.8401067453376,-8.81086989739578,0 -63.8415063647918,-8.81345734149388,0 -63.8416836746009,-8.81377768641563,0 -63.8427019776405,-8.81567318200101,0 -63.8422052932358,-8.81599470556787,0 -63.8427683114571,-8.81709470453489,0 -63.8425245447352,-8.81712974426915,0 -63.8424767909273,-8.8172672155586,0 -63.8410701514886,-8.82163906218142,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

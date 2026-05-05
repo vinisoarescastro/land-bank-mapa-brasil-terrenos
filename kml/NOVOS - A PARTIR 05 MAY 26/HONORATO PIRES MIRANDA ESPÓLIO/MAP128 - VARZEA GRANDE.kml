@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MT Varzea Gde 25,41ha Sr Honorato.kmz</name>
+	<StyleMap id="inline">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>4.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>4.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Medida do polígono</name>
+		<styleUrl>#inline</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-56.14284350749798,-15.6140216918695,0 -56.14225083893979,-15.61623684969563,0 -56.14875443943377,-15.61835186191265,0 -56.15036453274965,-15.61437625415723,0 -56.14792748728681,-15.61355928618896,0 -56.14751667100822,-15.61460414133397,0 -56.14664198433665,-15.61526492906073,0 -56.14284350749798,-15.6140216918695,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
