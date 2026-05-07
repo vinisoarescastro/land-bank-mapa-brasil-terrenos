@@ -38,9 +38,50 @@ function getCentroid(item) {
 }
 
 // ===== STATS =====
-document.getElementById('statsGrid').innerHTML = `
+
+function renderStats(filteredItems) {
+  const linked = filteredItems.filter(i => isLinked(i));
+
+  const hasFilter      = activeRegionals.size > 0 || activeYears.size > 0 || activeStatus.size > 0 || searchTerm;
+  const somenteAtivo   = activeStatus.size === 1 && activeStatus.has('Ativo');
+  const somenteInativo = activeStatus.size === 1 && activeStatus.has('Inativo');
+
+  const count = !hasFilter       ? stats.total_planilha
+              : somenteAtivo     ? stats.total_ativo
+              : somenteInativo   ? stats.total_inativo
+              : linked.length;
+  const units     = linked.reduce((s, i) => s + (i.e.total_unidades || 0), 0);
+  const area      = linked.reduce((s, i) => s + (i.e.area_total    || 0), 0);
+  const vgv       = linked.reduce((s, i) => s + (i.e.vgv_total     || 0), 0);
+  const vgv_bt    = linked.reduce((s, i) => s + (i.e.vgv_bt        || 0), 0);
+
+  document.getElementById('statsGrid').innerHTML = `
+    <div class="stat-card stat-card-full">
+      <div class="val">${count}</div>
+      <div class="label">Empreendimentos</div>
+    </div>
+    <div class="stat-card">
+      <div class="val">${fmtNum(Math.round(units))}</div>
+      <div class="label">Total Unidades</div>
+    </div>
+    <div class="stat-card">
+      <div class="val">${fmtArea(area)}</div>
+      <div class="label">Área Total</div>
+    </div>
+    <div class="stat-card">
+      <div class="val green">${fmtBRL(vgv)}</div>
+      <div class="label">VGV Total</div>
+    </div>
+    <div class="stat-card">
+      <div class="val green">${fmtBRL(vgv_bt)}</div>
+      <div class="label">VGV Total BT</div>
+    </div>
+  `;
+}
+
+/* document.getElementById('statsGrid').innerHTML = `
   <div class="stat-card stat-card-full">
-    <div class="val">240</div>
+    div class="val">${stats.total_planilha}</div>
     <div class="label">Empreendimentos</div>
   </div>
   <div class="stat-card">
@@ -60,6 +101,7 @@ document.getElementById('statsGrid').innerHTML = `
     <div class="label">VGV Total BT</div>
   </div>
 `;
+*/
 
 // ===== MAP INIT =====
 const map = L.map('map', { zoomControl: false, attributionControl: false }).setView([-12, -50], 4);
@@ -247,6 +289,78 @@ function buildMultiSelect(containerId, options, activeSet, colorMap, onChangeFn)
 }
 
 
+// ===== SINGLE-SELECT DROPDOWN =====
+function buildSingleSelect(containerId, options, activeSet, onChangeFn) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = '';
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'filter-select';
+
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'filter-select-btn';
+
+  const panel = document.createElement('div');
+  panel.className = 'filter-dropdown';
+  panel.style.display = 'none';
+
+  function updateBtn() {
+    const selected = [...activeSet][0];
+    btn.innerHTML = selected
+      ? `${selected} <span class="fsd-arrow">▾</span>`
+      : `Todos <span class="fsd-arrow">▾</span>`;
+    btn.classList.toggle('has-filter', activeSet.size > 0);
+  }
+
+  const allOptions = ['Todos', ...options];
+
+  allOptions.forEach(val => {
+    const lbl = document.createElement('label');
+    lbl.className = 'filter-option';
+    const radio = document.createElement('input');
+    radio.type = 'radio';
+    radio.name = containerId;
+    radio.checked = val === 'Todos' ? activeSet.size === 0 : activeSet.has(val);
+    lbl.appendChild(radio);
+    lbl.appendChild(document.createTextNode(val));
+    panel.appendChild(lbl);
+
+    radio.addEventListener('change', () => {
+      activeSet.clear();
+      if (val !== 'Todos') activeSet.add(val);
+      updateBtn();
+      panel.style.display = 'none';
+      onChangeFn();
+    });
+  });
+
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const open = panel.style.display === 'block';
+    document.querySelectorAll('.filter-dropdown').forEach(d => d.style.display = 'none');
+    panel.style.display = open ? 'none' : 'block';
+  });
+
+  document.addEventListener('click', () => { panel.style.display = 'none'; });
+
+  wrapper.appendChild(btn);
+  wrapper.appendChild(panel);
+  container.appendChild(wrapper);
+  updateBtn();
+
+  wrapper._sync = () => {
+    activeSet.clear();
+    panel.querySelectorAll('input[type=radio]').forEach(r => {
+      r.checked = r.parentElement.textContent.trim() === 'Todos';
+    });
+    updateBtn();
+  };
+
+  return wrapper;
+}
+
+
 // ===== INICIALIZAR FILTROS =====
 const allRegionals = [...new Set(
   items.filter(i => isLinked(i)).map(i => i.e.regional).filter(Boolean).filter(r => r !== 'None')
@@ -260,7 +374,7 @@ const allYears = [...new Set(
 
 const regionalSelect  = buildMultiSelect('filterRegional', allRegionals, activeRegionals, colors, updateMap);
 const yearSelect      = buildMultiSelect('filterYear', allYears, activeYears, null, updateMap);
-const statusSelect    = buildMultiSelect('filterStatus', ['ON', 'OFF'], activeStatus, null, updateMap);
+const statusSelect = buildSingleSelect('filterStatus', ['Ativo', 'Inativo'], activeStatus, updateMap);
 
 
 // ===== FILTER NOTICE =====
@@ -378,7 +492,7 @@ function passesFilter(item) {
 
   if (activeStatus.size > 0) {
     if (!isLinked(item)) return false;
-    const s = item.e.on_off === 1 ? 'ON' : 'OFF';
+    const s = item.e.on_off === 1 ? 'Ativo' : 'Inativo';
     if (!activeStatus.has(s)) return false;
   }
 
@@ -545,6 +659,9 @@ function updateMap() {
   });
 
   document.getElementById('counter').textContent = `Lista de empreendimentos:`;
+
+  const filteredItems = items.filter(item => passesFilter(item));
+  renderStats(filteredItems);
 
   buildOverviewMarkers();
   setTimeout(applyZoomVisibility, 0);

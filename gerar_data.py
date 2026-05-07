@@ -465,13 +465,22 @@ def main():
     total_vgv_bt   = _soma_excel(col_vgv_bt) if col_vgv_bt else 0.0
     total_unidades = _soma_excel(col_units)  if col_units  else 0.0
 
+    col_on_off_real = COLUNAS.get("on_off")
+    total_ativo   = sum(1 for r in registros_excel
+                        for k, v in r.items()
+                        if k.strip().lower() == (col_on_off_real or "").strip().lower() and v == 1)
+    total_inativo = len(registros_excel) - total_ativo
+
     stats = {
-        "total":        len(items),
-        "on_map":       on_map,
-        "total_units":  total_unidades,
-        "total_area":   round(total_area, 0),
-        "total_vgv":    round(total_vgv, 2),
-        "total_vgv_bt": round(total_vgv_bt, 2),
+        "total":            len(items),
+        "total_planilha":   len(registros_excel),
+        "total_ativo":      total_ativo,
+        "total_inativo":    total_inativo,
+        "on_map":           on_map,
+        "total_units":      total_unidades,
+        "total_area":       round(total_area, 0),
+        "total_vgv":        round(total_vgv, 2),
+        "total_vgv_bt":     round(total_vgv_bt, 2),
     }
 
     # Resumo por regional
@@ -502,16 +511,17 @@ def main():
     print(f"{'═' * 60}")
     print(f"  ✅ data.js gerado com sucesso!")
     print(f"{'═' * 60}")
-    print(f"  📦 Total de itens gerados:            {len(items)}")
-    print(f"  🗺️  Com polígono KML:                  {on_map}")
-    print(f"  📍 Sem localização:                   {len(sem_localizacao)}")
-    print(f"  🔗 KMLs vinculados à planilha:        {kml_vinculados}")
-    print(f"  ❌ KMLs sem vínculo na planilha:      {kml_sem_vinculo}")
-    print(f"  📋 Registros só na planilha (sem KML):{sem_kml}")
-    print(f"  ⚠️  KMLs sem geometria:               {kml_sem_poligono}")
-    print(f"  🏷️  KMLs sem ID reconhecível:         {kml_sem_id}")
-    print(f"  💰 VGV Total:                         R$ {total_vgv:,.1f} mi")
-    print(f"  🏘️  Total de unidades:                 {total_unidades:,.0f}")
+    print(f"  📦 Total de itens gerados:                {len(items)}")
+    print(f"  📋 Total de registros na planilha:        {stats['total_planilha']}")
+    print(f"  🗺️  Com polígono KML:                      {on_map}")
+    print(f"  📍 Sem localização:                       {len(sem_localizacao)}")
+    print(f"  🔗 KMLs vinculados à planilha:            {kml_vinculados}")
+    print(f"  ❌ KMLs sem vínculo na planilha:          {kml_sem_vinculo}")
+    print(f"  📋 Registros só na planilha (sem KML):    {sem_kml}")
+    print(f"  ⚠️  KMLs sem geometria:                    {kml_sem_poligono}")
+    print(f"  🏷️  KMLs sem ID reconhecível:              {kml_sem_id}")
+    print(f"  💰 VGV Total:                          R$ {total_vgv:,.1f} mi")
+    print(f"  🏘️  Total de unidades:                     {total_unidades:,.0f}")
     print(f"\n  📄 Arquivo gerado: {os.path.abspath(OUTPUT_PATH)}")
 
     if sem_localizacao:
