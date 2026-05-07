@@ -3,11 +3,12 @@ const items  = DATA.items;
 const colors = DATA.colors;
 const stats  = DATA.stats;
 
-let activeRegionals    = new Set();
-let activeYears        = new Set();   // ← NOVO: filtro por ano
-let polygonLayers      = [];
-let searchTerm         = '';
-let somenteVinculados  = false;
+let activeRegionals     = new Set();
+let activeYears         = new Set();
+let activeStatus        = new Set();
+let polygonLayers       = [];
+let searchTerm          = '';
+let somenteVinculados   = false;
 
 // ===== HELPERS =====
 const fmtNum  = (n) => n ? n.toLocaleString('pt-BR') : '-';
@@ -257,13 +258,14 @@ const allYears = [...new Set(
     .filter(y => y !== 'null' && y !== 'None' && y.trim() !== '')
 )].sort();
 
-const regionalSelect = buildMultiSelect('filterRegional', allRegionals, activeRegionals, colors, updateMap);
-const yearSelect     = buildMultiSelect('filterYear',     allYears,     activeYears,     null,   updateMap);
+const regionalSelect  = buildMultiSelect('filterRegional', allRegionals, activeRegionals, colors, updateMap);
+const yearSelect      = buildMultiSelect('filterYear', allYears, activeYears, null, updateMap);
+const statusSelect    = buildMultiSelect('filterStatus', ['ON', 'OFF'], activeStatus, null, updateMap);
 
 
 // ===== FILTER NOTICE =====
 function updateFilterNotice() {
-  const active = activeRegionals.size > 0 || activeYears.size > 0 || searchTerm;
+  const active = activeRegionals.size > 0 || activeYears.size > 0 || activeStatus.size > 0 || searchTerm;
   document.getElementById('filterNotice').style.display = active ? 'flex' : 'none';
 }
 
@@ -271,9 +273,11 @@ document.getElementById('clearFiltersBtn').addEventListener('click', () => {
   activeRegionals.clear();
   activeYears.clear();
   searchTerm = '';
+  activeStatus.clear();
   document.getElementById('searchInput').value = '';
   regionalSelect._sync();
   yearSelect._sync();
+  statusSelect._sync();
   updateMap();
 });
 
@@ -370,6 +374,12 @@ function passesFilter(item) {
   if (activeYears.size > 0) {
     const y = isLinked(item) ? String(item.e.year ?? '') : '';
     if (!y || !activeYears.has(y)) return false;
+  }
+
+  if (activeStatus.size > 0) {
+    if (!isLinked(item)) return false;
+    const s = item.e.on_off === 1 ? 'ON' : 'OFF';
+    if (!activeStatus.has(s)) return false;
   }
 
   // Filtro por texto
