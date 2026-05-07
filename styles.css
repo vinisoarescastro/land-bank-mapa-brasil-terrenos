@@ -246,20 +246,26 @@ body {
 }
 
 .last-updated {
-  font-size: 9px;
-  color: var(--sb-text3);
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  margin-top: 3px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 3px;
+  gap: 5px;
+  margin-top: 6px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  background: rgba(39, 160, 106, 0.10);
+  border: 1px solid rgba(39, 160, 106, 0.22);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.3px;
+  width: fit-content;
 }
 
-.last-updated strong {
-  color: var(--sb-text2);
-  font-weight: 700;
-  font-size: 9px;
+.last-updated svg {
+  width: 11px;
+  height: 11px;
+  flex-shrink: 0;
+  opacity: 0.75;
 }
 
 
