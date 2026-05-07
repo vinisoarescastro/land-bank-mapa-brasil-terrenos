@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Land Bank - Grupo Brasil Terrenos</title>
+  <title>LandBank: Brasil Terrenos</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +24,7 @@
       <div class="title-group">
         <h1>Land Bank</h1>
         <div class="subtitle">Banco de Terrenos</div>
+        <div class="last-updated">Atualizado em: <strong id="lastUpdatedDate">07/05/2026</strong></div>
       </div>
       <button class="sidebar-toggle" id="sidebarClose" aria-label="Fechar menu">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
@@ -121,11 +122,10 @@
     <div id="map"></div>
 
     <div class="map-footer">
-      Desenvolvido pelo <strong>Centro de Inteligência e Dados</strong>  |  Versão 1.4.0  |  Atualizado em: <strong>07/05/2026</strong>.<br>
-      Identificou alguma divergência nas informações?
+      Desenvolvido pelo <strong>Centro de Inteligência e Dados</strong>  |  Versão 1.4.0<br>
+      Identificou alguma divergência?
       <a href="mailto:controladoria@btsa.com.br">Entre em contato com nossa equipe</a>.
     </div>
-
   </div>
 
   <!-- Scripts: data first, then app logic -->

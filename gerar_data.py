@@ -83,6 +83,7 @@ import os
 import re
 import json
 import math
+import subprocess
 import unicodedata
 from pathlib import Path
 from datetime import datetime, date
@@ -495,11 +496,21 @@ def main():
             regional_summary[r]["vgv"]   += item["e"].get("vgv_total") or 0
 
     # ── 8. Escrever data.js ────────────────────────────────────────
+
+    try:
+        last_updated = subprocess.check_output(
+            ['git', 'log', '-1', '--format=%cd', '--date=format:%d/%m/%Y'],
+            stderr=subprocess.DEVNULL
+        ).decode().strip()
+    except Exception:
+        last_updated = datetime.now().strftime('%d/%m/%Y')
+
     data = {
         "items":            items,
         "colors":           CORES,
         "stats":            stats,
         "regional_summary": regional_summary,
+        "last_updated":     last_updated,
     }
 
     js_content = "const DATA = " + json.dumps(data, ensure_ascii=False, separators=(',', ':')) + ";"

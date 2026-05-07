@@ -245,6 +245,23 @@ body {
   display: block;
 }
 
+.last-updated {
+  font-size: 9px;
+  color: var(--sb-text3);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.last-updated strong {
+  color: var(--sb-text2);
+  font-weight: 700;
+  font-size: 9px;
+}
+
 
 /* ============================================================
    5. STATS

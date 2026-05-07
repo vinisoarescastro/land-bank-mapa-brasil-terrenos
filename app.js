@@ -3,6 +3,11 @@ const items  = DATA.items;
 const colors = DATA.colors;
 const stats  = DATA.stats;
 
+if (DATA.last_updated) {
+  const el = document.getElementById('lastUpdatedDate');
+  if (el) el.textContent = DATA.last_updated;
+}
+
 let activeRegionals     = new Set();
 let activeYears         = new Set();
 let activeStatus        = new Set();
