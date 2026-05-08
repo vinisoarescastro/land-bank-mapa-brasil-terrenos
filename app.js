@@ -45,23 +45,23 @@ function getCentroid(item) {
 // ===== STATS =====
 
 function renderStats(filteredItems) {
-  const linked = filteredItems.filter(i => isLinked(i));
-
   const hasFilter      = activeRegionals.size > 0 || activeYears.size > 0 || activeStatus.size > 0 || searchTerm;
   const somenteAtivo   = activeStatus.size === 1 && activeStatus.has('Ativo');
   const somenteInativo = activeStatus.size === 1 && activeStatus.has('Inativo');
 
-  const count = !hasFilter       ? stats.total_planilha
-              : somenteAtivo     ? stats.total_ativo
-              : somenteInativo   ? stats.total_inativo
-              : linked.length;
+  // Contagem de empreendimentos: usa stats.* do Python quando sem filtro
+  const count = !hasFilter     ? stats.total_planilha
+              : somenteAtivo   ? stats.total_ativo
+              : somenteInativo ? stats.total_inativo
+              : filteredItems.filter(i => isLinked(i)).length;
 
-  // Sem filtro: usa os totais calculados na planilha (fonte única de verdade).
-  // Com filtro: soma apenas os itens vinculados visíveis.
-  const units  = hasFilter ? linked.reduce((s, i) => s + (i.e.total_unidades || 0), 0) : stats.total_units;
-  const area   = hasFilter ? linked.reduce((s, i) => s + (i.e.area_total     || 0), 0) : stats.total_area;
-  const vgv    = hasFilter ? linked.reduce((s, i) => s + (i.e.vgv_total      || 0), 0) : stats.total_vgv;
-  const vgv_bt = hasFilter ? linked.reduce((s, i) => s + (i.e.vgv_bt         || 0), 0) : stats.total_vgv_bt;
+  // Valores financeiros e de área: sempre soma os itens que passaram no filtro.
+  // i.e pode ser null (KML sem vínculo na planilha) — contribui 0 para a soma.
+  // Sem filtro ativo, filteredItems = todos os itens → resultado equivale a stats.total_vgv.
+  const units  = filteredItems.reduce((s, i) => s + (i.e ? (i.e.total_unidades || 0) : 0), 0);
+  const area   = filteredItems.reduce((s, i) => s + (i.e ? (i.e.area_total     || 0) : 0), 0);
+  const vgv    = filteredItems.reduce((s, i) => s + (i.e ? (i.e.vgv_total      || 0) : 0), 0);
+  const vgv_bt = filteredItems.reduce((s, i) => s + (i.e ? (i.e.vgv_bt         || 0) : 0), 0);
 
   document.getElementById('statsGrid').innerHTML = `
     <div class="stat-card stat-card-full">
