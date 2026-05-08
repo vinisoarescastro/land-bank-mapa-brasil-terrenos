@@ -98,7 +98,7 @@
   --z-drawer:      1100;
 
   /* ── Sidebar width ── */
-  --sb-width: 380px;
+  --sb-width: 400px;
 }
 
 
@@ -202,7 +202,7 @@ body {
 }
 
 .title-group {
-  padding: 0 0 0 20px; /* topo, lado direito, baixo, lado esquerdo */
+  padding: 0 0 0 40px; /* topo, lado direito, baixo, lado esquerdo */
   flex: 1;
   min-width: 0; 
 }
@@ -520,6 +520,116 @@ body {
 
 .filter-notice button:hover { background: var(--accent); color: #fff; }
 
+/* ---- Tree Select (dropdown em árvore) ---- */
+.filter-tree {
+  padding: 6px 0;
+  min-width: 260px;
+  max-height: 340px;
+  overflow-y: auto;
+}
+
+.tree-all {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px 9px;
+  margin: 0 4px 4px;
+  border-radius: 6px;
+  border-bottom: 1px solid var(--sb-border);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--sb-text2);
+  cursor: pointer;
+  user-select: none;
+  transition: background var(--t-fast);
+}
+
+.tree-all:hover { background: var(--sb-surface2); color: var(--sb-text); }
+
+.tree-all input[type=checkbox] {
+  accent-color: var(--accent);
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* ── Linha genérica de item ── */
+.tree-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin: 1px 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--sb-text2);
+  transition: background var(--t-fast), color var(--t-fast);
+  user-select: none;
+  cursor: default;
+}
+
+.tree-item:hover { background: var(--sb-surface2); color: var(--sb-text); }
+
+.tree-item input[type=checkbox] {
+  accent-color: var(--accent);
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* ── Seta de expandir ── */
+.tree-expand {
+  font-size: 8px;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: var(--sb-text3);
+  cursor: pointer;
+  transition: color var(--t-fast), transform var(--t-normal);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.tree-expand:hover { color: var(--accent); background: var(--accent-dim); }
+.tree-expand.expanded { transform: rotate(90deg); }
+
+/* ── Nível Regional — destaque leve ── */
+.tree-regional {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--sb-text);
+}
+
+/* ── Filhos (cidades e empreendimentos) ── */
+.tree-children {
+  margin-left: 8px;
+  border-left: 2px solid var(--sb-border);
+  padding-left: 4px;
+  margin-bottom: 2px;
+}
+
+/* ── Nível Cidade ── */
+.tree-cidade {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--sb-text2);
+}
+
+/* ── Nível Empreendimento ── */
+.tree-empreendimento {
+  font-size: 10.5px;
+  font-weight: 500;
+  color: var(--sb-text3);
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.tree-empreendimento:hover { color: var(--sb-text2); }
 
 /* ============================================================
    7. BUSCA

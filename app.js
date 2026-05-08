@@ -8,12 +8,14 @@ if (DATA.last_updated) {
   if (el) el.textContent = DATA.last_updated;
 }
 
-let activeRegionals     = new Set();
-let activeYears         = new Set();
-let activeStatus        = new Set();
-let polygonLayers       = [];
-let searchTerm          = '';
-let somenteVinculados   = false;
+let activeRegionals       = new Set();
+let activeYears           = new Set();
+let activeStatus          = new Set();
+let activeCidades         = new Set();
+let activeEmpreendimentos = new Set();
+let polygonLayers         = [];
+let searchTerm            = '';
+let somenteVinculados     = false;
 
 // ===== HELPERS =====
 const fmtNum = (n) => (n != null && !isNaN(n)) ? n.toLocaleString('pt-BR') : '-';
@@ -51,38 +53,48 @@ function getCentroid(item) {
 }
 
 // ===== STATS =====
-
 function renderStats(filteredItems) {
-  const hasFilter      = activeRegionals.size > 0 || activeYears.size > 0 || activeStatus.size > 0 || searchTerm;
+  const hasFilter = activeRegionals.size > 0 || activeYears.size > 0
+    || activeStatus.size > 0 || activeCidades.size > 0
+    || activeEmpreendimentos.size > 0 || searchTerm;
 
   const somenteAtivo = activeStatus.has('Ativo')
-    && activeRegionals.size === 0
-    && activeYears.size === 0
-    && !searchTerm;
+    && activeRegionals.size === 0 && activeCidades.size === 0
+    && activeEmpreendimentos.size === 0 && activeYears.size === 0 && !searchTerm;
 
   const somenteInativo = activeStatus.has('Inativo')
-    && activeRegionals.size === 0
-    && activeYears.size === 0
-    && !searchTerm;
+    && activeRegionals.size === 0 && activeCidades.size === 0
+    && activeEmpreendimentos.size === 0 && activeYears.size === 0 && !searchTerm;
 
-  // Contagem de empreendimentos: usa stats.* do Python quando sem filtro
   const count = !hasFilter     ? stats.total_planilha
               : somenteAtivo   ? stats.total_ativo
               : somenteInativo ? stats.total_inativo
               : filteredItems.filter(i => isLinked(i)).length;
 
-  // Valores financeiros e de área: sempre soma os itens que passaram no filtro.
-  // i.e pode ser null (KML sem vínculo na planilha) — contribui 0 para a soma.
-  // Sem filtro ativo, filteredItems = todos os itens → resultado equivale a stats.total_vgv.
   const units  = filteredItems.reduce((s, i) => s + (i.e ? (i.e.total_unidades || 0) : 0), 0);
   const area   = filteredItems.reduce((s, i) => s + (i.e ? (i.e.area_total     || 0) : 0), 0);
   const vgv    = filteredItems.reduce((s, i) => s + (i.e ? (i.e.vgv_total      || 0) : 0), 0);
   const vgv_bt = filteredItems.reduce((s, i) => s + (i.e ? (i.e.vgv_bt         || 0) : 0), 0);
 
+  const uniqueCities = new Set(
+    filteredItems.filter(i => i.e?.cidade).map(i => i.e.cidade)
+  ).size;
+  const uniqueStates = new Set(
+    filteredItems.filter(i => i.e?.uf).map(i => i.e.uf)
+  ).size;
+
   document.getElementById('statsGrid').innerHTML = `
     <div class="stat-card stat-card-full">
       <div class="val">${count}</div>
       <div class="label">Empreendimentos</div>
+    </div>
+    <div class="stat-card">
+      <div class="val">${uniqueCities}</div>
+      <div class="label">Cidades</div>
+    </div>
+    <div class="stat-card">
+      <div class="val">${uniqueStates}</div>
+      <div class="label">Estados (UF)</div>
     </div>
     <div class="stat-card">
       <div class="val">${fmtNum(Math.round(units))}</div>
@@ -177,9 +189,9 @@ document.getElementById('layerToggle').addEventListener('click', () => {
 });
 
 // ===== MOBILE SIDEBAR DRAWER =====
-const sidebar        = document.getElementById('sidebar');
-const overlay        = document.getElementById('sidebarOverlay');
-const mobileMenuBtn  = document.getElementById('mobileMenuBtn');
+const sidebar         = document.getElementById('sidebar');
+const overlay         = document.getElementById('sidebarOverlay');
+const mobileMenuBtn   = document.getElementById('mobileMenuBtn');
 const sidebarCloseBtn = document.getElementById('sidebarClose');
 
 function openSidebar() {
@@ -193,16 +205,16 @@ function closeSidebar() {
   document.body.style.overflow = '';
 }
 
-if (mobileMenuBtn)   mobileMenuBtn.addEventListener('click', openSidebar);
-if (overlay)         overlay.addEventListener('click', closeSidebar);
-if (sidebarCloseBtn) sidebarCloseBtn.addEventListener('click', closeSidebar);
+if (mobileMenuBtn)    mobileMenuBtn.addEventListener('click', openSidebar);
+if (overlay)          overlay.addEventListener('click', closeSidebar);
+if (sidebarCloseBtn)  sidebarCloseBtn.addEventListener('click', closeSidebar);
 
-// ===== MULTI-SELECT DROPDOWN (reutilizável) =====
+// ===== MULTI-SELECT DROPDOWN =====
 function buildMultiSelect(containerId, options, activeSet, colorMap, onChangeFn) {
   const container = document.getElementById(containerId);
   container.innerHTML = '';
 
-  const wrapper  = document.createElement('div');
+  const wrapper = document.createElement('div');
   wrapper.className = 'filter-select';
 
   const btn = document.createElement('button');
@@ -212,6 +224,7 @@ function buildMultiSelect(containerId, options, activeSet, colorMap, onChangeFn)
   const panel = document.createElement('div');
   panel.className = 'filter-dropdown';
   panel.style.display = 'none';
+  panel.addEventListener('click', e => e.stopPropagation());
 
   function updateBtn() {
     btn.innerHTML = activeSet.size === 0
@@ -220,7 +233,6 @@ function buildMultiSelect(containerId, options, activeSet, colorMap, onChangeFn)
     btn.classList.toggle('has-filter', activeSet.size > 0);
   }
 
-  // Opção "Todos"
   const allLbl = document.createElement('label');
   allLbl.className = 'filter-option';
   const allChk = document.createElement('input');
@@ -230,7 +242,6 @@ function buildMultiSelect(containerId, options, activeSet, colorMap, onChangeFn)
   allLbl.appendChild(document.createTextNode('Todos'));
   panel.appendChild(allLbl);
 
-  // Opções individuais
   const optEls = options.map(val => {
     const lbl = document.createElement('label');
     lbl.className = 'filter-option';
@@ -278,7 +289,6 @@ function buildMultiSelect(containerId, options, activeSet, colorMap, onChangeFn)
   container.appendChild(wrapper);
   updateBtn();
 
-  // Para reset externo
   wrapper._sync = () => {
     optEls.forEach(o => { o.chk.checked = activeSet.has(o.val); });
     allChk.checked = activeSet.size === 0;
@@ -287,7 +297,6 @@ function buildMultiSelect(containerId, options, activeSet, colorMap, onChangeFn)
 
   return wrapper;
 }
-
 
 // ===== SINGLE-SELECT DROPDOWN =====
 function buildSingleSelect(containerId, options, activeSet, onChangeFn) {
@@ -304,6 +313,7 @@ function buildSingleSelect(containerId, options, activeSet, onChangeFn) {
   const panel = document.createElement('div');
   panel.className = 'filter-dropdown';
   panel.style.display = 'none';
+  panel.addEventListener('click', e => e.stopPropagation());
 
   function updateBtn() {
     const selected = [...activeSet][0];
@@ -360,36 +370,267 @@ function buildSingleSelect(containerId, options, activeSet, onChangeFn) {
   return wrapper;
 }
 
+// ===== TREE SELECT (dropdown em árvore) =====
+function buildTreeSelect(containerId, onChangeFn) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = '';
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'filter-select';
+
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'filter-select-btn';
+
+  const panel = document.createElement('div');
+  panel.className = 'filter-dropdown filter-tree';
+  panel.style.display = 'none';
+  panel.addEventListener('click', e => e.stopPropagation());
+
+  function getLabel() {
+    const parts = [];
+    if (activeRegionals.size > 0)
+      parts.push(`${activeRegionals.size} regional${activeRegionals.size > 1 ? 'is' : ''}`);
+    if (activeCidades.size > 0)
+      parts.push(`${activeCidades.size} cidade${activeCidades.size > 1 ? 's' : ''}`);
+    if (activeEmpreendimentos.size > 0)
+      parts.push(`${activeEmpreendimentos.size} empreend.`);
+    return parts.length > 0 ? parts.join(', ') : 'Todos';
+  }
+
+  function updateBtn() {
+    const has = activeRegionals.size > 0 || activeCidades.size > 0 || activeEmpreendimentos.size > 0;
+    btn.innerHTML = `${getLabel()} <span class="fsd-arrow">▾</span>`;
+    btn.classList.toggle('has-filter', has);
+  }
+
+  function buildEmpreendimentos(regional, cidade, empContainer) {
+    empContainer.innerHTML = '';
+    const emps = [...new Set(
+      items
+        .filter(i => isLinked(i) && i.e.regional === regional && i.e.cidade === cidade)
+        .map(i => i.e.empreendimento || i.e.nome)
+        .filter(Boolean)
+    )].sort();
+
+    emps.forEach(emp => {
+      const row = document.createElement('div');
+      row.className = 'tree-item tree-empreendimento';
+
+      const chk = document.createElement('input');
+      chk.type = 'checkbox';
+      chk.checked = activeEmpreendimentos.has(emp);
+
+      const lbl = document.createElement('span');
+      lbl.textContent = emp;
+
+      row.appendChild(chk);
+      row.appendChild(lbl);
+
+      chk.addEventListener('change', () => {
+        chk.checked ? activeEmpreendimentos.add(emp) : activeEmpreendimentos.delete(emp);
+        updateBtn();
+        onChangeFn();
+      });
+
+      empContainer.appendChild(row);
+    });
+  }
+
+  function buildCidades(regional, cidadeContainer) {
+    cidadeContainer.innerHTML = '';
+    const cidades = [...new Set(
+      items
+        .filter(i => isLinked(i) && i.e.regional === regional)
+        .map(i => i.e.cidade)
+        .filter(Boolean)
+    )].sort();
+
+    cidades.forEach(cidade => {
+      const row = document.createElement('div');
+      row.className = 'tree-item tree-cidade';
+
+      const expandBtn = document.createElement('span');
+      expandBtn.className = 'tree-expand';
+      expandBtn.innerHTML = '&#9654;';
+
+      const chk = document.createElement('input');
+      chk.type = 'checkbox';
+      chk.checked = activeCidades.has(cidade);
+
+      const lbl = document.createElement('span');
+      lbl.textContent = cidade;
+
+      row.appendChild(expandBtn);
+      row.appendChild(chk);
+      row.appendChild(lbl);
+
+      const empContainer = document.createElement('div');
+      empContainer.className = 'tree-children';
+      empContainer.style.display = 'none';
+      let expanded = false;
+
+      expandBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        expanded = !expanded;
+        empContainer.style.display = expanded ? 'block' : 'none';
+        expandBtn.classList.toggle('expanded', expanded);
+        if (expanded) buildEmpreendimentos(regional, cidade, empContainer);
+      });
+
+      chk.addEventListener('change', () => {
+        if (chk.checked) {
+          activeCidades.add(cidade);
+        } else {
+          activeCidades.delete(cidade);
+          items
+            .filter(i => isLinked(i) && i.e.cidade === cidade)
+            .forEach(i => activeEmpreendimentos.delete(i.e.empreendimento || i.e.nome));
+        }
+        if (expanded) buildEmpreendimentos(regional, cidade, empContainer);
+        updateBtn();
+        onChangeFn();
+      });
+
+      cidadeContainer.appendChild(row);
+      cidadeContainer.appendChild(empContainer);
+    });
+  }
+
+  function buildTree() {
+    panel.innerHTML = '';
+
+    const allRow = document.createElement('div');
+    allRow.className = 'tree-all';
+    const allChk = document.createElement('input');
+    allChk.type = 'checkbox';
+    allChk.checked = activeRegionals.size === 0 && activeCidades.size === 0 && activeEmpreendimentos.size === 0;
+    allRow.appendChild(allChk);
+    allRow.appendChild(document.createTextNode('Todos'));
+    allChk.addEventListener('change', () => {
+      activeRegionals.clear();
+      activeCidades.clear();
+      activeEmpreendimentos.clear();
+      buildTree();
+      updateBtn();
+      onChangeFn();
+    });
+    panel.appendChild(allRow);
+
+    const allRegionais = [...new Set(
+      items.filter(i => isLinked(i)).map(i => i.e.regional).filter(Boolean).filter(r => r !== 'None')
+    )].sort();
+
+    allRegionais.forEach(regional => {
+      const color = colors[regional] || '#7f8c8d';
+
+      const row = document.createElement('div');
+      row.className = 'tree-item tree-regional';
+
+      const expandBtn = document.createElement('span');
+      expandBtn.className = 'tree-expand';
+      expandBtn.innerHTML = '&#9654;';
+
+      const chk = document.createElement('input');
+      chk.type = 'checkbox';
+      chk.checked = activeRegionals.has(regional);
+
+      const dot = document.createElement('span');
+      dot.className = 'dot';
+      dot.style.background = color;
+
+      const lbl = document.createElement('span');
+      lbl.textContent = regional;
+
+      row.appendChild(expandBtn);
+      row.appendChild(chk);
+      row.appendChild(dot);
+      row.appendChild(lbl);
+
+      const cidadeContainer = document.createElement('div');
+      cidadeContainer.className = 'tree-children';
+      cidadeContainer.style.display = 'none';
+      let expanded = false;
+
+      expandBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        expanded = !expanded;
+        cidadeContainer.style.display = expanded ? 'block' : 'none';
+        expandBtn.classList.toggle('expanded', expanded);
+        if (expanded) buildCidades(regional, cidadeContainer);
+      });
+
+      chk.addEventListener('change', () => {
+        if (chk.checked) {
+          activeRegionals.add(regional);
+        } else {
+          activeRegionals.delete(regional);
+          items
+            .filter(i => isLinked(i) && i.e.regional === regional)
+            .forEach(i => {
+              activeCidades.delete(i.e.cidade);
+              activeEmpreendimentos.delete(i.e.empreendimento || i.e.nome);
+            });
+        }
+        if (expanded) buildCidades(regional, cidadeContainer);
+        updateBtn();
+        onChangeFn();
+      });
+
+      panel.appendChild(row);
+      panel.appendChild(cidadeContainer);
+    });
+  }
+
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const open = panel.style.display === 'block';
+    document.querySelectorAll('.filter-dropdown').forEach(d => d.style.display = 'none');
+    if (!open) {
+      buildTree();
+      panel.style.display = 'block';
+    }
+  });
+
+  document.addEventListener('click', () => { panel.style.display = 'none'; });
+
+  wrapper.appendChild(btn);
+  wrapper.appendChild(panel);
+  container.appendChild(wrapper);
+  updateBtn();
+
+  wrapper._sync = () => updateBtn();
+  return wrapper;
+}
 
 // ===== INICIALIZAR FILTROS =====
-const allRegionals = [...new Set(
-  items.filter(i => isLinked(i)).map(i => i.e.regional).filter(Boolean).filter(r => r !== 'None')
-)].sort();
-
 const allYears = [...new Set(
   items.filter(i => isLinked(i) && i.e.year)
     .map(i => String(i.e.year))
     .filter(y => y !== 'null' && y !== 'None' && y.trim() !== '')
 )].sort();
 
-const regionalSelect  = buildMultiSelect('filterRegional', allRegionals, activeRegionals, colors, updateMap);
-const yearSelect      = buildMultiSelect('filterYear', allYears, activeYears, null, updateMap);
-const statusSelect = buildSingleSelect('filterStatus', ['Ativo', 'Inativo'], activeStatus, updateMap);
-
+const localizacaoSelect = buildTreeSelect('filterLocalizacao', updateMap);
+const yearSelect        = buildMultiSelect('filterYear', allYears, activeYears, null, updateMap);
+const statusSelect      = buildSingleSelect('filterStatus', ['Ativo', 'Inativo'], activeStatus, updateMap);
 
 // ===== FILTER NOTICE =====
 function updateFilterNotice() {
-  const active = activeRegionals.size > 0 || activeYears.size > 0 || activeStatus.size > 0 || searchTerm;
+  const active = activeRegionals.size > 0 || activeYears.size > 0
+    || activeStatus.size > 0 || activeCidades.size > 0
+    || activeEmpreendimentos.size > 0 || searchTerm;
   document.getElementById('filterNotice').style.display = active ? 'flex' : 'none';
 }
 
 document.getElementById('clearFiltersBtn').addEventListener('click', () => {
   activeRegionals.clear();
   activeYears.clear();
-  searchTerm = '';
   activeStatus.clear();
+  activeCidades.clear();
+  activeEmpreendimentos.clear();
+  searchTerm = '';
   document.getElementById('searchInput').value = '';
-  regionalSelect._sync();
+  localizacaoSelect._sync();
   yearSelect._sync();
   statusSelect._sync();
   updateMap();
@@ -478,13 +719,11 @@ function popupContent(item) {
 function passesFilter(item) {
   if (somenteVinculados && !isLinked(item)) return false;
 
-  // Filtro por regional
   if (activeRegionals.size > 0) {
     const r = isLinked(item) ? item.e.regional : null;
     if (!r || !activeRegionals.has(r)) return false;
   }
 
-  // Filtro por ano ← NOVO
   if (activeYears.size > 0) {
     const y = isLinked(item) ? String(item.e.year ?? '') : '';
     if (!y || !activeYears.has(y)) return false;
@@ -496,16 +735,26 @@ function passesFilter(item) {
     if (!activeStatus.has(s)) return false;
   }
 
-  // Filtro por texto
   if (searchTerm) {
     const haystack = [
       item.n,
-      item.e ? item.e.nome          : '',
-      item.e ? item.e.cidade        : '',
+      item.e ? item.e.nome           : '',
+      item.e ? item.e.cidade         : '',
       item.e ? item.e.empreendimento : '',
-      item.e ? item.e.regional      : ''
+      item.e ? item.e.regional       : ''
     ].join(' ').toUpperCase();
     if (!haystack.includes(searchTerm)) return false;
+  }
+
+  if (activeCidades.size > 0) {
+    if (!isLinked(item)) return false;
+    if (!activeCidades.has(item.e.cidade)) return false;
+  }
+
+  if (activeEmpreendimentos.size > 0) {
+    if (!isLinked(item)) return false;
+    const emp = item.e.empreendimento || item.e.nome;
+    if (!activeEmpreendimentos.has(emp)) return false;
   }
 
   return true;
@@ -600,7 +849,6 @@ function updateMap() {
     const color    = getColor(item);
     const centroid = getCentroid(item);
 
-    // Polígonos
     item.p.forEach(polyCoords => {
       const polygon = L.polygon(polyCoords, {
         color: color, weight: 2, opacity: 0.85,
@@ -613,7 +861,6 @@ function updateMap() {
       polygonLayers.push({ layer: polygon, item: item, idx: idx, centroid: centroid });
     });
 
-    // Marcador de centroide para itens sem polígono
     if (item.p.length === 0 && centroid) {
       const marker = L.circleMarker(centroid, {
         radius: 7, color: color, fillColor: color, fillOpacity: 0.5, weight: 2.5
@@ -623,7 +870,6 @@ function updateMap() {
       polygonLayers.push({ layer: marker, item: item, idx: idx, centroid: centroid, isMarker: true });
     }
 
-    // Lista lateral
     const div = document.createElement('div');
     div.className = 'list-item';
 
