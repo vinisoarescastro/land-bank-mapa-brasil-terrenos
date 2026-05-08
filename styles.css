@@ -1149,30 +1149,78 @@ body {
   position: absolute;
   bottom: 0; left: 0; right: 0;
   z-index: var(--z-footer);
-  background: rgba(255,255,255,0.90);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-top: 1px solid var(--border);
-  padding: 7px 18px;
+  padding: 8px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   font-size: 11px;
   color: var(--text2);
-  text-align: center;
-  line-height: 1.5;
+  font-weight: 500;
 }
 
-.map-footer strong {
-  color: var(--text);
-  font-weight: 600;
+.map-footer-dot {
+  color: var(--border2);
+  font-size: 14px;
+  line-height: 1;
 }
 
 .map-footer a {
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
+  transition: opacity var(--t-fast);
 }
 
-.map-footer a:hover { text-decoration: underline; }
+.map-footer a:hover { opacity: 0.75; }
 
+/* ---- Banner de manutenção ---- */
+.manutencao-banner {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  z-index: calc(var(--z-footer) + 1);
+  background: rgba(255, 251, 234, 0.90);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid #f0d060;
+  border-bottom: 1px solid #f0d060;
+  padding: 7px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #92400e;
+  animation: bannerIn 0.4s cubic-bezier(0.34,1.56,0.64,1) both;
+}
+
+.manutencao-banner svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  color: #b45309;
+}
+
+.manutencao-banner strong {
+  font-weight: 700;
+  color: #78350f;
+}
+
+.manutencao-banner.hidden {
+  display: none;
+}
+
+@keyframes bannerIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 
 /* ============================================================
    14. SCROLLBAR CUSTOMIZATION

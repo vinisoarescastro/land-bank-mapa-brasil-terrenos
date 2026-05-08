@@ -423,6 +423,8 @@ function buildTreeSelect(containerId, onChangeFn) {
 
       const lbl = document.createElement('span');
       lbl.textContent = emp;
+      lbl.style.cursor = 'pointer';               
+      lbl.addEventListener('click', () => chk.click()); 
 
       row.appendChild(chk);
       row.appendChild(lbl);
@@ -460,6 +462,8 @@ function buildTreeSelect(containerId, onChangeFn) {
 
       const lbl = document.createElement('span');
       lbl.textContent = cidade;
+      lbl.style.cursor = 'pointer';                  
+      lbl.addEventListener('click', () => chk.click()); 
 
       row.appendChild(expandBtn);
       row.appendChild(chk);
@@ -541,6 +545,8 @@ function buildTreeSelect(containerId, onChangeFn) {
 
       const lbl = document.createElement('span');
       lbl.textContent = regional;
+      lbl.style.cursor = 'pointer';
+      lbl.addEventListener('click', () => chk.click());
 
       row.appendChild(expandBtn);
       row.appendChild(chk);
