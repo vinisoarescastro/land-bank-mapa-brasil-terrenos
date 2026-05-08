@@ -55,10 +55,13 @@ function renderStats(filteredItems) {
               : somenteAtivo     ? stats.total_ativo
               : somenteInativo   ? stats.total_inativo
               : linked.length;
-  const units     = linked.reduce((s, i) => s + (i.e.total_unidades || 0), 0);
-  const area      = linked.reduce((s, i) => s + (i.e.area_total    || 0), 0);
-  const vgv       = linked.reduce((s, i) => s + (i.e.vgv_total     || 0), 0);
-  const vgv_bt    = linked.reduce((s, i) => s + (i.e.vgv_bt        || 0), 0);
+
+  // Sem filtro: usa os totais calculados na planilha (fonte única de verdade).
+  // Com filtro: soma apenas os itens vinculados visíveis.
+  const units  = hasFilter ? linked.reduce((s, i) => s + (i.e.total_unidades || 0), 0) : stats.total_units;
+  const area   = hasFilter ? linked.reduce((s, i) => s + (i.e.area_total     || 0), 0) : stats.total_area;
+  const vgv    = hasFilter ? linked.reduce((s, i) => s + (i.e.vgv_total      || 0), 0) : stats.total_vgv;
+  const vgv_bt = hasFilter ? linked.reduce((s, i) => s + (i.e.vgv_bt         || 0), 0) : stats.total_vgv_bt;
 
   document.getElementById('statsGrid').innerHTML = `
     <div class="stat-card stat-card-full">
@@ -83,30 +86,6 @@ function renderStats(filteredItems) {
     </div>
   `;
 }
-
-/* document.getElementById('statsGrid').innerHTML = `
-  <div class="stat-card stat-card-full">
-    div class="val">${stats.total_planilha}</div>
-    <div class="label">Empreendimentos</div>
-  </div>
-  <div class="stat-card">
-    <div class="val">${fmtNum(Math.round(stats.total_units))}</div>
-    <div class="label">Total Unidades</div>
-  </div>
-  <div class="stat-card">
-    <div class="val">${fmtArea(stats.total_area)}</div>
-    <div class="label">Área Total</div>
-  </div>
-  <div class="stat-card">
-    <div class="val green">${fmtBRL(stats.total_vgv)}</div>
-    <div class="label">VGV Total</div>
-  </div>
-  <div class="stat-card">
-    <div class="val green">${fmtBRL(stats.total_vgv_bt)}</div>
-    <div class="label">VGV Total BT</div>
-  </div>
-`;
-*/
 
 // ===== MAP INIT =====
 const map = L.map('map', { zoomControl: false, attributionControl: false }).setView([-12, -50], 4);

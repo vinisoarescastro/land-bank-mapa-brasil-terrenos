@@ -246,26 +246,6 @@ def extrair_coordenadas_kml(caminho_kml):
     return nome_kml, poligonos, centroide
 
 
-def calcular_area(poligonos):
-    """Estima área total em m² usando fórmula de Shoelace (aproximação plana)."""
-    total = 0.0
-    for pol in poligonos:
-        if len(pol) < 3:
-            continue
-        lat_ref = pol[0][0]
-        escala_lat = 111320.0
-        escala_lng = 111320.0 * math.cos(math.radians(lat_ref))
-        coords_m = [(p[1] * escala_lng, p[0] * escala_lat) for p in pol]
-        n = len(coords_m)
-        area = 0.0
-        for i in range(n):
-            j = (i + 1) % n
-            area += coords_m[i][0] * coords_m[j][1]
-            area -= coords_m[j][0] * coords_m[i][1]
-        total += abs(area) / 2.0
-    return total
-
-
 def serializar_valor(v):
     """Converte tipos Python para tipos serializáveis em JSON."""
     if isinstance(v, (datetime, date)):
@@ -443,14 +423,14 @@ def main():
             })
 
     # ── 7. Calcular estatísticas ───────────────────────────────────
-    # VGV, unidades e área são somados de registros_excel diretamente
-    # para incluir TODOS os registros, inclusive os de IDs duplicados.
-    on_map     = sum(1 for i in items if i["p"])
-    total_area = sum(calcular_area(i["p"]) for i in items if i["p"])
+    on_map = sum(1 for i in items if i["p"])   # mantido apenas para o relatório CLI
 
+    col_area   = COLUNAS.get("area_total")
     col_vgv    = COLUNAS.get("vgv_total")
     col_vgv_bt = COLUNAS.get("vgv_bt")
     col_units  = COLUNAS.get("total_unidades")
+
+    total_area = _soma_excel(col_area) if col_area else 0.0
 
     def _soma_excel(col):
         total = 0.0
@@ -477,11 +457,10 @@ def main():
         "total_planilha":   len(registros_excel),
         "total_ativo":      total_ativo,
         "total_inativo":    total_inativo,
-        "on_map":           on_map,
-        "total_units":      total_unidades,
-        "total_area":       round(total_area, 0),
-        "total_vgv":        round(total_vgv, 2),
-        "total_vgv_bt":     round(total_vgv_bt, 2),
+        "total_units":      round(total_unidades, 0),
+        "total_area":       round(total_area, 2),    # ← da planilha
+        "total_vgv":        round(total_vgv, 2),     # ← da planilha
+        "total_vgv_bt":     round(total_vgv_bt, 2),  # ← da planilha
     }
 
     # Resumo por regional
