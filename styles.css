@@ -1185,7 +1185,10 @@ body {
   left: 0;
   right: 0;
   z-index: calc(var(--z-footer) + 1);
-  background: rgba(255, 251, 234, 0.90);
+  background: linear-gradient(270deg, #fffbea, #fef3c7, #fde68a, #fef3c7, #fffbea);
+  background-size: 300% 300%;
+  animation: bannerIn 0.4s cubic-bezier(0.34,1.56,0.64,1) both,
+             gradientShift 6s ease infinite;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-top: 1px solid #f0d060;
@@ -1198,7 +1201,12 @@ body {
   font-size: 11px;
   font-weight: 500;
   color: #92400e;
-  animation: bannerIn 0.4s cubic-bezier(0.34,1.56,0.64,1) both;
+}
+
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .manutencao-banner svg {
