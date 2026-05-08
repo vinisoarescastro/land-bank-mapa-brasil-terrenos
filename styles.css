@@ -1201,7 +1201,7 @@ body {
 
   padding: 7px 18px;
 
-  display: flex;
+  display: none;   /* flex = em manutenção */
   align-items: center;
   justify-content: center;
   gap: 7px;
