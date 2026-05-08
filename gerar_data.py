@@ -231,7 +231,6 @@ def main():
 
         if ids_duplicados:
             print(f"  ℹ️  {len(ids_duplicados)} ID(s) com múltiplos registros (correto — um KML, várias linhas):")
-            # ✅ CORRIGIDO: set() garante que cada ID aparece apenas uma vez no print
             for id_k in sorted(set(ids_duplicados.keys())):
                 print(f"     • {id_k}: {len(ids_duplicados[id_k])} registros")
 
@@ -252,13 +251,19 @@ def main():
     kml_sem_vinculo     = 0
     kml_sem_poligono    = 0
     kml_sem_id          = 0
-    total_itens_criados = 0
     nao_vinculados      = []
     ids_kml_processados = set()
 
+    # ── Passo 1: agrupar todos os polígonos por ID ─────────────────
+    # Cada MAP### pode ter vários arquivos KML (etapas, fases, etc.).
+    # Todos os polígonos do mesmo ID são fundidos num único conjunto,
+    # evitando que o VGV/unidades de cada linha Excel seja multiplicado
+    # pelo número de arquivos KML do mesmo ID.
+    kml_por_id = {}  # id_kml → { 'nome': str, 'poligonos': [] }
+
     for kml_path in arquivos_kml:
         nome_arquivo                       = kml_path.stem
-        nome_kml_tag, poligonos, centroide = extrair_coordenadas_kml(str(kml_path))
+        nome_kml_tag, poligonos, _centroide = extrair_coordenadas_kml(str(kml_path))
 
         if not poligonos:
             kml_sem_poligono += 1
@@ -271,26 +276,63 @@ def main():
         if not id_kml:
             kml_sem_id += 1
 
+        if id_kml not in kml_por_id:
+            kml_por_id[id_kml] = {'nome': nome_display, 'poligonos': []}
+
+        kml_por_id[id_kml]['poligonos'].extend(poligonos)
+
+    # ── Passo 2: criar itens — 1 item por linha do Excel ──────────
+    # Para IDs com múltiplos KMLs: todos os polígonos ficam juntos
+    # em cada item. O VGV/unidades de cada linha é contado apenas 1×.
+    for id_kml, kml_info in kml_por_id.items():
+        poligonos    = kml_info['poligonos']
+        nome_display = kml_info['nome']
+
+        # Centroide unificado de todos os polígonos deste ID
+        todos_lats = [pt[0] for poly in poligonos for pt in poly]
+        todos_lngs = [pt[1] for poly in poligonos for pt in poly]
+        centroide  = (
+            [sum(todos_lats) / len(todos_lats), sum(todos_lngs) / len(todos_lngs)]
+            if todos_lats else None
+        )
+
         registros_vinculados = indice_excel.get(id_kml, []) if id_kml else []
 
         if registros_vinculados:
             kml_vinculados += 1
             ids_kml_processados.add(id_kml)
             for reg in registros_vinculados:
-                items.append({"id": id_kml, "n": nome_display, "p": poligonos, "c": centroide, "e": construir_e(reg)})
-                total_itens_criados += 1
+                items.append({
+                    "id": id_kml,
+                    "n":  nome_display,
+                    "p":  poligonos,
+                    "c":  centroide,
+                    "e":  construir_e(reg),
+                })
         else:
             kml_sem_vinculo += 1
-            nao_vinculados.append((nome_display, id_kml or "sem ID", str(kml_path)))
-            items.append({"id": id_kml, "n": nome_display, "p": poligonos, "c": centroide, "e": None})
-            total_itens_criados += 1
+            nao_vinculados.append((nome_display, id_kml or "sem ID", f"ID={id_kml}"))
+            items.append({
+                "id": id_kml,
+                "n":  nome_display,
+                "p":  poligonos,
+                "c":  centroide,
+                "e":  None,
+            })
 
+    # ── Registros do Excel sem nenhum KML correspondente ──────────
     sem_kml = 0
     if col_id_real:
         for id_val, regs in indice_excel.items():
             if id_val not in ids_kml_processados:
                 for reg in regs:
-                    items.append({"id": id_val, "n": reg.get(col_id_real, id_val), "p": [], "c": None, "e": construir_e(reg)})
+                    items.append({
+                        "id": id_val,
+                        "n":  reg.get(col_id_real, id_val),
+                        "p":  [],
+                        "c":  None,
+                        "e":  construir_e(reg),
+                    })
                     sem_kml += 1
 
     sem_localizacao = []
@@ -302,14 +344,12 @@ def main():
                 "nome":     e.get("nome") or item["n"] or "—",
                 "cidade":   e.get("cidade") or "—",
                 "regional": e.get("regional") or "—",
-                "motivo":   "sem KML" if not item["p"] and item["e"] else "KML sem geometria",
+                "motivo":   "sem KML" if item["e"] else "KML sem geometria",
             })
 
-    # ── 7. Calcular estatísticas ───────────────────────────────────
-    # Todos os totais vêm exclusivamente da planilha Excel (fonte única de verdade).
-    on_map = sum(1 for i in items if i["p"])   # apenas para o relatório CLI
+    # ── Estatísticas — fonte única: planilha Excel ─────────────────
+    on_map = sum(1 for i in items if i["p"])
 
-    # ✅ CORRIGIDO: _soma_excel definida ANTES de ser chamada
     def _soma_excel(col):
         """Soma os valores numéricos de uma coluna em todos os registros do Excel."""
         total = 0.0
@@ -385,11 +425,11 @@ def main():
     print(f"  📋 Total de registros na planilha:        {stats['total_planilha']}")
     print(f"  🗺️  Com polígono KML:                      {on_map}")
     print(f"  📍 Sem localização:                       {len(sem_localizacao)}")
-    print(f"  🔗 KMLs vinculados à planilha:            {kml_vinculados}")
-    print(f"  ❌ KMLs sem vínculo na planilha:          {kml_sem_vinculo}")
+    print(f"  🔗 IDs KML vinculados à planilha:         {kml_vinculados}")
+    print(f"  ❌ IDs KML sem vínculo na planilha:       {kml_sem_vinculo}")
     print(f"  📋 Registros só na planilha (sem KML):    {sem_kml}")
-    print(f"  ⚠️  KMLs sem geometria:                    {kml_sem_poligono}")
-    print(f"  🏷️  KMLs sem ID reconhecível:              {kml_sem_id}")
+    print(f"  ⚠️  Arquivos KML sem geometria:            {kml_sem_poligono}")
+    print(f"  🏷️  Arquivos KML sem ID reconhecível:      {kml_sem_id}")
     print(f"  💰 VGV Total:                          R$ {total_vgv:,.1f} mi")
     print(f"  🏘️  Total de unidades:                     {total_unidades:,.0f}")
     print(f"\n  📄 Arquivo gerado: {os.path.abspath(OUTPUT_PATH)}")
@@ -413,11 +453,10 @@ def main():
             )
 
     if nao_vinculados:
-        print(f"\n  ⚠️  {len(nao_vinculados)} KML(s) SEM vínculo na planilha:")
+        print(f"\n  ⚠️  {len(nao_vinculados)} ID(s) KML SEM vínculo na planilha:")
         for nome, id_encontrado, path in nao_vinculados:
             label = f"ID={id_encontrado}" if id_encontrado != "sem ID" else "sem ID reconhecível"
             print(f"     • [{label}] \"{nome}\"")
-            print(f"       → {path}")
 
     print(f"\n{'═'*60}")
     print("  👉 Próximo passo: faça commit e push do data.js para")

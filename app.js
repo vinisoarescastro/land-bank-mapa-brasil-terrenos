@@ -16,15 +16,23 @@ let searchTerm          = '';
 let somenteVinculados   = false;
 
 // ===== HELPERS =====
-const fmtNum  = (n) => n ? n.toLocaleString('pt-BR') : '-';
-const fmtBRL  = (n) => {
-  if (!n) return '-';
+const fmtNum = (n) => (n != null && !isNaN(n)) ? n.toLocaleString('pt-BR') : '-';
+
+const fmtBRL = (n) => {
+  if (n == null || isNaN(n)) return '-';
   if (Math.abs(n) >= 1000) {
     const bi = n / 1000;
-    return 'R$ ' + bi.toLocaleString('pt-BR', { minimumFractionDigits: bi % 1 === 0 ? 0 : 2, maximumFractionDigits: 2 }) + ' bi';
+    return 'R$ ' + bi.toLocaleString('pt-BR', {
+      minimumFractionDigits: bi % 1 === 0 ? 0 : 2,
+      maximumFractionDigits: 2
+    }) + ' bi';
   }
-  return 'R$ ' + n.toLocaleString('pt-BR', { minimumFractionDigits: n % 1 === 0 ? 0 : 1, maximumFractionDigits: 1 }) + ' mi';
+  return 'R$ ' + n.toLocaleString('pt-BR', {
+    minimumFractionDigits: n % 1 === 0 ? 0 : 1,
+    maximumFractionDigits: 1
+  }) + ' mi';
 };
+
 const fmtArea = (n) => n ? (n / 10000).toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: 0 }) + ' ha' : '-';
 
 function isLinked(item) {
@@ -46,8 +54,16 @@ function getCentroid(item) {
 
 function renderStats(filteredItems) {
   const hasFilter      = activeRegionals.size > 0 || activeYears.size > 0 || activeStatus.size > 0 || searchTerm;
-  const somenteAtivo   = activeStatus.size === 1 && activeStatus.has('Ativo');
-  const somenteInativo = activeStatus.size === 1 && activeStatus.has('Inativo');
+
+  const somenteAtivo = activeStatus.has('Ativo')
+    && activeRegionals.size === 0
+    && activeYears.size === 0
+    && !searchTerm;
+
+  const somenteInativo = activeStatus.has('Inativo')
+    && activeRegionals.size === 0
+    && activeYears.size === 0
+    && !searchTerm;
 
   // Contagem de empreendimentos: usa stats.* do Python quando sem filtro
   const count = !hasFilter     ? stats.total_planilha
