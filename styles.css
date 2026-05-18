@@ -245,27 +245,34 @@ body {
   display: block;
 }
 
-.last-updated {
-  display: inline-flex;
+.last-updated-bar {
+  position: relative;
+  display: flex;
   align-items: center;
-  gap: 5px;
-  margin-top: 6px;
-  padding: 3px 8px;
-  border-radius: 5px;
-  background: rgba(39, 160, 106, 0.10);
-  border: 1px solid rgba(39, 160, 106, 0.22);
-  font-size: 10px;
-  font-weight: 600;
+  gap: 7px;
+  padding: 8px 20px;
+  background: rgba(39, 160, 106, 0.07);
+  font-size: 11.5px;
+  font-weight: 500;
   color: var(--accent);
-  letter-spacing: 0.3px;
-  width: fit-content;
+  letter-spacing: 0.1px;
 }
 
-.last-updated svg {
-  width: 11px;
-  height: 11px;
+.last-updated-bar::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2.5px;
+  background: linear-gradient(90deg, var(--accent), transparent 60%);
+}
+
+.last-updated-bar svg {
+  width: 13px;
+  height: 13px;
   flex-shrink: 0;
-  opacity: 0.75;
+  opacity: 0.7;
 }
 
 
@@ -653,9 +660,30 @@ body {
   pointer-events: none;
 }
 
+.search-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 11px;
+  width: 14px;
+  height: 14px;
+  color: var(--sb-text3);
+  pointer-events: none;
+  flex-shrink: 0;
+  transition: color var(--t-normal);
+}
+
+.search-input-wrap:focus-within .search-icon {
+  color: var(--accent);
+}
+
 .search-box input {
   width: 100%;
-  padding: 10px 14px;
+  padding: 10px 14px 10px 32px;
   border-radius: 8px;
   border: 1px solid var(--sb-border2);
   background: var(--sb-surface);
@@ -908,38 +936,51 @@ body {
   top: 14px;
   left: 14px;
   z-index: var(--z-layer-panel);
-  background: rgba(255,255,255,0.96);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-radius: 12px;
-  box-shadow: var(--shadow-lg);
-  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  border: 1px solid rgba(0,0,0,0.08);
   overflow: hidden;
-  min-width: 210px;
+  min-width: 190px;
 }
 
 .layer-panel-header {
-  padding: 11px 16px;
-  font-size: 12px;
-  font-weight: 700;
-  border-bottom: 1px solid var(--border);
+  padding: 9px 12px;
+  font-size: 11px;
+  font-weight: 600;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 7px;
   cursor: pointer;
   user-select: none;
-  color: var(--text);
-  letter-spacing: 0.1px;
+  color: var(--text2);
+  letter-spacing: 0.4px;
+  transition: color var(--t-fast);
 }
 
-.layer-panel-header svg {
-  width: 15px;
-  height: 15px;
-  color: var(--text2);
+.layer-panel-header:hover { color: var(--text); }
+
+.layer-panel-header > svg:first-child {
+  width: 13px;
+  height: 13px;
+  color: var(--accent);
   flex-shrink: 0;
 }
 
-.layer-panel-body { padding: 6px 10px 8px; }
+.layer-panel-header #chevron {
+  margin-left: auto;
+  font-size: 9px;
+  color: var(--text2);
+  transition: transform var(--t-normal);
+}
+
+.layer-panel-body {
+  padding: 4px 8px 8px;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+
 .layer-panel-body.collapsed { display: none; }
 
 .layer-option {
@@ -1149,18 +1190,16 @@ body {
   position: absolute;
   bottom: 0; left: 0; right: 0;
   z-index: var(--z-footer);
-  background: rgba(255,255,255,0.85);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-top: 1px solid var(--border);
-  padding: 8px 18px;
+  padding: 6px 18px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  font-size: 11px;
+  gap: 6px;
+  font-size: 12px;
   color: var(--text2);
-  font-weight: 500;
+  font-weight: 400;
+  opacity: 0.6;
+  transition: color 0.3s ease;
 }
 
 .map-footer-dot {
@@ -1178,56 +1217,68 @@ body {
 
 .map-footer a:hover { opacity: 0.75; }
 
+.satellite-mode .map-footer {
+  color: rgba(255,255,255,0.75);
+  transition: color 0.3s ease;
+}
+
+.satellite-mode .map-footer a {
+  color: rgba(255,255,255,0.9);
+}
+
 /* ---- Banner de manutenção ---- */
 .manutencao-banner {
   position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
+  bottom: calc(15px + 10px);
+  left: 50%;
+  transform: translateX(-50%);
   z-index: calc(var(--z-footer) + 1);
+  overflow: hidden;
 
-  /* Gradiente suave */
-  background: linear-gradient(
-    135deg,
-    #ffd738,
-    #fde999,
-    #fffbea
-  );
-
-  background-size: 200% 200%;
-
-  border-top: 1px solid #f0d060;
-  border-bottom: 1px solid #ffb42a;
-
-  padding: 7px 18px;
-
-  display: flex;   /* flex = em manutenção  | none = fora de manutenção*/
+  display: flex;   /* flex = em manutenção  | none = fora de manutenção */
   align-items: center;
-  justify-content: center;
-  gap: 7px;
+  gap: 8px;
 
-  font-size: 11px;
+  background: hsla(48, 100%, 96%, 0.9);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+
+  padding: 8px 14px;
+  max-width: 480px;
+  width: max-content;
+
+  font-size: 12px;
   font-weight: 500;
-  color: #7c2d12;
+  color: #92400e;
 
-  /* Animações */
-  animation:
-    bannerIn 0.4s cubic-bezier(0.34,1.56,0.64,1) both,
-    gradientMove 6s ease-in-out infinite;
+  animation: bannerIn 0.4s cubic-bezier(0.34,1.56,0.64,1) both;
 }
 
-/* Movimento suave entre as cores */
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+.manutencao-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255,255,255,0) 30%,
+    rgba(255,255,255,0.55) 50%,
+    rgba(255,255,255,0) 70%,
+    transparent 100%
+  );
+  animation: lightSweep 3.5s ease-in-out infinite;
+  pointer-events: none;
 }
 
 .manutencao-banner svg {
   width: 13px;
   height: 13px;
   flex-shrink: 0;
-  color: #b45309;
+  color: #d97706;
 }
 
 .manutencao-banner strong {
@@ -1235,13 +1286,62 @@ body {
   color: #78350f;
 }
 
+.manutencao-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-left: 4px;
+  border: none;
+  background: transparent;
+  border-radius: 5px;
+  cursor: not-allowed;
+  color: #b45309;
+  opacity: 0.25;
+  transition: opacity 0.4s ease, background var(--t-fast);
+}
+
+.manutencao-close:not(:disabled) {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.manutencao-close:not(:disabled):hover {
+  background: rgba(180, 83, 9, 0.12);
+  opacity: 1;
+}
+
+.manutencao-close svg {
+  width: 11px;
+  height: 11px;
+}
+
+.manutencao-countdown {
+  font-size: 10px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  line-height: 1;
+  transition: opacity 0.3s ease;
+}
+
+.manutencao-close:not(:disabled) .manutencao-countdown {
+  display: none;
+}
+
 .manutencao-banner.hidden {
   display: none;
 }
 
 @keyframes bannerIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateX(-50%) translateY(10px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@keyframes lightSweep {
+  0%   { left: -75%; }
+  100% { left: 125%; }
 }
 
 /* ============================================================
@@ -1303,14 +1403,14 @@ body {
   .map-wrap { width: 100%; height: 100vh; height: 100dvh; }
   .mobile-menu-btn { display: flex; }
 
-  .layer-panel { top: 10px; left: 10px; min-width: 175px; max-width: calc(100vw - 90px); }
-  .layer-panel-header { padding: 9px 12px; font-size: 11.5px; }
+  .layer-panel { top: 10px; left: 10px; min-width: 165px; max-width: calc(100vw - 90px); }
+  .layer-panel-header { padding: 8px 11px; }
   .layer-option { padding: 5px 4px; font-size: 11px; }
 
   .leaflet-popup-content { width: 260px !important; }
   .popup-grid { gap: 8px 14px; }
 
-  .search-box input { padding: 11px 13px; font-size: 15px; }
+  .search-box input { padding: 11px 13px 11px 32px; font-size: 15px; }
 
   .stat-card .val { font-size: 17px; }
   .stat-card .label { font-size: 9px; }
@@ -1322,6 +1422,20 @@ body {
 
   .ov-tooltip { min-width: 130px; max-width: 185px; padding: 8px 10px; }
   .ov-tooltip strong { font-size: 11px; }
+
+  .manutencao-banner {
+    left: 12px;
+    right: 12px;
+    transform: none;
+    width: auto;
+    max-width: none;
+    bottom: calc(26px + 10px);
+  }
+
+  @keyframes bannerIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
 }
 
 

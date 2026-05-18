@@ -8,6 +8,24 @@ if (DATA.last_updated) {
   if (el) el.textContent = DATA.last_updated;
 }
 
+// Banner de manutenção — contagem regressiva de 30s para habilitar o botão fechar
+const manutencaoClose = document.getElementById('manutencaoClose');
+const manutencaoCountdown = document.getElementById('manutencaoCountdown');
+if (manutencaoClose && manutencaoCountdown) {
+  let seconds = 60;
+  const timer = setInterval(() => {
+    seconds--;
+    manutencaoCountdown.textContent = seconds;
+    if (seconds <= 0) {
+      clearInterval(timer);
+      manutencaoClose.disabled = false;
+    }
+  }, 1000);
+  manutencaoClose.addEventListener('click', () => {
+    document.getElementById('manutencaoBanner').classList.add('hidden');
+  });
+}
+
 let activeRegionals       = new Set();
 let activeYears           = new Set();
 let activeStatus          = new Set();
@@ -122,11 +140,13 @@ L.control.zoom({ position: 'topright' }).addTo(map);
 // ===== TILE LAYERS =====
 const streetLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap', maxZoom: 19
-}).addTo(map);
+});
 
 const satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
   attribution: '© Esri', maxZoom: 19
-});
+}).addTo(map);
+
+document.querySelector('.map-wrap').classList.add('satellite-mode');
 
 const terrainLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenTopoMap', maxZoom: 17, opacity: 0.7
@@ -174,6 +194,8 @@ function handleLayerToggle(id) {
       streetLayer.bringToBack();
     }
   }
+  const satelliteActive = document.getElementById('layerSatellite').checked;
+  document.querySelector('.map-wrap').classList.toggle('satellite-mode', satelliteActive);
 }
 
 Object.keys(layerMap).forEach(id => {
