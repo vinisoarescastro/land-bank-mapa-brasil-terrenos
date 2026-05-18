@@ -901,22 +901,29 @@ function updateMap() {
     const div = document.createElement('div');
     div.className = 'list-item';
 
-    const linked      = isLinked(item);
-    const displayName = linked ? (item.e.empreendimento || item.e.nome || item.n) : item.n;
-    const cityText    = linked ? (item.e.cidade   || '') : '';
-    const regional    = linked ? (item.e.regional || '') : '';
-    const unitsText   = linked && item.e.total_unidades ? fmtNum(item.e.total_unidades) + ' un.' : '';
-    const hasLocation = !!(centroid);
+    const linked        = isLinked(item);
+    const displayName   = linked ? (item.e.empreendimento || item.e.nome || item.n) : item.n;
+    const cityText      = linked ? (item.e.cidade   || '') : '';
+    const ufText        = linked ? (item.e.uf       || '') : '';
+    const regional      = linked ? (item.e.regional || '') : '';
+    const unitsText     = linked && item.e.total_unidades ? fmtNum(item.e.total_unidades) + ' un.' : '';
+    const isActive      = linked ? item.e.on_off === 1 : null;
+    const hasLocation   = !!(centroid);
+    const accentColor   = regional ? (colors[regional] || '#5a6e8e') : '#e4e7ed';
+    const locationLabel = cityText ? `${cityText}${ufText ? ', ' + ufText : ''}` : '';
 
     div.innerHTML = `
-      <div class="meta">
-        ${regional  ? `<span class="regional-tag" style="background:${colors[regional] || '#5a6e8e'}">${regional}</span>` : ''}
-        ${cityText  ? `<span>${cityText}</span>`  : ''}
-        ${unitsText ? `<span>${unitsText}</span>` : ''}
-        ${!linked      ? '<span class="no-match">sem dados</span>'                                     : ''}
-        ${!hasLocation ? '<span class="no-match" title="Sem coordenadas cadastradas">sem loc.</span>' : ''}
+      <div class="list-item-meta">
+        ${regional      ? `<span class="regional-tag" style="background:${accentColor}">${regional}</span>` : ''}
+        ${locationLabel ? `<span class="list-item-city">${locationLabel}</span>` : ''}
+        ${unitsText     ? `<span class="list-item-units">${unitsText}</span>` : ''}
+        ${!linked       ? '<span class="no-match">sem dados</span>' : ''}
+        ${!hasLocation  ? '<span class="no-match" title="Sem coordenadas cadastradas">sem loc.</span>' : ''}
       </div>
-      <div class="name" title="${item.n}">${displayName}</div>`;
+      <div class="list-item-header">
+        <span class="list-item-name" title="${item.n}">${displayName}</span>
+        ${isActive !== null ? `<span class="list-item-status ${isActive ? 'status-active' : 'status-inactive'}">${isActive ? 'Ativo' : 'Inativo'}</span>` : ''}
+      </div>`;
 
     div.onclick = () => {
       if (centroid) {
