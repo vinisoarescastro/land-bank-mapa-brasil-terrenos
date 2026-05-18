@@ -399,7 +399,10 @@ def main():
             regional_summary[r]["units"] += item["e"].get("total_unidades") or 0
             regional_summary[r]["vgv"]   += item["e"].get("vgv_total") or 0
 
-    last_updated = datetime.now().strftime('%d/%m/%Y')
+    meses = ['janeiro','fevereiro','março','abril','maio','junho',
+             'julho','agosto','setembro','outubro','novembro','dezembro']
+    now = datetime.now()
+    last_updated = f"Dados atualizados em {now.day} de {meses[now.month - 1]} de {now.year}"
 
     data = {
         "items":            items,
