@@ -1280,7 +1280,7 @@ body {
   z-index: calc(var(--z-footer) + 1);
   overflow: hidden;
 
-  display: flex;   /* flex = em manutenção  | none = fora de manutenção */
+  display: none;   /* flex = em manutenção  | none = fora de manutenção */
   align-items: center;
   gap: 8px;
 
