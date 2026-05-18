@@ -50,7 +50,7 @@ CORES = {
     "None":            "#7f8c8d",
 }
 
-import os, re, json, math, subprocess, unicodedata
+import os, re, json, math, unicodedata
 from pathlib import Path
 from datetime import datetime, date
 
@@ -399,13 +399,7 @@ def main():
             regional_summary[r]["units"] += item["e"].get("total_unidades") or 0
             regional_summary[r]["vgv"]   += item["e"].get("vgv_total") or 0
 
-    try:
-        last_updated = subprocess.check_output(
-            ['git', 'log', '-1', '--format=%cd', '--date=format:%d/%m/%Y'],
-            stderr=subprocess.DEVNULL
-        ).decode().strip()
-    except Exception:
-        last_updated = datetime.now().strftime('%d/%m/%Y')
+    last_updated = datetime.now().strftime('%d/%m/%Y')
 
     data = {
         "items":            items,
