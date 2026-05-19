@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Órion___78_Há_Guarantã_do_Norte_MT" id="Órion___78_Há_Guarantã_do_Norte_MT">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Folder><name>Órion___78_Há_Guarantã_do_Norte_MT</name>
+  <Placemark>
+	<name>Órion - 78 Há Guarantã do Norte/MT</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Órion___78_Há_Guarantã_do_Norte_MT">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-54.9051083790834,-9.96818976975794,0 -54.8866395010822,-9.96940674492685,0 -54.8864523303008,-9.96706332976731,0 -54.8921903475141,-9.96653123915032,0 -54.892081701778,-9.96455376103515,0 -54.8983889412875,-9.96405614894084,0 -54.8984755891025,-9.96594626546254,0 -54.9008372341348,-9.96583915084518,0 -54.9010590996977,-9.96580536754349,0 -54.9009340102866,-9.963891560655,0 -54.9036068120768,-9.96383272614148,0 -54.9037169772346,-9.965725100926,0 -54.9049289794647,-9.96563648186552,0 -54.9051083790834,-9.96818976975794,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
